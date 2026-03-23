@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hiperautomação – Treinador de Certificação</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-title">Hiperautomação</span>
+      <span class="brand-subtitle">Treinador de Certificação</span>
+    </div>
+    <nav class="nav">
+      <button class="nav-item" data-view="home">Home</button>
+      <button class="nav-item" data-view="dashboard">Dashboard do Aluno</button>
+      <button class="nav-item" data-view="help">Como funciona</button>
+    </nav>
+    <div class="sidebar-footer">
+      <span class="footer-label">Versão 1.2</span>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="main-header" id="app-header">
+      <div>
+        <h1 id="main-title">Treinador de Certificação</h1>
+        <p id="main-subtitle">Estude o conteúdo, realize as provas e acompanhe seu progresso.</p>
+      </div>
+      <div class="header-actions">
+        <button id="reset-progress-btn" class="btn-secondary">Limpar progresso</button>
+      </div>
+    </header>
+
+    <section id="view-home" class="view view-active">
+      <div class="home-layout">
+        <div class="home-modules" id="home-modules-list">
+        </div>
+        <div class="home-detail" id="home-module-detail">
+          <div class="card">
+            <div class="card-title">Bem-vindo</div>
+            <p style="font-size:0.85rem; color:#9ca3af; margin-bottom:6px;">
+              Selecione um módulo à esquerda para ver o conteúdo e as provas relacionadas.
+            </p>
+            <p style="font-size:0.85rem; color:#9ca3af;">
+              Ao clicar em um módulo, esta área exibirá:
+            </p>
+            <ul style="font-size:0.85rem; color:#e5e7eb; margin-left:18px; margin-top:4px;">
+              <li>O conteúdo teórico do módulo.</li>
+              <li>As provas disponíveis (Prova 1, Prova 2, Prova 3 e Prova de reforço).</li>
+              <li>Botões para iniciar cada prova diretamente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-exam" class="view">
+      <div class="exam-page-container">
+        <div class="exam-page-header">
+          <button class="btn-secondary" id="exit-exam-btn">← Sair da prova</button>
+          <div class="exam-progress-bar">
+            <div id="exam-progress-fill" class="exam-progress-fill" style="width: 0%"></div>
+          </div>
+          <div id="exam-timer" class="exam-timer">00:00</div>
+        </div>
+        <div id="exam-container" class="exam-container"></div>
+      </div>
+    </section>
+
+    <section id="view-dashboard" class="view">
+      <div id="dashboard-container" class="dashboard"></div>
+    </section>
+
+    <section id="view-help" class="view">
+      <div id="help-container" class="help-container"></div>
+    </section>
+  </main>
+</div>
+
+<!-- MODO DE FOCO PARA PROVA -->
+<div id="exam-focus-view" class="exam-focus-mode" style="display: none;">
+  <div id="exam-focus-container" class="exam-focus-container">
+    <!-- O conteúdo da questão será injetado aqui pelo app.js -->
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="src/supabase-config.js"></script>
+<script src="src/supabase.js"></script>
+<script src="src/questions-data.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
