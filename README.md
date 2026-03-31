@@ -38,10 +38,11 @@ Nossa trilha de evolução para novos integrantes é dividida em três níveis:
 
 O repositório está organizado para facilitar a navegação e a transparência:
 
-- **`📂 1 - GERAL INFORMATIVO E ANEXOS`**: Biblioteca de recursos administrativos e templates, como o modelo de Daily.
-- **`📂 2 - GESTÃO`**: Atas de reuniões, planejamentos semanais, roadmaps e retrospectivas.
-- **`📂 3 - PROJETOS`**: Documentação técnica e tarefas de iniciativas como "Formação Monstra" e "RH Zello".
-- **`📂 4 - EQUIPE`**: Espaço individual de cada colaborador para anotações pessoais e histórico de Dailies.
+- **`📂 1 - GERAL INFORMATIVO E ANEXOS`**: Biblioteca de recursos administrativos, templates e guias (Modelo de Daily, guia Git, onboarding).
+- **`📂 2 - GESTÃO`**: Centro de comando com atas de reuniões, planejamentos semanais, roadmaps e retrospectivas.
+- **`📂 3 - TRILHAS - FORMAÇAO MONSTRA`**: Trilhas de conhecimento e capacitação técnica, incluindo certificações e especializações.
+- **`📂 4 - TAREFAS`**: Espaço individual de cada colaborador com dailies e anotações pessoais.
+- **`📂 5 - PROJETOS`**: Documentação e execução de projetos técnicos como RH Zello e Sistema de Simulados.
 
 ---
 
@@ -49,7 +50,7 @@ O repositório está organizado para facilitar a navegação e a transparência:
 Para manter a excelência e a agilidade da Fábrica de Monstros, seguimos um processo padronizado de colaboração:
 
 1. Siga a Filosofia de Trabalho: Priorize a transparência (documente tudo), a organização (mantenha arquivos nas pastas corretas) e a colaboração ativa.
-2. Organize seu Espaço: Se for um novo integrante, crie sua pasta pessoal em `4 - EQUIPE` com as subpastas `DAILIES` e `ANOTACOES PESSOAIS`.
+2. Organize seu Espaço: Se for um novo integrante, crie sua pasta pessoal em `4 - TAREFAS` com as subpastas `DAILIES` e `ANOTACOES PESSOAIS`.
 3. Mantenha a Cadência: Utilize o `MODELO DE DAILY.md` para registrar seu progresso diário na sua pasta pessoal.
 4. Atualize o Índice: Ao criar novos projetos ou pastas raiz, lembre-se de atualizar o `MAPA_DE_CONHECIMENTO.md` para que todos possam encontrar a informação.
 5. Padronize Documentos: Sempre que precisar criar um novo documento administrativo ou template, utilize as bases disponíveis em `1 - GERAL INFORMATIVO E ANEXOS`.

@@ -1,0 +1,30 @@
+
+
+## Daily Report - 27/03/2026
+
+
+**Projeto(s) Ativo(s):** Unificação App Simulados & Cards (Gamificação)
+
+### 🚀 O que eu fiz ontem?
+----atualizar README DO GIT -> pedir para a ide refazer o readme, para se atualizar sobre o repositorio, e trazer um, onboarding mais consiso para novos colaboradores 
+----Unificação de Módulos:** Iniciei a fusão da estrutura do app de simulados com o sistema de metrica preservando as funcionalidades de entrega de conteúdo.
+
+
+### 🎯 O que vou fazer hoje?
+----Engine de Questões:** Ajustar a lógica das questões para que rodem dentro da nova interface de navegação por cards.
+----Dashboard de Progresso:** Implementar a funcionalidade de histórico, criando a visualização da linha do tempo do usuário.
+
+----quantitativo de cards (estilo Duolingo),
+
+----Integração de Métricas:** Conectar os dados de acertos, erros e evolução das provas e conteúdos diretamente ao painel de controle.
+----QA Inicial:** Realizar testes de integração entre os módulos para garantir que a transição entre conteúdo e avaliação esteja fluida e sem bugs de navegação.
+----Unificar o app de simulados com o de cards (estilo Duolingo), mantendo as funcionalidades de conteúdo e questões.
+----Integrar a funcionalidade de histórico de progresso, criando um dashboard que mostre a linha do tempo do usuário, com acertos, erros e evolução nas avaliações.
+----Conectar as métricas do histórico às provas e aos conteúdos, garantindo que tudo seja registrado no painel.
+----Testar a integração entre os módulos para garantir que a experiência do usuário seja fluida.
+* Foco em garantir que a "linha do tempo" do dashboard seja atualizada em tempo real conforme o usuário completa um card de conteúdo, preciso tbm que os simulados, possuam dashboard(pode ser implementado dentro da propria area dos simulados oficiais 
+* Documentação da API de métricas atualizada no repositório.
+### 🚧 Impedimentos / Bloqueios
+nao
+
+### 📝 Observações / Links Úteis
