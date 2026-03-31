@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "API Specification",
+    "definicao_back": "Especificação de API. O contrato técnico (RAML ou OAS) que define endpoints, métodos e tipos de dados."
+  },
+  {
+    "termo_front": "Design Center",
+    "definicao_back": "Ambiente de desenvolvimento web usado para criar especificações de API e fluxos de integração simples."
+  },
+  {
+    "termo_front": "API Fragment",
+    "definicao_back": "Fragmentos. Parte reutilizável de uma especificação (ex: um esquema de erro ou tipo 'Cliente')."
+  },
+  {
+    "termo_front": "CloudHub",
+    "definicao_back": "PaaS (Platform as a Service) gerenciado pela MuleSoft que permite o deploy de APIs na nuvem sem gerenciar servidores."
+  },
+  {
+    "termo_front": "Runtime Fabric (RTF)",
+    "definicao_back": "Serviço de orquestração de containers que permite rodar aplicações Mule em instâncias Kubernetes (AWS, Azure, Google, On-prem)."
+  },
+  {
+    "termo_front": "Control Plane",
+    "definicao_back": "Plano de Controle. Parte da plataforma onde os administradores desenham, gerenciam e monitoram as APIs."
+  },
+  {
+    "termo_front": "Runtime Plane",
+    "definicao_back": "Plano de Execução. Onde as aplicações Mule e as APIs estão fisicamente rodando e processando dados."
+  },
+  {
+    "termo_front": "Worker / vCore",
+    "definicao_back": "Unidades de medida de capacidade computacional (CPU e Memória) reservadas para uma aplicação no CloudHub."
+  },
+  {
+    "termo_front": "On-Premises",
+    "definicao_back": "Implementação em servidores físicos ou máquinas virtuais gerenciadas pela própria organização, fora da nuvem da MuleSoft."
+  },
+  {
+    "termo_front": "API Manager",
+    "definicao_back": "Componente da plataforma usado para governar APIs, gerenciar versões e aplicar políticas de segurança."
+  },
+  {
+    "termo_front": "RAML / OAS",
+    "definicao_back": "Linguagens de modelagem (RESTful API Modeling Language / OpenAPI Specification) usadas para escrever contratos de API."
+  },
+  {
+    "termo_front": "Hybrid Deployment",
+    "definicao_back": "Deploy Híbrido. Modelo onde o gerenciamento é na nuvem (Control Plane), mas a execução é local (Runtime Plane)."
+  }
+]

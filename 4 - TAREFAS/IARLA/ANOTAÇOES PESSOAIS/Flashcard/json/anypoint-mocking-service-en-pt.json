@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Mocking Service",
+    "definicao_back": "Serviço automático que lê a especificação da API e simula um backend funcional para testes iniciais."
+  },
+  {
+    "termo_front": "Mock Endpoint",
+    "definicao_back": "URL pública temporária gerada pelo Exchange que permite realizar chamadas reais de teste sem implementação."
+  },
+  {
+    "termo_front": "Example / Sample Data",
+    "definicao_back": "Dados de exemplo definidos no contrato (RAML/OAS) que o Mocking Service usa para compor a resposta."
+  },
+  {
+    "termo_front": "API Console",
+    "definicao_back": "Interface interativa no Exchange onde desenvolvedores podem testar os métodos da API usando o simulador."
+  },
+  {
+    "termo_front": "Parallel Development",
+    "definicao_back": "Prática de permitir que times de Front-end e Back-end trabalhem simultaneamente usando contratos simulados."
+  },
+  {
+    "termo_front": "Early Feedback",
+    "definicao_back": "Processo de validar a estrutura da API com stakeholders e usuários finais antes de iniciar o desenvolvimento real."
+  },
+  {
+    "termo_front": "Prototyping",
+    "definicao_back": "Criação de uma versão funcional e 'fake' da API para demonstrar fluxos de dados e lógica de interface."
+  },
+  {
+    "termo_front": "Behavior Headers",
+    "definicao_back": "Cabeçalhos de comportamento que permitem forçar o Mock a retornar erros específicos (ex: forçar um 404 ou 500)."
+  },
+  {
+    "termo_front": "Status Code Simulation",
+    "definicao_back": "Capacidade do Mocking Service de retornar diferentes códigos HTTP baseados nos exemplos da especificação."
+  },
+  {
+    "termo_front": "Design-First Validation",
+    "definicao_back": "Ato de validar se o design da API atende aos requisitos de negócio através de testes com o Mocking Service."
+  },
+  {
+    "termo_front": "Public Mocking URL",
+    "definicao_back": "URL de simulação que pode ser compartilhada com parceiros externos para testes de integração prévia."
+  },
+  {
+    "termo_front": "RAML/OAS Mocking",
+    "definicao_back": "Suporte nativo do Exchange para gerar mocks a partir das principais linguagens de modelagem de API."
+  }
+]

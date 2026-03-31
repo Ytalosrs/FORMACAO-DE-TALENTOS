@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Evaluation Flow",
+    "definicao_back": "Um tipo específico de Autolaunched Flow que retorna um valor booleano para decidir se um passo ou estágio deve iniciar ou terminar."
+  },
+  {
+    "termo_front": "Entry Condition",
+    "definicao_back": "Condição de Entrada. Conjunto de regras que o orquestrador verifica antes de permitir que um estágio ou passo seja executado."
+  },
+  {
+    "termo_front": "Exit Condition",
+    "definicao_back": "Condição de Saída. Critérios que devem ser verdadeiros para que o orquestrador considere um passo ou estágio como concluído."
+  },
+  {
+    "termo_front": "isCompleted",
+    "definicao_back": "A variável booleana de saída obrigatória em um Evaluation Flow de saída que, quando True, encerra o passo."
+  },
+  {
+    "termo_front": "canStart",
+    "definicao_back": "A variável booleana de saída usada em Evaluation Flows de entrada para sinalizar que os pré-requisitos foram atendidos."
+  },
+  {
+    "termo_front": "Boolean Output",
+    "definicao_back": "Saída Booleana. O formato obrigatório de resposta (Verdadeiro/Falso) que o orquestrador espera de um fluxo de avaliação."
+  },
+  {
+    "termo_front": "Custom Evaluation",
+    "definicao_back": "Avaliação Customizada. O uso de um fluxo para criar lógicas complexas que não seriam possíveis com filtros simples de campo."
+  },
+  {
+    "termo_front": "Step Execution",
+    "definicao_back": "Execução do Passo. O estado em que o passo se encontra após passar pela condição de entrada e antes de atingir a saída."
+  },
+  {
+    "termo_front": "Guard Clause",
+    "definicao_back": "Cláusula de Guarda. Conceito de engenharia análogo às Entry Conditions, que evita a execução se os requisitos não forem atendidos."
+  },
+  {
+    "termo_front": "Quality Gate",
+    "definicao_back": "Portão de Qualidade. Conceito de DevOps análogo às Exit Conditions, garantindo que o processo só avance se estiver correto."
+  },
+  {
+    "termo_front": "Orchestration Stage Status",
+    "definicao_back": "Status do Estágio da Orquestração. O estado (Started, Completed, In Progress) controlado pelas condições de avaliação."
+  },
+  {
+    "termo_front": "Record Field Change",
+    "definicao_back": "Mudança de Campo do Registro. Um gatilho comum usado dentro de fluxos de avaliação para disparar a progressão do processo."
+  }
+]

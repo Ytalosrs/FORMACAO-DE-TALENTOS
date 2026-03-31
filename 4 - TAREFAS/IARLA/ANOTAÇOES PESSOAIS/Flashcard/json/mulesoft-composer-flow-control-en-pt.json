@@ -1,0 +1,66 @@
+[
+  {
+    "termo_front": "If/Else Block",
+    "definicao_back": "Bloco Se/Senão. Estrutura de decisão usada para criar ramificações lógicas no fluxo."
+  },
+  {
+    "termo_front": "Condition",
+    "definicao_back": "Condição. O critério lógico (booleano) avaliado para decidir qual caminho o fluxo deve seguir."
+  },
+  {
+    "termo_front": "Branch",
+    "definicao_back": "Ramificação. Um dos caminhos possíveis dentro de uma estrutura de decisão (If ou Else)."
+  },
+  {
+    "termo_front": "Criteria",
+    "definicao_back": "Critérios. O conjunto de regras ou filtros definidos para uma condição (ex: Status é igual a 'Aberto')."
+  },
+  {
+    "termo_front": "True/False",
+    "definicao_back": "Verdadeiro/Falso. Os dois resultados possíveis de uma avaliação lógica de condição."
+  },
+  {
+    "termo_front": "Check",
+    "definicao_back": "Verificar. O ato de validar se um dado atende aos requisitos definidos na lógica de controle."
+  },
+  {
+    "termo_front": "For Each Loop",
+    "definicao_back": "Loop Para Cada. Estrutura de repetição que executa ações para cada item de uma lista."
+  },
+  {
+    "termo_front": "Iterate",
+    "definicao_back": "O processo de percorrer um a um os elementos de uma coleção ou array."
+  },
+  {
+    "termo_front": "List / Collection",
+    "definicao_back": "Lista ou Coleção. Um conjunto de dados/registros que podem ser processados em massa ou um a um."
+  },
+  {
+    "termo_front": "Array",
+    "definicao_back": "Array. Termo técnico para uma lista ordenada de elementos ou objetos de dados."
+  },
+  {
+    "termo_front": "Record Set",
+    "definicao_back": "Conjunto de registros. O resultado de uma busca que retorna múltiplos dados de uma só vez."
+  },
+  {
+    "termo_front": "Batch of records",
+    "definicao_back": "Lote de registros. Um grupo de dados processados juntos para aumentar a eficiência."
+  },
+  {
+    "termo_front": "To Evaluate",
+    "definicao_back": "Avaliar. O processo do sistema de analisar uma expressão lógica para determinar se é verdadeira."
+  },
+  {
+    "termo_front": "To Route",
+    "definicao_back": "Rotear. Direcionar o fluxo de dados para diferentes ações baseando-se em condições."
+  },
+  {
+    "termo_front": "To Loop",
+    "definicao_back": "Fazer um laço/repetição. Executar o mesmo conjunto de instruções várias vezes."
+  },
+  {
+    "termo_front": "To Process every",
+    "definicao_back": "Processar cada. Garantir que uma ação seja aplicada individualmente a todos os itens de uma lista."
+  }
+]

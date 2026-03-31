@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "E2E (End-to-End)",
+    "definicao_back": "Ponta a ponta."
+  },
+  {
+    "termo_front": "SYNTHETIC DATA",
+    "definicao_back": "Dados sintéticos (criados para o teste)."
+  },
+  {
+    "termo_front": "EDGE CASES",
+    "definicao_back": "Casos de borda (situações extremas)."
+  },
+  {
+    "termo_front": "MOCKING / MOCK SERVICES",
+    "definicao_back": "Simulação de sistemas indisponíveis."
+  },
+  {
+    "termo_front": "RESILIENCE",
+    "definicao_back": "Resiliência (capacidade de suportar falhas)."
+  },
+  {
+    "termo_front": "VALIDATION",
+    "definicao_back": "Validação de resultados."
+  },
+  {
+    "termo_front": "To Model",
+    "definicao_back": "Modelar (o cenário)."
+  },
+  {
+    "termo_front": "To Simulate",
+    "definicao_back": "Simular (o comportamento)."
+  },
+  {
+    "termo_front": "To Trigger",
+    "definicao_back": "Disparar (o início do teste)."
+  },
+  {
+    "termo_front": "To Verify",
+    "definicao_back": "Verificar (o output final)."
+  },
+  {
+    "termo_front": "HAPPY PATH",
+    "definicao_back": "Caminho feliz (fluxo sem erros)."
+  },
+  {
+    "termo_front": "UAT (User Acceptance Testing)",
+    "definicao_back": "Teste de aceitação do usuário."
+  }
+]

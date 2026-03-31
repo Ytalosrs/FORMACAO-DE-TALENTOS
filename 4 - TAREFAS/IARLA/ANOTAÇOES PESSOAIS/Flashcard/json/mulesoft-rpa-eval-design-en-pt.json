@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Feasibility",
+    "definicao_back": "Viabilidade. Avaliação se um processo pode tecnicamente ser automatizado com RPA."
+  },
+  {
+    "termo_front": "Business Value",
+    "definicao_back": "Valor de Negócio. Medida do benefício (tempo/dinheiro) que a automação trará."
+  },
+  {
+    "termo_front": "BPMN",
+    "definicao_back": "Notação de Modelagem de Processos de Negócio. O padrão visual usado no RPA Builder."
+  },
+  {
+    "termo_front": "User Task",
+    "definicao_back": "Tarefa de Usuário. Um passo no processo que exige intervenção humana (ex: aprovação)."
+  },
+  {
+    "termo_front": "Bot Task",
+    "definicao_back": "Tarefa de Robô. Um passo que será executado automaticamente pelo software RPA."
+  },
+  {
+    "termo_front": "Gateway",
+    "definicao_back": "Portal de Decisão. Elemento BPMN usado para criar ramificações baseadas em lógica (If/Else)."
+  },
+  {
+    "termo_front": "Qualify",
+    "definicao_back": "Qualificar. O ato de aprovar um processo para desenvolvimento após avaliar custo e benefício."
+  },
+  {
+    "termo_front": "Toolbox",
+    "definicao_back": "Caixa de Ferramentas. Conjunto de ações prontas (cliques, leitura de PDF, Excel) no RPA Builder."
+  },
+  {
+    "termo_front": "Process Lifecycle",
+    "definicao_back": "Ciclo de Vida do Processo. As fases que uma automação percorre (Evaluation, Design, Build, Test, Production)."
+  },
+  {
+    "termo_front": "Recording",
+    "definicao_back": "Gravação. Captura das interações humanas com o software para acelerar o desenvolvimento do fluxo."
+  },
+  {
+    "termo_front": "Start / End Event",
+    "definicao_back": "Evento de Início/Fim. Marcadores obrigatórios que definem onde o fluxo começa e termina."
+  },
+  {
+    "termo_front": "Complexity",
+    "definicao_back": "Complexidade. Nível de dificuldade técnica para implementar a automação (número de telas, lógica)."
+  }
+]

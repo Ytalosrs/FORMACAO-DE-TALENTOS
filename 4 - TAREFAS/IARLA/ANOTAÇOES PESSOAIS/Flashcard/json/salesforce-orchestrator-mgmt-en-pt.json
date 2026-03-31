@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Orchestration Runs",
+    "definicao_back": "Instâncias de Execução. A lista que permite monitorar todos os processos ativos, pausados ou finalizados."
+  },
+  {
+    "termo_front": "Debug",
+    "definicao_back": "Depurar. Ferramenta que permite testar a lógica de estágios e passos sem afetar dados reais, facilitando a busca por bugs."
+  },
+  {
+    "termo_front": "Orchestration Work Item",
+    "definicao_back": "Item de Trabalho da Orquestração. O registro que rastreia uma tarefa pendente para um usuário, permitindo gerenciar quem deve executá-la."
+  },
+  {
+    "termo_front": "Reassign",
+    "definicao_back": "Reatribuir. Ação administrativa de transferir uma tarefa interativa de um usuário/fila para outro para evitar gargalos."
+  },
+  {
+    "termo_front": "Fault Message",
+    "definicao_back": "Mensagem de Erro. Notificação detalhada enviada por e-mail descrevendo por que um passo ou estágio falhou."
+  },
+  {
+    "termo_front": "In Progress / Completed",
+    "definicao_back": "Em Progresso / Concluído. Os dois status principais que indicam se a jornada do usuário ainda está ativa ou foi finalizada com sucesso."
+  },
+  {
+    "termo_front": "Discontinued",
+    "definicao_back": "Descontinuado. Status que ocorre quando a orquestração é interrompida forçadamente (ex: exclusão do registro gatilho)."
+  },
+  {
+    "termo_front": "Version Control",
+    "definicao_back": "Controle de Versão. Capacidade de criar novas iterações da orquestração enquanto as versões antigas terminam de rodar."
+  },
+  {
+    "termo_front": "Active / Inactive",
+    "definicao_back": "Ativo / Inativo. O status de publicação; apenas uma versão da orquestração pode estar ativa por vez."
+  },
+  {
+    "termo_front": "Promotion",
+    "definicao_back": "Promoção. O ato de mover a orquestração de um ambiente de Sandbox para Produção (Deploy)."
+  },
+  {
+    "termo_front": "Error Logs",
+    "definicao_back": "Logs de Erro. Registros técnicos que detalham falhas em Background Steps (fluxos automáticos)."
+  },
+  {
+    "termo_front": "Paused Orchestration",
+    "definicao_back": "Orquestração Pausada. Estado em que o motor aguarda o cumprimento de uma condição de entrada ou uma ação humana."
+  }
+]

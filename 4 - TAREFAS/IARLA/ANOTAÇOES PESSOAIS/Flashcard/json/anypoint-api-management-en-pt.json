@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Proxy Endpoint",
+    "definicao_back": "Endpoint de Proxy. Uma camada intermediária que recebe as requisições, aplica políticas e as encaminha para a API real."
+  },
+  {
+    "termo_front": "Basic Endpoint",
+    "definicao_back": "Endpoint Básico. Configuração onde a aplicação Mule gerencia suas próprias políticas e segurança internamente, sem um proxy separado."
+  },
+  {
+    "termo_front": "API Policy",
+    "definicao_back": "Política de API. Regras reutilizáveis aplicadas no gateway para controlar segurança, tráfego e conformidade (ex: Rate Limiting)."
+  },
+  {
+    "termo_front": "Autodiscovery",
+    "definicao_back": "Autodescoberta. Mecanismo que vincula uma aplicação Mule a uma instância de API no API Manager usando um ID de API."
+  },
+  {
+    "termo_front": "Rate Limiting",
+    "definicao_back": "Limite de Taxa. Política que restringe o número de requisições que um cliente pode fazer em um determinado período de tempo."
+  },
+  {
+    "termo_front": "SLA Tier",
+    "definicao_back": "Camada de SLA. Diferentes níveis de acesso (ex: Bronze, Gold) que definem limites de requisições por tempo para cada consumidor."
+  },
+  {
+    "termo_front": "Client ID Enforcement",
+    "definicao_back": "Imposição de ID do Cliente. Política que exige que o consumidor envie credenciais válidas para acessar a API."
+  },
+  {
+    "termo_front": "Spike Control",
+    "definicao_back": "Controle de Pico. Política que suaviza aumentos repentinos no tráfego, garantindo a estabilidade do backend."
+  },
+  {
+    "termo_front": "Throttling",
+    "definicao_back": "Estrangulamento. Técnica de atrasar ou rejeitar requisições quando o limite de tráfego é excedido para evitar sobrecarga."
+  },
+  {
+    "termo_front": "Implementation URI",
+    "definicao_back": "URI de Implementação. O endereço real (URL) onde o serviço de backend ou a aplicação Mule está rodando."
+  },
+  {
+    "termo_front": "Inbound HTTP Listener",
+    "definicao_back": "Ouvinte HTTP de Entrada. O ponto de contato que recebe as requisições externas antes de passarem pelo gateway."
+  },
+  {
+    "termo_front": "Downstream / Upstream",
+    "definicao_back": "Direções do tráfego. Downstream é em direção ao cliente; Upstream é em direção ao servidor de backend."
+  }
+]

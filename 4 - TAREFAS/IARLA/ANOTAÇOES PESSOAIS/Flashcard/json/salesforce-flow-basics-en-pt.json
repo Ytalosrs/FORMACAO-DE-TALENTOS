@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Record-Triggered Flow",
+    "definicao_back": "Fluxo disparado automaticamente por eventos de banco de dados (criação, atualização ou exclusão)."
+  },
+  {
+    "termo_front": "Decision",
+    "definicao_back": "Elemento de ramificação lógica que avalia condições para direcionar o fluxo (equivalente ao If/Else)."
+  },
+  {
+    "termo_front": "Assignment",
+    "definicao_back": "Operação de atribuição usada para definir ou alterar valores de variáveis e campos."
+  },
+  {
+    "termo_front": "Loop",
+    "definicao_back": "Estrutura de repetição usada para percorrer e processar itens de uma coleção um por um."
+  },
+  {
+    "termo_front": "Fast Field Updates",
+    "definicao_back": "Execução 'Before-save'. Otimizada para atualizar campos no próprio registro que disparou o fluxo antes de salvar."
+  },
+  {
+    "termo_front": "Actions and Related Records",
+    "definicao_back": "Execução 'After-save'. Usada para atualizar outros registros ou executar ações como enviar e-mails após salvar."
+  },
+  {
+    "termo_front": "Get Records",
+    "definicao_back": "Elemento que recupera dados do banco de dados do Salesforce com base em filtros (equivalente ao SELECT do SQL)."
+  },
+  {
+    "termo_front": "Collection",
+    "definicao_back": "Uma variável que armazena múltiplos registros ou valores do mesmo tipo (equivalente a uma List ou Array)."
+  },
+  {
+    "termo_front": "Screen Flow",
+    "definicao_back": "Fluxo que interage com usuários através de telas, formulários e componentes visuais."
+  },
+  {
+    "termo_front": "Autolaunched Flow",
+    "definicao_back": "Fluxo sem interface de usuário, executado programaticamente ou por outros processos de automação."
+  },
+  {
+    "termo_front": "Resource",
+    "definicao_back": "Contêineres de dados dentro do fluxo, como Variáveis, Fórmulas, Constantes e Modelos de Texto."
+  },
+  {
+    "termo_front": "DML Operations",
+    "definicao_back": "Ações de manipulação de dados executadas pelo fluxo: Create, Update e Delete Records."
+  }
+]

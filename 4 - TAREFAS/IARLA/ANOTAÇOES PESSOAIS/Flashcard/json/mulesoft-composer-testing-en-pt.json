@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Test Mode",
+    "definicao_back": "Modo de Teste. Ambiente seguro onde o fluxo é executado uma vez para validar a lógica com dados reais."
+  },
+  {
+    "termo_front": "Activation",
+    "definicao_back": "Ativação. O ato de publicar o fluxo para que ele comece a rodar automaticamente em segundo plano."
+  },
+  {
+    "termo_front": "Run History",
+    "definicao_back": "Histórico de Execuções. Log que mostra todas as vezes que o fluxo rodou, indicando sucesso ou falha."
+  },
+  {
+    "termo_front": "Success / Failed",
+    "definicao_back": "Sucesso / Falha. Os dois status principais de uma execução no histórico."
+  },
+  {
+    "termo_front": "Sample Data",
+    "definicao_back": "Dados de Exemplo. Dados capturados do sistema de origem para ajudar no mapeamento inicial dos campos."
+  },
+  {
+    "termo_front": "To Trigger",
+    "definicao_back": "Disparar. Iniciar a execução do fluxo, seja manualmente no teste ou por um evento no sistema real."
+  },
+  {
+    "termo_front": "To Troubleshoot",
+    "definicao_back": "Solucionar Problemas. O processo de analisar os detalhes de uma execução falha para corrigir a lógica."
+  },
+  {
+    "termo_front": "Input / Output",
+    "definicao_back": "Entrada / Saída. Os dados exatos que cada passo do fluxo recebeu e gerou durante a execução."
+  },
+  {
+    "termo_front": "Active / Inactive",
+    "definicao_back": "Ativo / Inativo. O estado de um fluxo; apenas fluxos ativos processam eventos em tempo real."
+  },
+  {
+    "termo_front": "Details",
+    "definicao_back": "Detalhes. Informações técnicas específicas (como mensagens de erro da API) exibidas no histórico de execução."
+  },
+  {
+    "termo_front": "To Monitor",
+    "definicao_back": "Monitorar. Acompanhar a saúde e o sucesso das automações após a ativação."
+  },
+  {
+    "termo_front": "Waiting for Trigger",
+    "definicao_back": "Aguardando Gatilho. Status do Test Mode enquanto o Composer espera o evento inicial ocorrer no sistema de origem."
+  }
+]

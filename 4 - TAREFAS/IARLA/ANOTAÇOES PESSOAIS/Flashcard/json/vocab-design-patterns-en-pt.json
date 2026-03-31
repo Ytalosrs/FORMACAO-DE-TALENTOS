@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Asynchronous",
+    "definicao_back": "Disparar e esquecer (Fire-and-forget). O remetente não espera a resposta imediata."
+  },
+  {
+    "termo_front": "Synchronous",
+    "definicao_back": "Esperar uma resposta imediata (Request-Response). O remetente fica bloqueado até receber o retorno."
+  },
+  {
+    "termo_front": "Real-time",
+    "definicao_back": "Processamento instantâneo. O dado é enviado e processado assim que o evento ocorre."
+  },
+  {
+    "termo_front": "Batch Processing",
+    "definicao_back": "Processamento em lote. Grande volume de dados processados de uma única vez, geralmente agendado."
+  },
+  {
+    "termo_front": "Event-Driven",
+    "definicao_back": "Arquitetura baseada em eventos. O fluxo é iniciado por gatilhos (Triggers) de mudanças no sistema."
+  },
+  {
+    "termo_front": "Pub/Sub (Publish/Subscribe)",
+    "definicao_back": "Padrão onde um sistema publica uma mensagem e múltiplos assinantes podem recebê-la."
+  },
+  {
+    "termo_front": "Polling",
+    "definicao_back": "Ficar perguntando ao sistema 'tem algo novo?' periodicamente. Considerado anti-padrão se houver alternativas reais."
+  },
+  {
+    "termo_front": "Callback",
+    "definicao_back": "O sistema B avisa o sistema A ativamente quando uma tarefa longa é finalizada."
+  },
+  {
+    "termo_front": "Broadcast",
+    "definicao_back": "Envio de uma mensagem para todos os canais ou sistemas conectados simultaneamente."
+  },
+  {
+    "termo_front": "Outbound Message",
+    "definicao_back": "Mensagem de saída do Salesforce. Um recurso nativo para enviar dados para serviços externos de forma assíncrona."
+  },
+  {
+    "termo_front": "Platform Events",
+    "definicao_back": "Eventos de plataforma do Salesforce. Usados para comunicação interna e externa desacoplada."
+  },
+  {
+    "termo_front": "Webhook",
+    "definicao_back": "Um gatilho HTTP (geralmente POST) que avisa sistemas como o Composer ou Anypoint sobre uma mudança."
+  }
+]

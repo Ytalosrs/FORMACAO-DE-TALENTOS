@@ -1,0 +1,46 @@
+[
+  {
+    "termo_front": "Composable Building Blocks",
+    "definicao_back": "Blocos de Construção Composáveis. Ativos de TI (APIs, RPA, Fragmentos) projetados para serem reutilizados em diferentes automações."
+  },
+  {
+    "termo_front": "API Fragment",
+    "definicao_back": "Fragmento de API. Uma peça modular de um contrato RAML/OAS (ex: um esquema JSON) que pode ser referenciada por várias APIs."
+  },
+  {
+    "termo_front": "Data Type Fragment",
+    "definicao_back": "Fragmento de Tipo de Dado. Um bloco que define a estrutura de um objeto (ex: Account), garantindo consistência em toda a organização."
+  },
+  {
+    "termo_front": "Trait",
+    "definicao_back": "Traço. Um fragmento reutilizável que define comportamentos comuns a vários métodos, como cabeçalhos de autenticação ou códigos de erro."
+  },
+  {
+    "termo_front": "Library",
+    "definicao_back": "Biblioteca. Um conjunto de tipos de dados e traços relacionados que podem ser importados como uma única dependência em uma API Spec."
+  },
+  {
+    "termo_front": "Asset Versioning",
+    "definicao_back": "Versão do Ativo. Prática de gerenciar mudanças nos blocos de construção para evitar quebra de contrato em automações que os consomem."
+  },
+  {
+    "termo_front": "Dependency Management",
+    "definicao_back": "Gerenciamento de Dependências. O ato de incluir um fragmento ou biblioteca do Exchange dentro de um novo projeto de API."
+  },
+  {
+    "termo_front": "Consumption",
+    "definicao_back": "Consumo. O ato de usar uma API Spec publicada para disparar um processo no Composer, RPA ou em outra API."
+  },
+  {
+    "termo_front": "Contract-First Design",
+    "definicao_back": "Design Focado no Contrato. Prática de definir a interface da API (Spec) antes de escrever qualquer código de implementação."
+  },
+  {
+    "termo_front": "Standardization",
+    "definicao_back": "Padronização. O uso de fragmentos comuns para garantir que todas as APIs da empresa falem a mesma 'língua' técnica."
+  },
+  {
+    "termo_front": "Resource Type",
+    "definicao_back": "Tipo de Recurso. Um template reutilizável para endpoints que seguem o mesmo padrão (ex: todos os métodos 'Collection' têm GET e POST)."
+  }
+]

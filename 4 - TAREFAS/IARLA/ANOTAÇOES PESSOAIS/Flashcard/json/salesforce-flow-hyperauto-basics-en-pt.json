@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "External Services",
+    "definicao_back": "Serviços Externos. Recurso que permite ao Flow consumir APIs externas usando especificações OpenAPI/Swagger sem código."
+  },
+  {
+    "termo_front": "Named Credential",
+    "definicao_back": "Credencial Nomeada. Recurso de segurança que armazena a URL de um endpoint e seus parâmetros de autenticação (ex: OAuth)."
+  },
+  {
+    "termo_front": "Invocable Action",
+    "definicao_back": "Ação Invocável. Método de código Apex anotado com @InvocableMethod para ser visível e chamado pelo Flow Builder."
+  },
+  {
+    "termo_front": "Autolaunched Flow",
+    "definicao_back": "Fluxo Iniciado Automaticamente. Um fluxo que não possui gatilho próprio e deve ser chamado por APIs, Apex ou outros fluxos."
+  },
+  {
+    "termo_front": "Subflow",
+    "definicao_back": "Sub-fluxo. Um elemento que permite chamar um fluxo dentro de outro, promovendo modularidade e o princípio DRY (Don't Repeat Yourself)."
+  },
+  {
+    "termo_front": "Platform Event",
+    "definicao_back": "Evento de Plataforma. Mensagem baseada em eventos usada para comunicação desacoplada entre o Salesforce e sistemas externos."
+  },
+  {
+    "termo_front": "Input / Output Variables",
+    "definicao_back": "Variáveis de Entrada/Saída. Recursos do fluxo marcados para permitir que dados entrem ou saiam do processo durante a execução."
+  },
+  {
+    "termo_front": "HTTP Callout",
+    "definicao_back": "Chamada HTTP. Funcionalidade declarativa do Flow para realizar requisições GET, POST, PUT, etc., diretamente para APIs externas."
+  },
+  {
+    "termo_front": "OpenAPI Specification",
+    "definicao_back": "Especificação OpenAPI. O contrato JSON/YAML que descreve uma API e é usado pelo Salesforce para gerar External Services."
+  },
+  {
+    "termo_front": "Apex Action",
+    "definicao_back": "Ação Apex. Um elemento do Flow usado para executar lógicas complexas que excedem as capacidades declarativas da ferramenta."
+  },
+  {
+    "termo_front": "Decoupling",
+    "definicao_back": "Desacoplamento. Estratégia de design onde o Flow usa eventos ou serviços externos para reduzir a dependência direta entre sistemas."
+  },
+  {
+    "termo_front": "JSON Body",
+    "definicao_back": "Corpo JSON. A estrutura de dados enviada ou recebida em integrações via Flow, mapeada automaticamente para variáveis."
+  }
+]

@@ -1,0 +1,15 @@
+Termo (Front),Definição (Back)
+E2E (End-to-End),Ponta a ponta.
+SYNTHETIC DATA,Dados sintéticos (criados para o teste).
+EDGE CASES,Casos de borda (situações extremas).
+MOCKING / MOCK SERVICES,Simulação de sistemas indisponíveis.
+RESILIENCE,Resiliência (capacidade de suportar falhas).
+VALIDATION,Validação de resultados.
+To Model,Modelar (o cenário).
+To Simulate,Simular (o comportamento).
+To Trigger,Disparar (o início do teste).
+To Verify,Verificar (o output final).
+SANDBOX,Ambiente de testes isolado.
+HAPPY PATH,Caminho feliz (fluxo sem erros).
+FAILURE PATH,Caminho de falha (testar o erro).
+UAT (User Acceptance Testing),Teste de aceitação do usuário.

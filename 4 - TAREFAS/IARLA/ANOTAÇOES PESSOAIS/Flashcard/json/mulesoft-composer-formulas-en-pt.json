@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Formula Editor",
+    "definicao_back": "Editor de Fórmulas. Interface onde se criam expressões para transformar dados no Composer."
+  },
+  {
+    "termo_front": "Concatenate",
+    "definicao_back": "Concatenar. Unir duas ou mais strings de texto em uma única."
+  },
+  {
+    "termo_front": "Substring",
+    "definicao_back": "Sub-string. Extrair uma parte específica de um texto maior."
+  },
+  {
+    "termo_front": "Trim",
+    "definicao_back": "Remover espaços. Função que limpa espaços em branco extras no início ou fim de um texto."
+  },
+  {
+    "termo_front": "Arithmetic Operations",
+    "definicao_back": "Operações Aritméticas. Cálculos matemáticos básicos (adição, subtração, multiplicação, divisão)."
+  },
+  {
+    "termo_front": "Round",
+    "definicao_back": "Arredondar. Ajustar um número decimal para o inteiro ou casa decimal mais próxima."
+  },
+  {
+    "termo_front": "Date Difference",
+    "definicao_back": "Diferença de Datas. Cálculo da quantidade de tempo (dias, horas) entre dois pontos no tempo."
+  },
+  {
+    "termo_front": "Add Days / Months",
+    "definicao_back": "Adicionar Dias/Meses. Função para calcular uma data futura baseada em um valor inicial."
+  },
+  {
+    "termo_front": "Typecasting / Conversion",
+    "definicao_back": "Conversão de Tipo. Transformar um dado de um tipo para outro (ex: String para Number)."
+  },
+  {
+    "termo_front": "Now / Today",
+    "definicao_back": "Agora / Hoje. Funções que capturam o carimbo de data/hora exato do momento da execução."
+  },
+  {
+    "termo_front": "Upper / Lower Case",
+    "definicao_back": "Maiúsculas / Minúsculas. Funções de formatação de texto para padronização."
+  },
+  {
+    "termo_front": "Expression",
+    "definicao_back": "Expressão. Uma combinação de valores, campos e funções que resultam em um novo dado."
+  }
+]

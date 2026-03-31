@@ -1,0 +1,54 @@
+[
+  {
+    "termo_front": "Trigger",
+    "definicao_back": "Gatilho. O evento ou mudança em um sistema que inicia automaticamente o fluxo no Composer."
+  },
+  {
+    "termo_front": "Action Step",
+    "definicao_back": "Passo de ação. A etapa onde o Composer interage com o sistema de destino para criar, atualizar ou buscar dados."
+  },
+  {
+    "termo_front": "Connection",
+    "definicao_back": "Conexão. Configuração de acesso que armazena credenciais e autorização (geralmente OAuth) para um sistema."
+  },
+  {
+    "termo_front": "System-to-System",
+    "definicao_back": "Integração entre sistemas. Comunicação direta entre differentes plataformas de software."
+  },
+  {
+    "termo_front": "Mapping",
+    "definicao_back": "Mapeamento. O ato de associar campos do sistema de origem (Source) aos campos do sistema de destino (Target)."
+  },
+  {
+    "termo_front": "Retrieving",
+    "definicao_back": "Recuperação/Busca. Ação de trazer registros ou dados específicos de um sistema conectado."
+  },
+  {
+    "termo_front": "Field",
+    "definicao_back": "Campo. A menor unidade de dado em um registro (ex: Nome, E-mail, Data)."
+  },
+  {
+    "termo_front": "Value",
+    "definicao_back": "Valor. O conteúdo ou dado real armazenado dentro de um campo."
+  },
+  {
+    "termo_front": "Pick from List",
+    "definicao_back": "Selecionar da lista. Interface do Composer que permite escolher campos disponíveis dinamicamente via API."
+  },
+  {
+    "termo_front": "To Fetch",
+    "definicao_back": "Buscar/Trazer. Ato de solicitar e receber dados de uma fonte externa."
+  },
+  {
+    "termo_front": "To Populate",
+    "definicao_back": "Preencher. O ato de inserir valores em campos específicos durante a execução do fluxo."
+  },
+  {
+    "termo_front": "To Sync",
+    "definicao_back": "Sincronizar. Garantir que os dados em dois ou mais sistemas sejam consistentes e atualizados."
+  },
+  {
+    "termo_front": "To Authorize",
+    "definicao_back": "Autorizar. O processo de conceder permissão ao Composer para acessar dados em um sistema (ex: Login via OAuth)."
+  }
+]
