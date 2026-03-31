@@ -1,0 +1,58 @@
+[
+  {
+    "termo_front": "Einstein Bot",
+    "definicao_back": "Assistente virtual que utiliza Processamento de Linguagem Natural (NLP) para interagir com clientes e automatizar tarefas."
+  },
+  {
+    "termo_front": "Intent",
+    "definicao_back": "Intenção. O objetivo por trás da mensagem do usuário (ex: 'Verificar status do pedido')."
+  },
+  {
+    "termo_front": "Utterance",
+    "definicao_back": "Enunciado. Exemplos de frases reais fornecidas para treinar o robô a reconhecer uma intenção específica."
+  },
+  {
+    "termo_front": "Entity",
+    "definicao_back": "Entidade. Tipo de dado extraído da conversa (ex: Data, Cidade, ID do pedido) para ser usado logicamente."
+  },
+  {
+    "termo_front": "Dialog",
+    "definicao_back": "Diálogo. Blocos modulares que compõem a conversa e definem o comportamento do robô em cada etapa."
+  },
+  {
+    "termo_front": "Slot Filling",
+    "definicao_back": "Preenchimento de Slots. O processo de coletar todas as informações (entidades) necessárias antes de realizar uma ação."
+  },
+  {
+    "termo_front": "Variable",
+    "definicao_back": "Variável. Recurso usado para armazenar dados capturados do usuário para uso posterior em Flows ou regras."
+  },
+  {
+    "termo_front": "Dialog Action",
+    "definicao_back": "Ação de Diálogo. Um passo que executa lógica de back-end, como disparar um Salesforce Flow ou código Apex."
+  },
+  {
+    "termo_front": "Dialog Question",
+    "definicao_back": "Pergunta de Diálogo. Um elemento que pausa a conversa para coletar dados do usuário e salvá-los em uma variável."
+  },
+  {
+    "termo_front": "Transfer to Agent",
+    "definicao_back": "Transferência para Agente. Regra que encaminha a sessão de chat para um atendente humano via Omni-Channel."
+  },
+  {
+    "termo_front": "NLP (Natural Language Processing)",
+    "definicao_back": "Processamento de Linguagem Natural. O motor de IA que permite ao robô entender a linguagem humana não estruturada."
+  },
+  {
+    "termo_front": "Bot User",
+    "definicao_back": "Usuário do Robô. O perfil de sistema que define quais permissões de dados o robô tem ao executar ações."
+  },
+  {
+    "termo_front": "Model Training",
+    "definicao_back": "Treinamento do Modelo. O ato de processar os enunciados para que o robô aprenda a classificar intenções com precisão."
+  },
+  {
+    "termo_front": "Rule",
+    "definicao_back": "Regra. Lógica condicional dentro de um diálogo que define para onde o usuário deve ser direcionado (ex: Redirect)."
+  }
+]

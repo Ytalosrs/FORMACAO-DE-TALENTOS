@@ -1,0 +1,14 @@
+Frente (Gatilho/Cenário),Verso (Resposta Correta)
+"Combinar campos separados (Rua, Cidade) em uma lista para o NetSuite no Composer",Custom expression
+Passo final no Composer para inserir dados recebidos do RPA no CRM,Create or Update Record action (no Sales Cloud)
+Qualificadores principais para um processo ser candidato a RPA,Rule-based (baseado em regras) e Data-driven (orientado a dados)
+Grupo que avalia e gerencia o ciclo de vida do RPA,Center of Excellence (CoE)
+O que o RPA Recorder captura automaticamente,"Documentação dos elementos da interface (UI), keystrokes e wait times"
+O RPA Recorder captura automaticamente decisões condicionais (lógica de negócio)?,"Não, ele captura apenas as interações com a interface, cliques, teclas e tempos de espera"
+Significado do Losango com 'X' no BPMN do RPA,Exclusive Gateway (Ponto de decisão lógica)
+Onde os planos de teste (Test Plans) do RPA são executados?,Em um RPA Bot configurado
+Primeiro passo prático para criar uma nova API,RAML definition no Design Center
+Publicar um esqueleto de projeto base no Exchange,Template asset (MuleSoft application template)
+Política para limitar requisições de um cliente individual (Client),Rate Limiting - SLA-Based
+Estratégia de deploy na AWS com zero-downtime,Runtime Fabric (RTF)
+Escopo do Connected App para conectar RPA Manager ao Anypoint,RPA Integrator

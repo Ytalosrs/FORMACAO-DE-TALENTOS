@@ -1,0 +1,42 @@
+[
+  {
+    "termo_front": "Sistemas sem API / Legados / Interface Windows / Trabalho manual de UI",
+    "definicao_back": "MuleSoft RPA"
+  },
+  {
+    "termo_front": "Integrações rápidas SaaS / Simples + Admin / No-code / Gargalo de TI",
+    "definicao_back": "MuleSoft Composer"
+  },
+  {
+    "termo_front": "Complexo + Reutilizável + Alto Volume / DataWeave / SOAP",
+    "definicao_back": "Anypoint Platform"
+  },
+  {
+    "termo_front": "Processos de longa duração (dias/semanas) / Múltiplos departamentos / Stages e Steps",
+    "definicao_back": "Flow Orchestration"
+  },
+  {
+    "termo_front": "Proteção de sistemas de destino / Spike Control / Rate Limiting",
+    "definicao_back": "Anypoint API Manager"
+  },
+  {
+    "termo_front": "Falta de reutilização / Catálogo e compartilhamento de ativos API-led",
+    "definicao_back": "Anypoint Exchange"
+  },
+  {
+    "termo_front": "Interação humana via telas / Automação interna no CRM / Limites de DML",
+    "definicao_back": "Salesforce Flow (Flow Builder)"
+  },
+  {
+    "termo_front": "Extração estruturada de PDFs estáticos e faturas usando IA",
+    "definicao_back": "MuleSoft IDP"
+  },
+  {
+    "termo_front": "Triagem e atendimento inicial conversacional via chat",
+    "definicao_back": "Einstein Bots"
+  },
+  {
+    "termo_front": "Testar a integração antes da API estar pronta",
+    "definicao_back": "Mocking Service (Anypoint Exchange)"
+  }
+]

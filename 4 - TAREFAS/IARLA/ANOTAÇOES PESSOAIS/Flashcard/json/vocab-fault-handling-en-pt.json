@@ -1,0 +1,58 @@
+[
+  {
+    "termo_front": "Fault Path",
+    "definicao_back": "Caminho de falha. Recurso do Salesforce Flow para tratar erros em elementos de dados (conectores vermelhos)."
+  },
+  {
+    "termo_front": "Retry Logic",
+    "definicao_back": "Lógica de tentativa. Configuração para que o sistema tente executar a ação novamente após uma falha temporária."
+  },
+  {
+    "termo_front": "Exception",
+    "definicao_back": "Exceção. Um evento inesperado que interrompe o fluxo normal de execução do software."
+  },
+  {
+    "termo_front": "Timeout",
+    "definicao_back": "Tempo limite esgotado. Erro que ocorre quando um sistema demora mais que o permitido para responder."
+  },
+  {
+    "termo_front": "Validation Error",
+    "definicao_back": "Erro de validação. Ocorre quando os dados enviados não atendem aos requisitos (ex: campo obrigatório vazio)."
+  },
+  {
+    "termo_front": "Resilience",
+    "definicao_back": "Resiliência. A capacidade de um sistema de se recuperar de falhas e continuar operando."
+  },
+  {
+    "termo_front": "To Catch",
+    "definicao_back": "Capturar. O ato de interceptar um erro para que ele seja tratado em vez de encerrar o programa abruptamente."
+  },
+  {
+    "termo_front": "To Notify",
+    "definicao_back": "Notificar. Enviar um alerta (e-mail, Slack) para informar que uma falha ocorreu."
+  },
+  {
+    "termo_front": "On Error Propagate",
+    "definicao_back": "Propagar erro. Padrão do MuleSoft que faz a transação falhar e 'estoura' o erro para o sistema pai."
+  },
+  {
+    "termo_front": "On Error Continue",
+    "definicao_back": "Continuar apesar do erro. Padrão do MuleSoft que registra o erro, mas permite que o fluxo siga adiante."
+  },
+  {
+    "termo_front": "Compensating Action",
+    "definicao_back": "Ação compensatória. Lógica para desfazer passos anteriores caso uma falha ocorra no meio de um processo longo."
+  },
+  {
+    "termo_front": "Error Logs",
+    "definicao_back": "Registros de erro. Histórico detalhado das falhas para fins de auditoria e depuração (debugging)."
+  },
+  {
+    "termo_front": "Alerts",
+    "definicao_back": "Alertas. Avisos automáticos disparados por sistemas de monitoramento quando falhas são detectadas."
+  },
+  {
+    "termo_front": "Dead Letter Queue (DLQ)",
+    "definicao_back": "Fila de mensagens mortas. Local onde mensagens que falharam repetidamente são armazenadas para análise manual."
+  }
+]

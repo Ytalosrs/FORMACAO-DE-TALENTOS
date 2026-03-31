@@ -1,0 +1,46 @@
+[
+  {
+    "termo_front": "Unified Platform",
+    "definicao_back": "Plataforma Unificada. Integração de Anypoint, Composer e RPA para gerenciar todo o ciclo de vida da hiperautomação em um só lugar."
+  },
+  {
+    "termo_front": "Management Center",
+    "definicao_back": "Centro de Gerenciamento. Interface unificada para administrar APIs, usuários, segurança e monitorar o tráfego."
+  },
+  {
+    "termo_front": "Anypoint Visualizer",
+    "definicao_back": "Visualizador. Ferramenta que gera automaticamente um mapa topográfico das APIs e suas dependências em tempo real."
+  },
+  {
+    "termo_front": "API Lifecycle Management",
+    "definicao_back": "Gestão do Ciclo de Vida da API. Processo completo desde o Design, Simulação, Publicação até a Segurança e Aposentadoria."
+  },
+  {
+    "termo_front": "Anypoint Exchange",
+    "definicao_back": "A 'Single Source of Truth' para ativos de TI; onde se descobre, compartilha e testa APIs, conectores e fragmentos."
+  },
+  {
+    "termo_front": "Runtime Manager",
+    "definicao_back": "Componente usado para implantar (deploy) e gerenciar aplicações Mule em diferentes ambientes (Cloud ou Local)."
+  },
+  {
+    "termo_front": "API Manager",
+    "definicao_back": "Ferramenta para aplicar políticas de segurança (como OAuth e Rate Limiting) e gerenciar contratos de acesso (SLA)."
+  },
+  {
+    "termo_front": "Design Center",
+    "definicao_back": "Suíte de ferramentas baseada em nuvem para projetar especificações de API e testar mockups rapidamente."
+  },
+  {
+    "termo_front": "Anypoint Monitoring",
+    "definicao_back": "Ferramenta de observabilidade que fornece dashboards detalhados e alertas sobre a saúde das APIs e infraestrutura."
+  },
+  {
+    "termo_front": "Object Store",
+    "definicao_back": "Serviço de armazenamento de chave-valor para persistir dados entre execuções de fluxos (similar a um Redis gerenciado)."
+  },
+  {
+    "termo_front": "Anypoint Security",
+    "definicao_back": "Camada de proteção que inclui Tokenization, Edge Gateway e políticas avançadas de defesa para APIs."
+  }
+]

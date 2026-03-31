@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Flow Test",
+    "definicao_back": "Recurso nativo que permite criar, salvar e executar testes automatizados para fluxos disparados por registro."
+  },
+  {
+    "termo_front": "Assertion",
+    "definicao_back": "Asserção. A lógica que define o resultado esperado (ex: Campo X deve ser igual a Y) para validar o sucesso do teste."
+  },
+  {
+    "termo_front": "Initial Trigger",
+    "definicao_back": "Gatilho Inicial. A configuração do registro que simula o evento de inserção ou atualização para iniciar o teste."
+  },
+  {
+    "termo_front": "Triggering Record",
+    "definicao_back": "Registro Disparador. O registro específico de teste usado para alimentar o fluxo durante a execução do teste."
+  },
+  {
+    "termo_front": "Test Run",
+    "definicao_back": "Execução de Teste. O ato de rodar o teste salvo para verificar se a lógica do fluxo permanece correta após mudanças."
+  },
+  {
+    "termo_front": "Outcome",
+    "definicao_back": "Resultado. O estado final do registro ou das variáveis após a execução do fluxo de teste."
+  },
+  {
+    "termo_front": "Passed / Failed",
+    "definicao_back": "Status de aprovação ou falha de um teste baseado no cumprimento ou não das asserções definidas."
+  },
+  {
+    "termo_front": "Regression Testing",
+    "definicao_back": "Teste de Regressão. O uso de Flow Tests para garantir que novas alterações não quebraram funcionalidades existentes."
+  },
+  {
+    "termo_front": "Custom Condition",
+    "definicao_back": "Condição Customizada. Requisitos específicos definidos dentro do teste para validar ramificações complexas do fluxo."
+  },
+  {
+    "termo_front": "Flow Versioning",
+    "definicao_back": "Versão do Fluxo. Importante no teste, pois os testes são vinculados a versões específicas do fluxo para garantir integridade."
+  },
+  {
+    "termo_front": "Sandbox",
+    "definicao_back": "Ambiente de isolamento onde os testes de fluxo devem ser criados e validados antes do deploy para produção."
+  },
+  {
+    "termo_front": "Debug Details",
+    "definicao_back": "Detalhes de Depuração. O log passo a passo que o Flow Test fornece quando uma asserção falha."
+  }
+]

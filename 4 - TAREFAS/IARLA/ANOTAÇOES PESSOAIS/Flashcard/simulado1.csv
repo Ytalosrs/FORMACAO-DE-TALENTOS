@@ -1,0 +1,7 @@
+Frente (Gatilho/Cenário),Verso (Ferramenta/Ação Correta)
+"Especificação exigida para importar serviços externos no Salesforce Flow","Open API specifications (OAS/Swagger)"
+"Diferença de especificação: MuleSoft Design Center vs. Salesforce External Services","Design Center usa RAML; External Services exige Open API"
+"Funcionalidade no Salesforce que utiliza o arquivo Open API para criar ações invocáveis no Flow","External Services"
+"Método nativo de notificação de erro no MuleSoft Composer além da própria interface","Envio de alerta para o endereço de e-mail configurado"
+"Local principal na interface do Composer para visualizar falhas de execução","Página 'Flow Details'"
+"O Composer notifica falhas nativamente via postagens no Chatter?","Não, o envio de notificação padrão é para o e-mail"

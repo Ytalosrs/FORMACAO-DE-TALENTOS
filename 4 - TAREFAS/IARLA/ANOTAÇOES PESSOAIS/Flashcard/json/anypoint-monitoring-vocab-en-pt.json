@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Anypoint Monitoring",
+    "definicao_back": "Ferramenta de observabilidade que fornece visibilidade em tempo real sobre a performance e saúde de APIs e integrações."
+  },
+  {
+    "termo_front": "Throughput",
+    "definicao_back": "Vazão. A taxa de mensagens ou requisições processadas por uma API em um determinado período (ex: req/sec)."
+  },
+  {
+    "termo_front": "Latency",
+    "definicao_back": "Latência. O tempo total decorrido desde que a requisição entra no sistema até que a resposta seja enviada ao cliente."
+  },
+  {
+    "termo_front": "Built-in Dashboards",
+    "definicao_back": "Painéis Prontos. Visualizações pré-configuradas que mostram métricas de performance sem necessidade de configuração manual."
+  },
+  {
+    "termo_front": "Custom Dashboards",
+    "definicao_back": "Painéis Personalizados. Visualizações criadas pelo usuário para monitorar métricas específicas de negócio ou técnicas."
+  },
+  {
+    "termo_front": "Alerts",
+    "definicao_back": "Alertas. Mecanismos que disparam notificações automáticas quando métricas atingem um limite crítico (ex: latência > 2s)."
+  },
+  {
+    "termo_front": "Log Management",
+    "definicao_back": "Gestão de Logs. Recurso que permite pesquisar, filtrar e analisar logs agregados de várias aplicações em um só lugar."
+  },
+  {
+    "termo_front": "Titanium Subscription",
+    "definicao_back": "Assinatura Titanium. Pacote avançado que oferece maior retenção de dados, logs e recursos de busca avançada."
+  },
+  {
+    "termo_front": "Functional Monitoring",
+    "definicao_back": "Monitoramento Funcional. Uso de testes sintéticos que chamam a API periodicamente para validar se ela está respondendo corretamente."
+  },
+  {
+    "termo_front": "Resource Utilization",
+    "definicao_back": "Utilização de Recursos. Monitoramento do consumo de hardware (CPU, RAM, Heap) das instâncias onde a API reside."
+  },
+  {
+    "termo_front": "Thread Dump",
+    "definicao_back": "Descarregamento de Threads. Instantâneo do estado de todas as threads da JVM, usado para diagnosticar travamentos ou deadlocks."
+  },
+  {
+    "termo_front": "JVM Metrics",
+    "definicao_back": "Métricas da JVM. Dados específicos sobre o comportamento da máquina virtual Java, como Garbage Collection e uso de Heap."
+  }
+]

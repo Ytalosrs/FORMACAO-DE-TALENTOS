@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Discoverability",
+    "definicao_back": "Descoberta. Prática de usar tags, categorias e nomes claros para facilitar que outros encontrem ativos no Exchange."
+  },
+  {
+    "termo_front": "Reusability",
+    "definicao_back": "Reusabilidade. O princípio de projetar ativos para serem usados em múltiplos projetos, reduzindo custo e tempo de desenvolvimento."
+  },
+  {
+    "termo_front": "Semantic Versioning (SemVer)",
+    "definicao_back": "Versioning Semântico. Sistema de numeração (ex: 1.2.3) que indica o impacto das mudanças (Quebra de contrato, Nova função ou Correção)."
+  },
+  {
+    "termo_front": "Deprecation",
+    "definicao_back": "Depreciação. O ato de marcar um ativo como obsoleto para desencorajar seu uso em novos projetos antes de sua exclusão final."
+  },
+  {
+    "termo_front": "Asset Lifecycle",
+    "definicao_back": "Ciclo de Vida do Ativo. Gerenciamento do estado de um item no Exchange (ex: de 'Development' para 'Stable')."
+  },
+  {
+    "termo_front": "Backward Compatibility",
+    "definicao_back": "Compatibilidade Reversa. Garantia de que uma atualização de API não quebrará as integrações que já a utilizam."
+  },
+  {
+    "termo_front": "Rich Documentation",
+    "definicao_back": "Documentação Rica. Uso de Markdown, diagramas e exemplos de código no portal do Exchange para que a API seja 'self-service'."
+  },
+  {
+    "termo_front": "Standardization",
+    "definicao_back": "Padronização. Aplicação de nomes, cabeçalhos e estruturas de erro comuns em todos os ativos para garantir consistência."
+  },
+  {
+    "termo_front": "Self-service Consumption",
+    "definicao_back": "Consumo de Autoatendimento. Capacidade de um desenvolvedor entender e testar um ativo (via Mocking) sem precisar falar com o criador."
+  },
+  {
+    "termo_front": "Feedback Loop",
+    "definicao_back": "Ciclo de Feedback. Uso de classificações (Ratings) e comentários (Reviews) para melhorar continuamente a qualidade dos ativos."
+  },
+  {
+    "termo_front": "Template / Example",
+    "definicao_back": "Modelo / Exemplo. Ativos publicados para servir de ponto de partida, acelerando a adoção de padrões da empresa."
+  },
+  {
+    "termo_front": "Asset Promotion",
+    "definicao_back": "Promoção de Ativos. O processo de mover um ativo aprovado de um ambiente de teste (Sandbox) para o Exchange oficial da organização."
+  }
+]

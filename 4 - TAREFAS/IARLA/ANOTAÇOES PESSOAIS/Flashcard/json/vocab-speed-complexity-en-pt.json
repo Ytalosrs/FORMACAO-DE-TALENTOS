@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Time-to-Market",
+    "definicao_back": "Tempo de lançamento. A métrica que mede a velocidade de entrega de uma solução ao mercado."
+  },
+  {
+    "termo_front": "Agility",
+    "definicao_back": "Agilidade. A capacidade de responder e implementar mudanças rapidamente no ecossistema de integração."
+  },
+  {
+    "termo_front": "Total Cost of Ownership (TCO)",
+    "definicao_back": "Custo Total de Propriedade. O custo acumulado de criar, operar e manter uma automação."
+  },
+  {
+    "termo_front": "ROI (Return on Investment)",
+    "definicao_back": "Retorno sobre o Investimento. A relação entre o ganho financeiro e o custo da automação."
+  },
+  {
+    "termo_front": "Low-code / No-code",
+    "definicao_back": "Baixo código ou Sem código. Plataformas que permitem criar fluxos via interface visual, priorizando a velocidade."
+  },
+  {
+    "termo_front": "Pro-code",
+    "definicao_back": "Código profissional. Desenvolvimento manual (Java, DataWeave) usado para lógicas de altíssima complexidade."
+  },
+  {
+    "termo_front": "Out-of-the-box (OOTB)",
+    "definicao_back": "Pronto para uso. Funcionalidades nativas de uma ferramenta que não exigem desenvolvimento adicional."
+  },
+  {
+    "termo_front": "Customization",
+    "definicao_back": "Customização. Alterações feitas sob medida que aumentam a flexibilidade, mas também o tempo e o custo."
+  },
+  {
+    "termo_front": "Scalability",
+    "definicao_back": "Escalabilidade. A capacidade de um sistema lidar com um aumento massivo no volume de dados (Anypoint é o líder aqui)."
+  },
+  {
+    "termo_front": "Governance",
+    "definicao_back": "Governança. Políticas e ferramentas que garantem o controle, segurança e conformidade dos ativos de integração."
+  },
+  {
+    "termo_front": "UI-based",
+    "definicao_back": "Baseado em Interface. Automações que interagem com a tela (RPA), geralmente mais lentas que as baseadas em API."
+  },
+  {
+    "termo_front": "Trade-off",
+    "definicao_back": "Troca ou Compensação. A decisão de ganhar em um ponto (ex: velocidade) perdendo em outro (ex: flexibilidade)."
+  }
+]

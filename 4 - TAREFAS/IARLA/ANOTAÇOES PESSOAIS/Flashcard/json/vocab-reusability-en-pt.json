@@ -1,0 +1,46 @@
+[
+  {
+    "termo_front": "Templates",
+    "definicao_back": "Modelos. Projetos pré-configurados que servem como ponto de partida para acelerar o desenvolvimento."
+  },
+  {
+    "termo_front": "Fragments",
+    "definicao_back": "Fragmentos. Partes reutilizáveis de uma especificação de API (RAML/OAS), como tipos de dados ou exemplos."
+  },
+  {
+    "termo_front": "Connectors",
+    "definicao_back": "Conectores. Componentes prontos que facilitam a comunicação com sistemas específicos (SAP, Salesforce, Slack)."
+  },
+  {
+    "termo_front": "API-Led Connectivity",
+    "definicao_back": "Conectividade orientada a APIs. Padrão de 3 camadas (System, Process, Experience) que maximiza a reutilização."
+  },
+  {
+    "termo_front": "Composable Architecture",
+    "definicao_back": "Arquitetura Montável. Estilo de design onde soluções são criadas combinando ativos independentes como blocos de Lego."
+  },
+  {
+    "termo_front": "Discovery",
+    "definicao_back": "Descoberta. O processo de encontrar ativos já existentes no Exchange para evitar o retrabalho."
+  },
+  {
+    "termo_front": "Encapsulation",
+    "definicao_back": "Encapsulamento. Técnica de esconder a complexidade de um sistema legado atrás de uma API simples e segura."
+  },
+  {
+    "termo_front": "Anypoint Exchange",
+    "definicao_back": "Exchange. O marketplace central da MuleSoft para descobrir, compartilhar e testar ativos de integração."
+  },
+  {
+    "termo_front": "To Publish",
+    "definicao_back": "Publicar. O ato de disponibilizar um ativo no Exchange para que outros desenvolvedores possam usá-lo."
+  },
+  {
+    "termo_front": "To Share",
+    "definicao_back": "Compartilhar. Distribuir acesso a ativos entre diferentes equipes ou unidades de negócio (Business Units)."
+  },
+  {
+    "termo_front": "Invocable Action",
+    "definicao_back": "Ação Invocável. Recurso que permite que um robô de RPA ou um fluxo de integração seja chamado diretamente de dentro do Salesforce Flow."
+  }
+]

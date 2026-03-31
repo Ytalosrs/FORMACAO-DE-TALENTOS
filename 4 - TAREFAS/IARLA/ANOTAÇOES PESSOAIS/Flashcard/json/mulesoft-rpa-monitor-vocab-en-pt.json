@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Bot Runs",
+    "definicao_back": "Execuções do Robô. O registro histórico de todas as vezes que um processo foi iniciado."
+  },
+  {
+    "termo_front": "Success Rate",
+    "definicao_back": "Taxa de Sucesso. Métrica que indica a porcentagem de execuções finalizadas sem erros."
+  },
+  {
+    "termo_front": "Analysis Stage",
+    "definicao_back": "Estágio de Análise. Fase do ciclo de vida onde execuções falhas são enviadas para investigação."
+  },
+  {
+    "termo_front": "Error Screenshot",
+    "definicao_back": "Captura de Tela de Erro. Foto automática tirada pelo robô no exato momento da falha para ajudar no diagnóstico."
+  },
+  {
+    "termo_front": "Log Analysis",
+    "definicao_back": "Análise de Logs. Exame detalhado das mensagens geradas pelo robô durante cada atividade do workflow."
+  },
+  {
+    "termo_front": "Heartbeat",
+    "definicao_back": "Sinal de Vida. Monitoramento que verifica se o RPA Worker está conectado e pronto para receber tarefas."
+  },
+  {
+    "termo_front": "Troubleshooting",
+    "definicao_back": "Solução de Problemas. O processo sistemático de encontrar e corrigir falhas em uma automação."
+  },
+  {
+    "termo_front": "Root Cause",
+    "definicao_back": "Causa Raiz. O motivo fundamental de um erro (ex: mudança na UI do sistema legado ou queda de rede)."
+  },
+  {
+    "termo_front": "Dashboard",
+    "definicao_back": "Painel de Controle. Interface visual no RPA Manager que resume o status e a performance de todos os robôs."
+  },
+  {
+    "termo_front": "Alerts",
+    "definicao_back": "Alertas. Configurações que enviam notificações imediatas quando um robô falha ou um Worker fica offline."
+  },
+  {
+    "termo_front": "Execution Details",
+    "definicao_back": "Detalhes da Execução. Informações granulares sobre o tempo de duração e dados processados em uma corrida."
+  },
+  {
+    "termo_front": "Remote Debug",
+    "definicao_back": "Depuração Remota. Técnica de investigar erros diretamente no ambiente onde o robô está rodando."
+  }
+]

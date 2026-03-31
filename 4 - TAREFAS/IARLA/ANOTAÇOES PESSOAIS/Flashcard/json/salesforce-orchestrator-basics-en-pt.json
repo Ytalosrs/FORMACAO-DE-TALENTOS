@@ -1,0 +1,58 @@
+[
+  {
+    "termo_front": "Flow Orchestrator",
+    "definicao_back": "Ferramenta que combina múltiplos fluxos em um processo coordenado e de longa duração."
+  },
+  {
+    "termo_front": "Stage",
+    "definicao_back": "Estágio. Uma fase do processo que agrupa um ou mais passos relacionados."
+  },
+  {
+    "termo_front": "Step",
+    "definicao_back": "Passo. Uma unidade de trabalho individual dentro de um estágio, que executa um fluxo específico."
+  },
+  {
+    "termo_front": "Interactive Step",
+    "definicao_back": "Passo Interativo. Uma tarefa que requer que um usuário humano interaja com um Screen Flow."
+  },
+  {
+    "termo_front": "Background Step",
+    "definicao_back": "Passo de Fundo. Uma tarefa automatizada que executa um Autolaunched Flow sem intervenção humana."
+  },
+  {
+    "termo_front": "Sequential Steps",
+    "definicao_back": "Passos Sequenciais. Configuração onde os passos de um estágio são executados um após o outro."
+  },
+  {
+    "termo_front": "Parallel Steps",
+    "definicao_back": "Passos Paralelos. Configuração onde múltiplos passos de um estágio são executados simultaneamente."
+  },
+  {
+    "termo_front": "Entry Condition",
+    "definicao_back": "Condição de Entrada. Critérios que devem ser atendidos para que um estágio ou passo comece a ser executado."
+  },
+  {
+    "termo_front": "Exit Condition",
+    "definicao_back": "Condição de Saída. Critérios que determinam quando um estágio ou passo é considerado finalizado."
+  },
+  {
+    "termo_front": "Evaluation Flow",
+    "definicao_back": "Fluxo de Avaliação. Um fluxo especializado usado para testar logicamente as condições de entrada ou saída."
+  },
+  {
+    "termo_front": "Orchestration Run",
+    "definicao_back": "Instância de Orquestração. O registro que rastreia o progresso de uma execução específica do orquestrador."
+  },
+  {
+    "termo_front": "Workstream",
+    "definicao_back": "Fluxo de Trabalho. A visão macro da sequência de estágios e passos que compõem o processo completo."
+  },
+  {
+    "termo_front": "Assignee",
+    "definicao_back": "Responsável. O usuário, grupo ou fila designado para completar um passo interativo."
+  },
+  {
+    "termo_front": "Work Guide",
+    "definicao_back": "Guia de Trabalho. O componente na interface do Salesforce que mostra o passo interativo para o usuário responsável."
+  }
+]

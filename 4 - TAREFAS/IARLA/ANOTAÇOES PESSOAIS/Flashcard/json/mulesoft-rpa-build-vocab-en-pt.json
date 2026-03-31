@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "OCR (Optical Character Recognition)",
+    "definicao_back": "Reconhecimento Óptico de Caracteres. Tecnologia para extrair texto de imagens ou documentos digitalizados."
+  },
+  {
+    "termo_front": "Selector",
+    "definicao_back": "Seletor. Atributo técnico (como ID ou Nome) usado para identificar um elemento de interface de forma única."
+  },
+  {
+    "termo_front": "Image Recognition",
+    "definicao_back": "Reconhecimento de Imagem. Técnica que localiza um elemento na tela comparando-o com uma imagem de referência."
+  },
+  {
+    "termo_front": "Anchor",
+    "definicao_back": "Âncora. Um elemento estável na tela usado como ponto de referência para localizar campos próximos que mudam de lugar."
+  },
+  {
+    "termo_front": "Screen Scraping",
+    "definicao_back": "Extração de Tela. Processo de capturar dados visíveis na interface de um aplicativo para uso digital."
+  },
+  {
+    "termo_front": "Workflow",
+    "definicao_back": "Fluxo de Trabalho. A sequência técnica de atividades que o robô executa dentro de uma 'Bot Task'."
+  },
+  {
+    "termo_front": "Keystrokes",
+    "definicao_back": "Teclas Digitadas. Simulação de entrada de teclado para preencher formulários ou usar atalhos de sistema."
+  },
+  {
+    "termo_front": "Surface Automation",
+    "definicao_back": "Automação de Superfície. Automação baseada apenas em coordenadas e pixels, usada quando não há acesso aos metadados do app."
+  },
+  {
+    "termo_front": "Variable / Constant",
+    "definicao_back": "Variável / Constante. Contêineres de dados usados para transportar informações entre as atividades do robô."
+  },
+  {
+    "termo_front": "Excel Operations",
+    "definicao_back": "Operações de Excel. Conjunto de atividades para manipular planilhas (Read, Write, Cell, Row)."
+  },
+  {
+    "termo_front": "Recorder",
+    "definicao_back": "Gravador. Ferramenta que monitora as ações do desenvolvedor e gera automaticamente os passos iniciais do robô."
+  },
+  {
+    "termo_front": "Pattern Matching",
+    "definicao_back": "Correspondência de Padrão. Técnica de busca para encontrar elementos que seguem uma lógica visual ou de texto definida."
+  }
+]

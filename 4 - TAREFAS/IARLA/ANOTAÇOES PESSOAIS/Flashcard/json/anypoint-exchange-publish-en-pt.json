@@ -1,0 +1,50 @@
+[
+  {
+    "termo_front": "Anypoint Exchange",
+    "definicao_back": "Catálogo central de ativos de TI onde se pode descobrir, compartilhar e colaborar em APIs e integrações."
+  },
+  {
+    "termo_front": "Private Exchange",
+    "definicao_back": "Repositório exclusivo da organização onde ativos são compartilhados internamente entre desenvolvedores."
+  },
+  {
+    "termo_front": "Public Portal",
+    "definicao_back": "Extensão do Exchange que permite expor APIs selecionadas para consumidores externos ou parceiros."
+  },
+  {
+    "termo_front": "Asset",
+    "definicao_back": "Ativos. Qualquer peça reutilizável de software (APIs, conectores, templates, fragmentos, modelos, bots de RPA) armazenada no Exchange."
+  },
+  {
+    "termo_front": "Exchange Contributor",
+    "definicao_back": "Papel de permissão necessário para que um usuário possa publicar ou editar ativos no Exchange."
+  },
+  {
+    "termo_front": "Business Group",
+    "definicao_back": "Estrutura hierárquica que permite organizar ativos e usuários por departamentos ou unidades de negócio."
+  },
+  {
+    "termo_front": "Versioning (SemVer)",
+    "definicao_back": "Prática de atribuir versões (Major.Minor.Patch) aos ativos para gerenciar mudanças e compatibilidade."
+  },
+  {
+    "termo_front": "Asset Portal",
+    "definicao_back": "Página de documentação de um ativo no Exchange que fornece instruções, exemplos e guias de uso."
+  },
+  {
+    "termo_front": "Tags / Categories",
+    "definicao_back": "Metadados usados para classificar e facilitar a descoberta de ativos dentro do catálogo."
+  },
+  {
+    "termo_front": "Dependency",
+    "definicao_back": "Referência a um ativo do Exchange (como um fragmento) que é importado para dentro de outro projeto."
+  },
+  {
+    "termo_front": "Publishing",
+    "definicao_back": "O processo de carregar um contrato ou aplicação para o Exchange, tornando-o um ativo disponível para reuso."
+  },
+  {
+    "termo_front": "Markdown Documentation",
+    "definicao_back": "Linguagem de marcação usada para criar páginas de documentação ricas dentro do portal do ativo."
+  }
+]
