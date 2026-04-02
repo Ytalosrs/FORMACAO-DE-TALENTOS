@@ -17,94 +17,28 @@ Colaborador: victor Projeto(s) Ativo(s): Fabrica de monstros
 
 🎯 O que vou fazer hoje? nao é tudo pra hj so separei a minha maanha pra isso e tarde, estudos
 Liste as tarefas planejadas para hoje.
-
+DURANTE A MANHA:
 1-MÓDULO DE CONTEÚDO + SIMULADOS
 
-EM ANDAMENTO - Importar conteúdo do Ytalo
-    [ ] Mapear estrutura dos conteúdos
-    [ ] Criar schema:
+ Importar conteúdo do Ytalo
+ Mapear estrutura dos conteúdos
+ Criar schema:
            * módulo
            * assunto
            * exercício
-     [ ] Integrar conteúdos ao sistema
+Integrar conteúdos ao sistema
 
- 2- DASHBOARD INTELIGENTE (CORE DO PRODUTO)
- 
-2.1 - Criar dashboard integrado
-     [ ] Dashboard geral do usuário
-     [ ] Exibir:
-        * total de questões
-        * acertos
-        * erros
-        * taxa de acerto
-        * evolução
-2.2 - Dashboard por módulo (IMPORTANTE)
-     [ ] Ao clicar no card do módulo:
-        * atualizar dashboard
-     [ ] Mostrar:
-        * tentativas
-        * erros por questão
-        * tempo (se possível)
-        * evolução por tentativa
+DURANTE A TARDE ESTUDOS:
 
-2.3 - Linha do tempo (nível avançado 🚀)
+empregar as melhores práticas ao usar a hiperautomação (20%)
 
-     [ ] Histórico do usuário:  
-            * tentativa 1, 2, 3...
-     [ ] Evolução visual:
-            * gráfico simples
-     [ ] Tracking:
-            * quando estudou
-            * quanto acertou
+-Dado um cenário, identifique as ferramentas corretas a serem usadas para uma solução de hiperautomação.
+-Modele testes adequados e crie dados para testar uma solução de hiperautomação de ponta a ponta.
+-Implementar padrões de design comuns essenciais para a comunicação entre Salesforce, Anypoint, Composer e RPA.
+-Utilize abordagens típicas de tratamento de falhas para cada ferramenta envolvida no processo de hiperautomação.
+-Identificar cenários e técnicas para reutilização.
+-Identificar a velocidade de desenvolvimento com base em ferramentas de hiperautomação e na complexidade do caso de uso.
 
-3-SISTEMA DE CARDS (ESTILO DUOLINGO)
-
-3.1 - NAO INICIADO - pegar com o kaua o sistema de cards 
-     [ ] Card clicável por módulo
-     [ ] Mostrar:
-          * progresso (%)
-          * status (iniciado / em andamento / concluído)
-     [ ] UX estilo:
-          * trilha
-          * progressão visual
-
-4-LÓGICA DE ATUALIZAÇÃO DINÂMICA
-
-4.1 Atualização do dashboard
-      [ ] Atualizar dados ao:
-          * responder questão
-          * finalizar módulo
-          * clicar em módulo
-
-5-ESTRUTURA DE ÁREAS
-
-5.1 - Separação de áreas
-       [ ] Área pública:
-          * landing
-          * apresentação
-       [ ] Área autenticada:
-          * conteúdos
-          * simulados
-          * dashboard
-          
-6-INTEGRAÇÃO (FUTURO PRÓXIMO)
-
-6.1 - Preparar integração com API (Instagram / etc)
-
-       [ ] Estruturar backend para integrações futuras
-       [ ] Criar camada de serviços
-
-
-
-# 🎯 VISÃO FINAL DO PRODUTO (CLAREZA)
-
-> 🧠 **Um ambiente de formação inteligente (tipo Duolingo + Dashboard de performance)**
-
-Com:
-* aprendizado
-* prática
-* métricas
-* evolução
 
 🚧 Impedimentos / Bloqueios
 nao
