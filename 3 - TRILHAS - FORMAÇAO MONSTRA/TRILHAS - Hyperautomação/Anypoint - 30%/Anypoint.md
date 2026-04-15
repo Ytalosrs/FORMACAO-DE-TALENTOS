@@ -291,17 +291,52 @@ Políticas controlam **segurança, tráfego e adaptabilidade** das APIs sem modi
 
 ## 4.3. Publicar Assets — Métodos
 
-|Método|Quando usar|
-|---|---|
-|**Exchange UI (Publish new asset)**|OAS, RAML, RAML Fragment, HTTP, WSDL, AsyncAPI, Custom|
-|**Anypoint Studio (Mavenize)**|Templates e Examples — requer Maven|
-|**Anypoint CLI**|Automação via CLI: `exchange asset upload`|
-|**Exchange API (REST)**|Publicação programática, CI/CD pipelines|
-|**Maven (Exchange Maven Facade)**|Publicação de connectors e apps via Maven|
-|**Anypoint Code Builder**|Publish direto da IDE para o Exchange|
+| Método                              | Quando usar                                            |
+| ----------------------------------- | ------------------------------------------------------ |
+| **Exchange UI (Publish new asset)** | OAS, RAML, RAML Fragment, HTTP, WSDL, AsyncAPI, Custom |
+| **Anypoint Studio (Mavenize)**      | Templates e Examples — requer Maven                    |
+| **Anypoint CLI**                    | Automação via CLI: `exchange asset upload`             |
+| **Exchange API (REST)**             | Publicação programática, CI/CD pipelines               |
+| **Maven (Exchange Maven Facade)**   | Publicação de connectors e apps via Maven              |
+| **Anypoint Code Builder**           | Publish direto da IDE para o Exchange                  |
+|                                     |                                                        |
+|                                     |                                                        |
 
 ## 4.4. Visibilidade: Private vs. Public Portal
 
-**Private Exchange (padrão):**
+- **Private Exchange:** O catálogo interno da sua organização. É onde os desenvolvedores de RPA e Composer buscam APIs e conectores internos para reutilização.
+    
+- **Public Portal:** Uma vitrine externa. Permite expor seletivamente ativos do seu Private Exchange para desenvolvedores externos ou parceiros.
+    
+- **API Community Manager:** Uma camada avançada sobre o portal público para criar experiências de desenvolvedor personalizadas (estilo rede social/fórum).
+    
 
-- Vis
+### 4.5. Mocking Service (Item específico do edital)
+
+O Exchange fornece um **Mocking Service** automático para especificações REST (RAML/OAS).
+
+- **Uso em Hyperautomation:** Permite que as equipes de Salesforce Flow ou RPA comecem a desenvolver suas automações consumindo uma "URL de simulação" antes mesmo da API real ser implementada.
+    
+- **Funcionalidade:** Simula respostas baseadas nos exemplos definidos no contrato da API.
+    
+
+### 4.6. Melhores Práticas de Reuso no Exchange
+
+- **Discoverability:** Antes de criar uma nova integração, o desenvolvedor deve pesquisar no Exchange se já existe um conector ou API de Sistema pronto.
+    
+- **Assets Reutilizáveis:** Além de APIs, o Exchange deve ser usado para compartilhar **RPA Templates** e **MuleSoft Composer Connectors** personalizados, acelerando a velocidade de entrega (velocity) dos projetos de hiperautomação.
+    
+
+---
+
+### 5. Resumo de Diferenciação para a Prova (Checkpoint)
+
+|**Recurso**|**Foco na Prova**|
+|---|---|
+|**API Autodiscovery**|Necessário para o API Manager e Anypoint Monitoring "enxergarem" a aplicação Mule.|
+|**SLA Tiers**|Definidos no API Manager para limitar o acesso de diferentes consumidores (Ex: Nível Silver vs. Gold).|
+|**API Catalog**|Recurso que sincroniza as APIs do Exchange diretamente para o Salesforce como **External Services**, permitindo que sejam usadas no **Flow Builder**.|
+|**Visualizer**|Usado para ver a topologia da rede e identificar gargalos ou dependências entre as camadas (System/Process/Experience).|
+
+---
+

@@ -1,0 +1,46 @@
+Daily Report - 31/03/2026 (Terça-feira)
+
+Projeto(s) Ativo(s): Estruturação de Conteúdos / Certificação MuleSoft
+🚀 O que eu fiz ontem?
+DURANTE A MANHA
+1-MÓDULO DE CONTEÚDO + SIMULADOS
+
+ Importar conteúdo do Ytalo
+ Mapear estrutura dos conteúdos
+ Criar schema:
+           * módulo
+           * assunto
+           * exercício
+Integrar conteúdos ao sistema
+
+DURANTE A TARDE ESTUDOS:
+empregar as melhores práticas ao usar a hiperautomação (20%)
+
+-Dado um cenário, identifique as ferramentas corretas a serem usadas para uma solução de hiperautomação.
+-Modele testes adequados e crie dados para testar uma solução de hiperautomação de ponta a ponta.
+-Implementar padrões de design comuns essenciais para a comunicação entre Salesforce, Anypoint, Composer e RPA.
+-Utilize abordagens típicas de tratamento de falhas para cada ferramenta envolvida no processo de hiperautomação.
+-Identificar cenários e técnicas para reutilização.
+-Identificar a velocidade de desenvolvimento com base em ferramentas de hiperautomação e na complexidade do caso de uso.
+
+🎯 O que vou fazer hoje? SITE DE FORMAÇÃO EM STANDBY
+ESTUDAR:
+Use o Composer para automatizar a integração de dados em um projeto de hiperautomação: 12%
+Dado um cenário, conecte sistemas usando um fluxo do Composer e conectores, e mapeie e recupere dados em etapas de ação.
+Considerando um cenário de hiperautomação, implemente os controles de fluxo apropriados, incluindo blocos If/Else e loops For Each.
+Dado um cenário de hiperautomação, transforme dados usando funções e fórmulas numéricas, de texto e de data.
+Teste os fluxos do Composer para garantir que funcionem conforme o esperado.
+Projetar, construir e gerenciar processos MuleSoft RPA usados ​​em hiperautomação: 17%
+Avalie um processo de RPA no MuleSoft RPA Manager.
+Executar tarefas gerais de desenvolvimento de processos RPA, incluindo projetar, construir e testar processos RPA.
+Implantar processos de RPA.
+Monitorar e solucionar problemas em processos de RPA.
+
+
+SIMULADO V1 NOTA: 88%
+
+🚧 Impedimentos / Bloqueios
+-Utilize abordagens típicas de tratamento de falhas para cada ferramenta envolvida no processo de hiperautomação.
+📝 Observações / Links Úteis
+...
+
