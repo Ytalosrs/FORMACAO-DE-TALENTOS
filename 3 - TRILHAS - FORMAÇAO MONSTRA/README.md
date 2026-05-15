@@ -40,6 +40,7 @@ O integrante de Nível 1 deve buscar a certificação técnica para validar seus
 
 1. **MuleSoft Hyperautomation**: Foco em integração e automação inteligente de processos.
 2. **MongoDB**: Domínio de banco de dados NoSQL para escalabilidade de projetos.
+3. **Analista de Requisitos**: Foco em transformar necessidades de negócio em especificações técnicas.
 
 > **Critério de Aprovação (Nível 1):** Absorção de conhecimento e aprovação nas certificações propostas.
 
