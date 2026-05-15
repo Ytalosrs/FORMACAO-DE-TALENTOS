@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="slides-format" content="viewport">
+  <title>Anypoint Platform — apresentação refinada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root { --color-bg:#0e1026; --color-text:#f5f7ff; --glow-color-rgb:124,58,237; --font-body:'Inter',sans-serif; }
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{background:var(--color-bg);margin:0}
+    body{font-family:var(--font-body);color:var(--color-text);overflow:hidden;height:100vh;width:100vw}
+    .deck{width:100vw;height:100vh;position:relative}
+    .slide{position:absolute;inset:0;background:linear-gradient(180deg,#0e1026 0%,#091122 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;transform:scale(.95);transition:opacity .7s ease,transform .7s ease;pointer-events:none;overflow:hidden}
+    .slide.active{opacity:1;transform:scale(1);pointer-events:all}
+    .slide>.content{position:relative;z-index:2;width:100%;max-width:1180px;padding:clamp(1.4rem,4vw,4rem)}
+    .nav-controls{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:16px;z-index:100;background:rgba(255,255,255,.08);backdrop-filter:blur(10px);padding:10px 24px;border-radius:40px;border:1px solid rgba(255,255,255,.12)}
+    .nav-btn{width:40px;height:40px;border:none;background:rgba(255,255,255,.06);color:#c084fc;border-radius:50%;font-size:1.2rem;cursor:pointer}
+    .slide-dots{display:flex;gap:8px}.slide-dots .dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.15);cursor:pointer}.slide-dots .dot.active{background:#06b6d4;transform:scale(1.25)}
+    .slide-counter{font-size:.8rem;color:#96a1c7;min-width:48px;text-align:center}
+    .reveal{opacity:0;transform:translateY(20px)}
+    .gradient-mesh{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+    .blob{position:absolute;border-radius:50%;filter:blur(84px);animation:float-slow 12s ease-in-out infinite}
+    .blob:nth-child(2){animation:float-drift 16s ease-in-out infinite}.blob:nth-child(3){animation:float-slow 18s ease-in-out infinite reverse}
+    @keyframes float-slow{0%{transform:translate(0,0) scale(1)}25%{transform:translate(60px,-50px) scale(1.12)}50%{transform:translate(-40px,40px) scale(.92)}75%{transform:translate(50px,20px) scale(1.06)}100%{transform:translate(0,0) scale(1)}}
+    @keyframes float-drift{0%{transform:translate(0,0) scale(1) rotate(0)}33%{transform:translate(-50px,-60px) scale(1.12) rotate(3deg)}66%{transform:translate(40px,30px) scale(.9) rotate(-2deg)}100%{transform:translate(0,0) scale(1) rotate(0)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+    .slide::before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");background-repeat:repeat;background-size:256px 256px;opacity:.03;mix-blend-mode:overlay}
+    .slide::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at center,transparent 48%,rgba(0,0,0,.48) 100%)}
+    .text-glow{text-shadow:0 0 20px rgba(var(--glow-color-rgb),.5),0 0 40px rgba(var(--glow-color-rgb),.2)}
+    .stat-glow{text-shadow:0 0 28px rgba(var(--glow-color-rgb),.64),0 0 60px rgba(var(--glow-color-rgb),.24)}
+    .card{background:rgba(255,255,255,.075);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.12);border-radius:24px;box-shadow:0 12px 40px rgba(0,0,0,.18)}
+    .chip{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);border-radius:999px;padding:.45rem .85rem}
+    .exam-callout{border-left:4px solid #06b6d4;background:linear-gradient(90deg,rgba(6,182,212,.12),rgba(124,58,237,.04))}
+    .bar-track{height:16px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden}
+    .bar-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#7c3aed,#06b6d4);width:0}
+    .timeline-line{position:absolute;left:16px;top:10px;bottom:10px;width:2px;background:linear-gradient(180deg,#7c3aed,#06b6d4)}
+    .timeline-dot{width:14px;height:14px;border-radius:999px;background:#06b6d4;box-shadow:0 0 0 6px rgba(6,182,212,.12),0 0 18px rgba(6,182,212,.6);margin-top:6px;position:relative;z-index:2}
+    .mouse-spotlight{position:fixed;inset:0;z-index:99;pointer-events:none}
+    .particle-canvas,.particle-canvas-ambient{position:absolute;inset:0;z-index:1}
+    .accent-grid{background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:32px 32px}
+    @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;transition-duration:.2s !important}}
+  </style>
+</head>
+<body>
+<div class="mouse-spotlight"></div>
+<div class="deck">
+
+<div class="slide active" data-slide="1">
+  <div class="gradient-mesh">
+    <div class="blob" style="width:520px;height:520px;top:-100px;right:-90px;background:var(--color-accent-1);opacity:.17"></div>
+    <div class="blob" style="width:340px;height:340px;bottom:-80px;left:-50px;background:var(--color-accent-2);opacity:.13"></div>
+    <div class="blob" style="width:210px;height:210px;top:48%;left:14%;background:var(--color-accent-3);opacity:.11"></div>
+  </div>
+  <canvas class="particle-canvas"></canvas>
+  <div class="content text-center">
+    <div class="text-[120px] mb-4 animate-[float_3s_ease-in-out_infinite] reveal">🔗</div>
+    <p class="text-sm md:text-base uppercase tracking-[0.45em] text-text-muted mb-5 reveal">MuleSoft • Hyperautomation • Certificação</p>
+    <h1 class="font-display text-[clamp(2.9rem,6vw,5.6rem)] font-black bg-linear-to-br from-accent-1 via-accent-2 to-accent-1 bg-clip-text text-transparent tracking-tight mb-4 reveal">Anypoint Platform</h1>
+    <p class="text-[clamp(1rem,1.8vw,1.35rem)] text-text-secondary max-w-3xl mx-auto reveal">Do design API-first ao monitoramento em produção: a espinha dorsal da integração e do reuso em hyperautomation.</p>
+  </div>
+</div>
+
+<div class="slide" data-slide="2">
+  <div class="gradient-mesh"><div class="blob" style="width:340px;height:340px;top:-80px;right:-60px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:240px;height:240px;bottom:-50px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Importância</p>
+    <h2 class="font-display text-[clamp(2.1rem,4.5vw,3.3rem)] font-bold mb-6 reveal">Por que esse tema pesa tanto</h2>
+    <div class="grid grid-cols-4 gap-5 mb-6">
+      <div class="card p-5 text-center reveal"><div class="text-4xl font-black stat-glow mb-2">15%</div><p class="text-sm uppercase tracking-[0.18em] text-text-muted">Deliver & manage APIs</p></div>
+      <div class="card p-5 text-center reveal"><div class="text-4xl font-black stat-glow mb-2">7%</div><p class="text-sm uppercase tracking-[0.18em] text-text-muted">Monitor endpoints</p></div>
+      <div class="card p-5 text-center reveal"><div class="text-4xl font-black stat-glow mb-2">8%</div><p class="text-sm uppercase tracking-[0.18em] text-text-muted">Exchange e reuso</p></div>
+      <div class="card p-5 text-center reveal"><div class="text-4xl font-black stat-glow mb-2">30%</div><p class="text-sm uppercase tracking-[0.18em] text-text-muted">Peso combinado</p></div>
+    </div>
+    <div class="card exam-callout p-6 reveal"><p class="text-lg text-text-secondary">Na prática, dominar Anypoint significa entender como projetar, publicar, proteger, operar e observar APIs em um projeto de hyperautomation.</p></div>
+  </div>
+</div>
+
+<div class="slide" data-slide="3">
+  <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-70px;right:-80px;background:var(--color-accent-1);opacity:.09"></div><div class="blob" style="width:250px;height:250px;bottom:-55px;left:-25px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Definição</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3.2rem)] font-bold mb-8 reveal">O que a plataforma entrega</h2>
+    <div class="grid grid-cols-2 gap-8 items-center">
+      <div class="reveal">
+        <p class="text-xl text-text-secondary leading-relaxed mb-5">A Anypoint Platform funciona como o hub central do ecossistema MuleSoft e como a infraestrutura da Application Network.</p>
+        <p class="text-lg text-text-secondary leading-relaxed">Ela conecta sistemas, integrações e automações, permitindo que Flow, Composer, RPA e Mule apps compartilhem APIs e assets governados.</p>
+      </div>
+      <div class="card p-8 reveal">
+        <div class="text-7xl mb-5">🧠</div>
+        <h3 class="text-2xl font-semibold mb-4">Backbone técnico</h3>
+        <ul class="space-y-3 text-text-secondary text-lg">
+          <li>Integração centralizada.</li>
+          <li>Governança e segurança aplicadas de forma consistente.</li>
+          <li>Reuso como princípio arquitetural, não como exceção.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="4">
+  <div class="gradient-mesh"><div class="blob" style="width:330px;height:330px;top:-80px;right:-75px;background:var(--color-accent-3);opacity:.09"></div><div class="blob" style="width:260px;height:260px;bottom:-60px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Componentes</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3.1rem)] font-bold mb-8 reveal">Peças principais do ecossistema</h2>
+    <div class="grid grid-cols-3 gap-5">
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">✍️</div><h3 class="font-semibold mb-2">Design Center</h3><p class="text-sm text-text-secondary">Modelagem de APIs e especificações com abordagem API-first.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">📦</div><h3 class="font-semibold mb-2">Exchange</h3><p class="text-sm text-text-secondary">Catálogo para publicar, descobrir e reutilizar assets.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🛡️</div><h3 class="font-semibold mb-2">API Manager</h3><p class="text-sm text-text-secondary">Políticas, proxies e gestão do ciclo operacional das APIs.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🚀</div><h3 class="font-semibold mb-2">Runtime Manager</h3><p class="text-sm text-text-secondary">Deploy, administração e visibilidade dos runtimes.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">📈</div><h3 class="font-semibold mb-2">Monitoring</h3><p class="text-sm text-text-secondary">Métricas, dashboards, alertas e logs de apps e APIs.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🤖</div><h3 class="font-semibold mb-2">Composer e RPA</h3><p class="text-sm text-text-secondary">Automação para times de negócio e tarefas repetitivas.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="5">
+  <div class="gradient-mesh accent-grid"><div class="blob" style="width:430px;height:430px;top:-90px;right:-80px;background:var(--color-accent-1);opacity:.13"></div><div class="blob" style="width:280px;height:280px;bottom:-60px;left:-40px;background:var(--color-accent-2);opacity:.08"></div><div class="blob" style="width:180px;height:180px;top:52%;left:18%;background:var(--color-accent-3);opacity:.08"></div></div>
+  <canvas class="particle-canvas-ambient"></canvas>
+  <div class="content text-center">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-4 reveal">Arquitetura</p>
+    <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.7rem)] font-bold mb-8 reveal">API-led connectivity</h2>
+    <div class="grid grid-cols-3 gap-6 mb-6">
+      <div class="card p-8 reveal"><div class="chip mb-4">Camada 1</div><h3 class="text-2xl font-semibold mb-3">System APIs</h3><p class="text-text-secondary">Conectam aos sistemas de record e isolam consumidores das mudanças do backend.</p></div>
+      <div class="card p-8 reveal"><div class="chip mb-4">Camada 2</div><h3 class="text-2xl font-semibold mb-3">Process APIs</h3><p class="text-text-secondary">Orquestram múltiplas fontes e encapsulam lógica de negócio reutilizável.</p></div>
+      <div class="card p-8 reveal"><div class="chip mb-4">Camada 3</div><h3 class="text-2xl font-semibold mb-3">Experience APIs</h3><p class="text-text-secondary">Adaptam a entrega para cada canal, consumidor ou jornada.</p></div>
+    </div>
+    <div class="card exam-callout p-6 reveal"><p class="text-lg text-text-secondary">Ponto-chave: quando vários projetos usam o mesmo sistema, a System API é reutilizada em vez de recriada, aumentando padronização e velocity.</p></div>
+  </div>
+</div>
+
+<div class="slide" data-slide="6">
+  <div class="gradient-mesh"><div class="blob" style="width:330px;height:330px;top:-70px;right:-70px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:240px;height:240px;bottom:-50px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Reuso</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">Composable building blocks</h2>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-8 reveal">
+        <h3 class="text-2xl font-semibold mb-4">O que são</h3>
+        <ul class="space-y-3 text-text-secondary text-lg">
+          <li>APIs, specs e templates pensados para reaproveitamento.</li>
+          <li>Blocos intercambiáveis que reduzem integrações ponto a ponto.</li>
+          <li>Base para soluções montadas por composição.</li>
+        </ul>
+      </div>
+      <div class="card p-8 reveal">
+        <h3 class="text-2xl font-semibold mb-4">Como aparecem na prova</h3>
+        <ul class="space-y-3 text-text-secondary text-lg">
+          <li>Assets publicados no Exchange viram insumos para novos projetos.</li>
+          <li>Flow, Composer, RPA e Mule apps podem consumir a mesma base de APIs.</li>
+          <li>Reuso é tratado como ganho de arquitetura e entrega.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="7">
+  <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-80px;right:-75px;background:var(--color-accent-1);opacity:.09"></div><div class="blob" style="width:250px;height:250px;bottom:-60px;left:-35px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Deploy</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3.1rem)] font-bold mb-8 reveal">Qual modelo escolher</h2>
+    <div class="grid grid-cols-3 gap-6">
+      <div class="card p-7 reveal"><div class="text-3xl mb-3">☁️</div><h3 class="text-2xl font-semibold mb-3">CloudHub</h3><p class="text-text-secondary">Ideal para simplicidade, velocidade de entrega e operação gerenciada.</p></div>
+      <div class="card p-7 reveal"><div class="text-3xl mb-3">🧩</div><h3 class="text-2xl font-semibold mb-3">Runtime Fabric</h3><p class="text-text-secondary">Melhor quando compliance, soberania de dados e controle do ambiente são decisivos.</p></div>
+      <div class="card p-7 reveal"><div class="text-3xl mb-3">🏢</div><h3 class="text-2xl font-semibold mb-3">Hybrid</h3><p class="text-text-secondary">Boa escolha para manter runtimes on-premises com gerenciamento centralizado.</p></div>
+    </div>
+    <div class="grid grid-cols-3 gap-5 mt-6 reveal">
+      <div><p class="text-sm uppercase tracking-[0.18em] text-text-muted mb-2">Simplicidade</p><div class="bar-track"><div class="bar-fill" data-width="92"></div></div></div>
+      <div><p class="text-sm uppercase tracking-[0.18em] text-text-muted mb-2">Controle</p><div class="bar-track"><div class="bar-fill" data-width="83"></div></div></div>
+      <div><p class="text-sm uppercase tracking-[0.18em] text-text-muted mb-2">Compliance</p><div class="bar-track"><div class="bar-fill" data-width="88"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="8">
+  <div class="gradient-mesh"><div class="blob" style="width:350px;height:350px;top:-80px;right:-70px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:250px;height:250px;bottom:-50px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">API Manager</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">Basic endpoint vs proxy endpoint</h2>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-8 reveal">
+        <h3 class="text-2xl font-semibold mb-4">Basic endpoint</h3>
+        <ul class="space-y-3 text-text-secondary text-lg">
+          <li>Gerencia a API diretamente.</li>
+          <li>Define a inbound URL monitorada no API Manager.</li>
+          <li>Útil quando a integração já está preparada para gestão direta.</li>
+        </ul>
+      </div>
+      <div class="card p-8 reveal">
+        <h3 class="text-2xl font-semibold mb-4">Proxy endpoint</h3>
+        <ul class="space-y-3 text-text-secondary text-lg">
+          <li>Insere um intermediário entre cliente e backend.</li>
+          <li>Aplica policies antes de encaminhar a chamada.</li>
+          <li>Pode proteger backends Mule ou não Mule.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card exam-callout p-6 mt-6 reveal"><p class="text-lg text-text-secondary">Na prova, a distinção mais importante é reconhecer quando o proxy é necessário para centralizar políticas e governança sem alterar o backend.</p></div>
+  </div>
+</div>
+
+<div class="slide" data-slide="9">
+  <div class="gradient-mesh"><div class="blob" style="width:340px;height:340px;top:-80px;right:-80px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:250px;height:250px;bottom:-50px;left:-35px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Policies</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">O que as políticas resolvem</h2>
+    <div class="grid grid-cols-4 gap-5">
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🔐</div><h3 class="font-semibold mb-2">Segurança</h3><p class="text-sm text-text-secondary">OAuth 2.0, JWT, Basic Auth, Client ID Enforcement.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🚦</div><h3 class="font-semibold mb-2">Tráfego</h3><p class="text-sm text-text-secondary">Rate limiting, throttling e SLA-based.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">🌐</div><h3 class="font-semibold mb-2">Acesso</h3><p class="text-sm text-text-secondary">IP allowlist e blocklist por origem.</p></div>
+      <div class="card p-5 reveal"><div class="text-3xl mb-2">⚙️</div><h3 class="font-semibold mb-2">Qualidade</h3><p class="text-sm text-text-secondary">Caching, timeout e custom policies.</p></div>
+    </div>
+    <div class="grid grid-cols-2 gap-6 mt-6">
+      <div class="card p-6 reveal"><h3 class="font-semibold text-xl mb-2">Execução</h3><p class="text-text-secondary">As policies são configuradas no API Manager, mas executadas internamente no proxy ou app.</p></div>
+      <div class="card p-6 reveal"><h3 class="font-semibold text-xl mb-2">Governança</h3><p class="text-text-secondary">Mudanças podem ser distribuídas sem redeploy; automated policies reforçam padrão por ambiente.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="10">
+  <div class="gradient-mesh"><div class="blob" style="width:420px;height:420px;top:-100px;right:-80px;background:var(--color-accent-2);opacity:.12"></div><div class="blob" style="width:270px;height:270px;bottom:-70px;left:-40px;background:var(--color-accent-1);opacity:.09"></div></div>
+  <canvas class="particle-canvas"></canvas>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Monitoring</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3.1rem)] font-bold mb-8 reveal">Observabilidade de ponta a ponta</h2>
+    <div class="grid grid-cols-3 gap-6 mb-6">
+      <div class="card p-6 text-center reveal"><div class="text-5xl font-black stat-glow mb-2">Apps</div><p class="text-text-secondary">Overview, tráfego, performance, failures, JVM e infraestrutura.</p></div>
+      <div class="card p-6 text-center reveal"><div class="text-5xl font-black stat-glow mb-2">APIs</div><p class="text-text-secondary">Dashboards de uso e performance quando o Autodiscovery está ativo.</p></div>
+      <div class="card p-6 text-center reveal"><div class="text-5xl font-black stat-glow mb-2">Logs</div><p class="text-text-secondary">Log tailing em todos os planos; recursos avançados variam por licenciamento.</p></div>
+    </div>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-6 reveal"><h3 class="font-semibold text-xl mb-2">Alertas</h3><p class="text-text-secondary">Thresholds são verificados a cada 5 minutos e disparam quando o estado muda.</p></div>
+      <div class="card exam-callout p-6 reveal"><h3 class="font-semibold text-xl mb-2">Ponto de prova</h3><p class="text-text-secondary">Sem API Autodiscovery na aplicação Mule, as métricas de API não aparecem corretamente no Monitoring.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="11">
+  <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-80px;right:-75px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:250px;height:250px;bottom:-55px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Exchange</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">Onde o reuso vira prática</h2>
+    <div class="grid grid-cols-3 gap-5">
+      <div class="card p-6 reveal"><h3 class="font-semibold text-lg mb-2">Assets</h3><p class="text-text-secondary">RAML, OAS, AsyncAPI, SOAP, GraphQL, connectors, templates, examples, policies e mais.</p></div>
+      <div class="card p-6 reveal"><h3 class="font-semibold text-lg mb-2">Publicação</h3><p class="text-text-secondary">UI, Studio, CLI, REST API, Maven Facade e Code Builder.</p></div>
+      <div class="card p-6 reveal"><h3 class="font-semibold text-lg mb-2">Governança</h3><p class="text-text-secondary">Catálogo central para descoberta, padronização e aceleração de times.</p></div>
+    </div>
+    <div class="card exam-callout p-6 mt-6 reveal"><p class="text-lg text-text-secondary">Ponto importante: o Exchange pode gerar automaticamente a versão correspondente entre RAML e OAS para assets compatíveis publicados após 2019.</p></div>
+  </div>
+</div>
+
+<div class="slide" data-slide="12">
+  <div class="gradient-mesh"><div class="blob" style="width:340px;height:340px;top:-70px;right:-80px;background:var(--color-accent-3);opacity:.08"></div><div class="blob" style="width:260px;height:260px;bottom:-60px;left:-30px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Visibilidade</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">Private vs Public Portal</h2>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-8 reveal"><h3 class="text-2xl font-semibold mb-4">Private Portal</h3><ul class="space-y-3 text-text-secondary text-lg"><li>Visível apenas dentro da organização.</li><li>Mais alinhado a APIs internas e dados sensíveis.</li><li>Base da Application Network interna.</li></ul></div>
+      <div class="card p-8 reveal"><h3 class="text-2xl font-semibold mb-4">Public Portal</h3><ul class="space-y-3 text-text-secondary text-lg"><li>Exposição controlada para parceiros e terceiros.</li><li>Amplia a rede de integração para fora da empresa.</li><li>Exige governança forte e uso correto de policies.</li></ul></div>
+    </div>
+    <div class="card p-6 mt-6 reveal"><p class="text-lg text-text-secondary">Regra mental útil: System APIs tendem a ser private; Process APIs geralmente também; Experience APIs podem ser public quando há integração externa.</p></div>
+  </div>
+</div>
+
+<div class="slide" data-slide="13">
+  <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-80px;right:-80px;background:var(--color-accent-1);opacity:.08"></div><div class="blob" style="width:250px;height:250px;bottom:-55px;left:-25px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Fluxo</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">Jornada típica dentro da plataforma</h2>
+    <div class="relative pl-12">
+      <div class="timeline-line"></div>
+      <div class="grid gap-5">
+        <div class="card p-5 reveal"><div class="flex gap-4 items-start"><div class="timeline-dot"></div><div><h3 class="font-semibold text-xl mb-1">1. Desenhar</h3><p class="text-text-secondary">Definir o contrato da API e a arquitetura desejada.</p></div></div></div>
+        <div class="card p-5 reveal"><div class="flex gap-4 items-start"><div class="timeline-dot"></div><div><h3 class="font-semibold text-xl mb-1">2. Publicar</h3><p class="text-text-secondary">Disponibilizar o asset no Exchange para descoberta e reuso.</p></div></div></div>
+        <div class="card p-5 reveal"><div class="flex gap-4 items-start"><div class="timeline-dot"></div><div><h3 class="font-semibold text-xl mb-1">3. Proteger</h3><p class="text-text-secondary">Aplicar políticas e configurar governança no API Manager.</p></div></div></div>
+        <div class="card p-5 reveal"><div class="flex gap-4 items-start"><div class="timeline-dot"></div><div><h3 class="font-semibold text-xl mb-1">4. Executar</h3><p class="text-text-secondary">Fazer deploy no runtime mais adequado ao cenário.</p></div></div></div>
+        <div class="card p-5 reveal"><div class="flex gap-4 items-start"><div class="timeline-dot"></div><div><h3 class="font-semibold text-xl mb-1">5. Monitorar</h3><p class="text-text-secondary">Acompanhar métricas, falhas, logs e saúde operacional.</p></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="14">
+  <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-70px;right:-80px;background:var(--color-accent-1);opacity:.09"></div><div class="blob" style="width:260px;height:260px;bottom:-50px;left:-35px;background:var(--color-accent-2);opacity:.06"></div></div>
+  <div class="content">
+    <p class="uppercase tracking-[0.35em] text-text-muted text-sm mb-3 reveal">Memorização</p>
+    <h2 class="font-display text-[clamp(2rem,4vw,3rem)] font-bold mb-8 reveal">O que vale lembrar para a certificação</h2>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-8 reveal"><h3 class="text-2xl font-semibold mb-4">Perguntas recorrentes</h3><ul class="space-y-3 text-text-secondary text-lg"><li>Quando usar CloudHub, RTF ou hybrid.</li><li>Diferença entre basic endpoint e proxy endpoint.</li><li>Como o Exchange sustenta reuso e governança.</li></ul></div>
+      <div class="card p-8 reveal"><h3 class="text-2xl font-semibold mb-4">Armadilhas comuns</h3><ul class="space-y-3 text-text-secondary text-lg"><li>Confundir visibilidade pública com boa prática universal.</li><li>Esquecer que policies não exigem mudança de código.</li><li>Ignorar que API Monitoring depende de Autodiscovery.</li></ul></div>
+    </div>
+  </div>
+</div>
+
+<div class="slide" data-slide="15">
+  <div class="gradient-mesh"><div class="blob" style="width:430px;height:430px;top:-100px;right:-80px;background:var(--color-accent-1);opacity:.15"></div><div class="blob" style="width:320px;height:320px;bottom:-80px;left:-60px;background:var(--color-accent-2);opacity:.12"></div><div class="blob" style="width:220px;height:220px;top:45%;left:15%;background:var(--color-accent-3);opacity:.1"></div></div>
+  <canvas class="particle-canvas"></canvas>
+  <div class="content text-center">
+    <div class="text-[112px] mb-4 animate-[float_3s_ease-in-out_infinite] reveal">⚡</div>
+    <p class="uppercase tracking-[0.4em] text-text-muted text-sm mb-5 reveal">Síntese final</p>
+    <h2 class="font-display text-[clamp(2.5rem,5vw,4.3rem)] font-bold bg-linear-to-br from-accent-1 via-accent-2 to-accent-1 bg-clip-text text-transparent mb-4 reveal">Anypoint é integração com governança</h2>
+    <p class="text-[clamp(1rem,1.8vw,1.3rem)] text-text-secondary max-w-4xl mx-auto reveal">A plataforma organiza o ciclo completo de APIs: design, publicação, proteção, execução, monitoramento e reuso. É isso que a torna central em hyperautomation e tão relevante na certificação.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="nav-controls" aria-label="Controles de navegação">
+  <button class="nav-btn" onclick="changeSlide(-1)" aria-label="Slide anterior">&#8249;</button>
+  <div class="slide-dots" id="dots"></div>
+  <button class="nav-btn" onclick="changeSlide(1)" aria-label="Próximo slide">&#8250;</button>
+  <span class="slide-counter" id="counter">1 / 15</span>
+</div>
+
+<script>
+let current = 1;
+const total = document.querySelectorAll('.slide').length;
+const dotsContainer = document.getElementById('dots');
+const counter = document.getElementById('counter');
+for (let i = 1; i <= total; i++) { const dot = document.createElement('div'); dot.className = 'dot' + (i === 1 ? ' active' : ''); dot.onclick = () => goToSlide(i); dotsContainer.appendChild(dot); }
+function goToSlide(n) { const prev = document.querySelector('.slide.active'); const next = document.querySelector(`.slide[data-slide="${n}"]`); if (prev) prev.classList.remove('active'); if (next) { next.classList.add('active'); animateSlide(next); } current = n; updateNav(); }
+function changeSlide(dir) { let next = current + dir; if (next < 1) next = total; if (next > total) next = 1; goToSlide(next); }
+function updateNav() { document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i + 1 === current)); counter.textContent = current + ' / ' + total; }
+document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); changeSlide(1); } if (e.key === 'ArrowLeft') { e.preventDefault(); changeSlide(-1); } });
+let touchStartX = 0;
+document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', (e) => { const diff = touchStartX - e.changedTouches[0].clientX; if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1); });
+function animateSlide(slide) { slide.querySelectorAll('.reveal').forEach((el, i) => { el.style.transition = 'none'; el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.offsetHeight; const delay = i * 0.08; el.style.transition = `opacity 0.35s ease ${delay}s, transform 0.35s ease ${delay}s`; el.style.opacity = '1'; el.style.transform = 'translateY(0px)'; }); animateSlideEffects(slide); }
+function animateSlideEffects(slide) { slide.querySelectorAll('.bar-fill:not(.fill-init)').forEach((bar, i) => { bar.classList.add('fill-init'); bar.style.width = '0%'; bar.style.transition = `width 0.6s ease ${i * 0.08}s`; bar.offsetHeight; bar.style.width = bar.dataset.width + '%'; }); }
+document.addEventListener('mousemove', (e) => { const spotlight = document.querySelector('.mouse-spotlight'); if (spotlight) { const rgb = getComputedStyle(document.documentElement).getPropertyValue('--glow-color-rgb').trim() || '124,58,237'; spotlight.style.background = `radial-gradient(620px circle at ${e.clientX}px ${e.clientY}px, rgba(${rgb}, 0.06), transparent 40%)`; } });
+window.initParticles = function(canvas, options) { if (!canvas) return; const ctx = canvas.getContext('2d'); canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; const interactive = options.interactive !== false; const count = options.count || (interactive ? 55 : 18); let mx = -1000, my = -1000; const rgb = getComputedStyle(document.documentElement).getPropertyValue('--glow-color-rgb').trim() || '124,58,237'; const [r,g,b] = rgb.split(',').map(Number); const particles = Array.from({ length: count }, () => ({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, vx:(Math.random()-.5)*.3, vy:(Math.random()-.5)*.3, size:Math.random()*2.5+.8, alpha:Math.random()*.35+.1 })); if (interactive) { canvas.addEventListener('mousemove', (e) => { const rect = canvas.getBoundingClientRect(); mx = e.clientX - rect.left; my = e.clientY - rect.top; }); canvas.addEventListener('mouseleave', () => { mx = -1000; my = -1000; }); } (function animate(){ ctx.clearRect(0,0,canvas.width,canvas.height); particles.forEach(p => { if (interactive) { const dx = p.x - mx, dy = p.y - my, dist = Math.sqrt(dx*dx + dy*dy) || 1; if (dist < 120) { const force = (120 - dist) / 120 * 2; p.vx += (dx / dist) * force * .1; p.vy += (dy / dist) * force * .1; } } p.vx *= .98; p.vy *= .98; p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x,p.y,p.size,0,Math.PI*2); ctx.fillStyle = `rgba(${r},${g},${b},${p.alpha})`; ctx.fill(); }); requestAnimationFrame(animate); })(); };
+document.querySelectorAll('.particle-canvas').forEach(c => window.initParticles(c, { interactive: true, count: 55 }));
+document.querySelectorAll('.particle-canvas-ambient').forEach(c => window.initParticles(c, { interactive: false, count: 18 }));
+try { animateSlide(document.querySelector('.slide.active')); } catch(e) {}
+</script>
+</body>
+</html>
