@@ -1,6 +1,6 @@
 # 🏗️ Trilha: Análise de Requisitos de Software
 
-## **O que é esta trilha?** 
+## 🫆 O que é esta trilha?
 Esta trilha foi desenhada para ser o elo entre a concepção de negócio e a execução técnica. Ela é voltada para quem deseja dominar o ciclo de vida do software, sendo essencial para Analistas (Requisitos, Negócio, Teste) e Desenvolvedores que buscam excelência na entrega de valor.
 
 ## 📂 Foco por Perfil (Visão 360°)
@@ -9,36 +9,27 @@ Esta trilha foi desenhada para ser o elo entre a concepção de negócio e a exe
 * **Desenvolvedor**: Foco em entender a arquitetura funcional, critérios de aceitação e regras de negócio antes de codar.
 * **Analista de Teste (QA)**: Foco na Definition of Done (DoD), requisitos não funcionais e validação de critérios de aceite.
 
----
+## 📚 Como?
 
-## 📚 Fases de Maturidade
+- [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
+- [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
+- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
+- [ ] Fazer um Simulado por dia: scrum ou PO
+- [ ] Fazer CHECKUP na trilha oficial.
 
-### 🔹 Fase 1: Elicitação e Escrita Técnica
-O objetivo é transformar necessidades em especificações que o time entenda sem ambiguidade.
-* **Histórias de Usuário (HU)**: Utilizar o padrão **INVEST** para garantir que os itens sejam independentes e testáveis.
-* **Critérios de Aceitação**: Definir o "contrato" de entrega que guia o desenvolvimento e o teste.
-* **Escrita Executiva**: Adaptar a documentação para clientes e times técnicos, reduzindo termos vagos.
+## 🫱🏼‍🫲🏾 Sentimento
 
-### 🔹 Fase 2: Arquitetura Funcional e Processos
-Entender como o sistema se comporta estruturalmente para evitar falhas de integração.
-* **Modelagem BPMN**: Mapear fluxos **AS-IS** e **TO-BE** para identificar gargalos e pontos de automação.
-* **Arquitetura de Sistemas**: Visão funcional das camadas (Front, Back, BD) e integrações via APIs.
-* **Modelagem de Dados**: Entender entidades, relacionamentos e o impacto de alterações estruturais em filtros e relatórios.
+Os sentimentos podem se resumido em **Empatia**, **Clareza** e **Rastreabilidade**.
 
-### 🔹 Fase 3: Agilidade e Gestão de Valor
-Garantir que o incremento gerado seja utilizável e atenda à qualidade esperada.
-* **Definition of Done (DoD)**: Critério inegociável de qualidade que impede o acúmulo de débito técnico.
-* **Refinamento Contínuo**: Colaboração entre PO e Developers para preparar itens para a Planning.
-* **Métricas de Fluxo**: Monitorar Lead Time e Cycle Time para garantir previsibilidade e eficiência.
-
----
-
-## 🛠️ Operação Zello (Businessmap Mastery)
-Domínio da ferramenta para garantir a rastreabilidade do trabalho.
-
-* **Hierarquia Estratégica**: Cliente → OS → Atividades (Cards).
-* **Separação de OS**: Distinguir **OS de Concepção** (Análise/Requisitos) de **OS de Execução** (Dev/QA).
-* **Tipos de Cards**: Uso correto de `Sub-task` (atividade), `Defect` (homologação) e `Bug` (produção).
+### Empatia
+  Ponte entre Negócio e TI: Traduzir as necessidades do cliente em especificações lógicas, claras e acionáveis para o time de engenharia.
+  
+### Clareza
+  Rigor Técnico e Qualidade: Garantir clareza nos critérios de aceitação e regras de negócio para eliminar retrabalho e bugs.
+  
+### Rastreabilidade
+  Foco em Valor e Rastreabilidade: Maximizar o valor entregue ao usuário final, orquestrando o fluxo do requisito até o card na ferramenta.
+  
 
 ---
 
