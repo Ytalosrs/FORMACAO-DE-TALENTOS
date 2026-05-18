@@ -1,6 +1,7 @@
-# 🏗️ Trilha: Engenharia de Sistemas e Qualidade Integrada
+# 🏗️ Trilha: Análise de Requisitos de Software
 
-**O que é esta trilha?** Esta trilha foi desenhada para ser o elo entre a concepção de negócio e a execução técnica. Ela é voltada para quem deseja dominar o ciclo de vida do software, sendo essencial para Analistas (Requisitos, Negócio, Teste) e Desenvolvedores que buscam excelência na entrega de valor.
+## **O que é esta trilha?** 
+Esta trilha foi desenhada para ser o elo entre a concepção de negócio e a execução técnica. Ela é voltada para quem deseja dominar o ciclo de vida do software, sendo essencial para Analistas (Requisitos, Negócio, Teste) e Desenvolvedores que buscam excelência na entrega de valor.
 
 ## 📂 Foco por Perfil (Visão 360°)
 
