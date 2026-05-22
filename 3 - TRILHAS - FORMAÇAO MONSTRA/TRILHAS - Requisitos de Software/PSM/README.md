@@ -1,6 +1,6 @@
-### (Professional Scrum Master I)
+## Professional Scrum Master I
 
-O exame da Scrum.org é estritamente baseado na versão mais recente do **Scrum Guide (2020)**. Abaixo está o detalhamento estrutural da prova e dos tópicos exigidos:
+O exame da Scrum.org é estritamente baseado na versão mais recente do [**Scrum Guide (2020)**](https://scrumguides.org/index.html). Abaixo está o detalhamento estrutural da prova e dos tópicos exigidos:
 
 **Estrutura do Exame**
 
@@ -8,6 +8,10 @@ O exame da Scrum.org é estritamente baseado na versão mais recente do **Scrum 
 - **Tempo:** 60 minutos.
 - **Pontuação para aprovação:** 85% (no mínimo 68 acertos).
 - **Idioma:** Inglês (mas o estudo deve focar nos termos originais para evitar confusão de tradução).
+
+**Links Úteis**
+- [Playlist PSM I](https://www.youtube.com/playlist?list=PL7NDvV6PnYOCueKbHtNOZ67GHHAb6dDMZ)
+- [Anotações no Notion](https://www.notion.so/PSPO-I-2f55e93ec2d680d29f45f2cac3ce5092?source=copy_link)
 
 ### Áreas de Foco (Syllabus)
 
