@@ -1,0 +1,1817 @@
+{
+  "title": "Simulado PSPO I (80 Questões)",
+  "totalQuestions": 80,
+  "timeLimitMinutes": 60,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "De quem é a responsabilidade final por maximizar o valor do produto resultante do trabalho do Scrum Team?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner",
+          "isCorrect": true,
+          "rationale": "O Product Owner é o único responsável por maximizar o valor do produto resultante do trabalho do time Scrum."
+        },
+        {
+          "text": "Os Developers",
+          "isCorrect": false,
+          "rationale": "Os Developers são responsáveis por criar incrementos usáveis, não pela direção estratégica de valor."
+        },
+        {
+          "text": "O Scrum Master",
+          "isCorrect": false,
+          "rationale": "O Scrum Master garante a eficácia do time e do processo Scrum, mas não gere o valor do produto diretamente."
+        },
+        {
+          "text": "O Sponsor ou Diretor de Produto",
+          "isCorrect": false,
+          "rationale": "Embora influenciem, a responsabilidade final de accountability segundo o Scrum Guide é do Product Owner."
+        }
+      ],
+      "hint": "Este papel atua como o principal tomador de decisão sobre o que traz maior retorno para o negócio."
+    },
+    {
+      "questionNumber": 2,
+      "question": "O Product Owner pode delegar a responsabilidade da criação e gestão física de itens do Product Backlog a terceiros?",
+      "answerOptions": [
+        {
+          "text": "Sim, ele pode delegar o trabalho de escrita, mas continua responsável pelo resultado e pela ordenação final.",
+          "isCorrect": true,
+          "rationale": "O Product Owner pode delegar a execução de tarefas do Backlog, mas a responsabilidade (accountability) final permanece dele."
+        },
+        {
+          "text": "Não, o Product Owner deve digitar e manter pessoalmente cada item do Product Backlog.",
+          "isCorrect": false,
+          "rationale": "O Scrum permite a delegação para incentivar a colaboração e eficiência."
+        },
+        {
+          "text": "Sim, e ao delegar, ele também transfere a responsabilidade jurídica e operacional pelas decisões.",
+          "isCorrect": false,
+          "rationale": "A responsabilidade final (accountability) pelas decisões sobre o backlog nunca é transferida."
+        },
+        {
+          "text": "Não, apenas os Developers podem escrever itens de backlog para garantir o alinhamento técnico.",
+          "isCorrect": false,
+          "rationale": "Qualquer membro pode ajudar, mas o PO é o responsável final pelo conteúdo."
+        }
+      ],
+      "hint": "Diferencie a delegação da execução da delegação da responsabilidade final."
+    },
+    {
+      "questionNumber": 3,
+      "question": "Qual é o compromisso associado ao Product Backlog no Scrum?",
+      "answerOptions": [
+        {
+          "text": "O Product Goal (Meta do Produto)",
+          "isCorrect": true,
+          "rationale": "O Product Goal é o compromisso atrelado ao Product Backlog, fornecendo foco de longo prazo."
+        },
+        {
+          "text": "A Sprint Goal (Meta da Sprint)",
+          "isCorrect": false,
+          "rationale": "A Sprint Goal é o compromisso associado ao Sprint Backlog."
+        },
+        {
+          "text": "A Definition of Done (Definição de Pronto)",
+          "isCorrect": false,
+          "rationale": "A Definition of Done é o compromisso associado ao Incremento do Produto."
+        },
+        {
+          "text": "O Plano de Release",
+          "isCorrect": false,
+          "rationale": "Planos de release não são compromissos oficiais definidos pelo Scrum Guide."
+        }
+      ],
+      "hint": "Busque o compromisso de longo prazo que dá direção ao Backlog."
+    },
+    {
+      "questionNumber": 4,
+      "question": "Julgue a afirmação: O Scrum Team não possui sub-times ou hierarquias internas.",
+      "answerOptions": [
+        {
+          "text": "Verdadeiro",
+          "isCorrect": true,
+          "rationale": "O Scrum Team é uma unidade coesa de profissionais focada em um objetivo, sem divisões ou distinções hierárquicas."
+        },
+        {
+          "text": "Falso",
+          "isCorrect": false,
+          "rationale": "O Scrum desencoraja hierarquias internas para manter a colaboração e o autogerenciamento."
+        }
+      ],
+      "hint": "Pense no conceito de unidade coesa e colaborativa introduzido pelo Scrum."
+    },
+    {
+      "questionNumber": 5,
+      "question": "Quem tem a autoridade exclusiva para cancelar uma Sprint antes do término do seu Timebox?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner",
+          "isCorrect": true,
+          "rationale": "Apenas o Product Owner tem a autoridade para cancelar a Sprint se a Meta da Sprint se tornar obsoleta."
+        },
+        {
+          "text": "O Scrum Master",
+          "isCorrect": false,
+          "rationale": "O Scrum Master orienta o processo, mas não tem poder de veto sobre o cancelamento da Sprint."
+        },
+        {
+          "text": "Os Developers através de consenso",
+          "isCorrect": false,
+          "rationale": "Os Developers gerenciam seu próprio trabalho, mas a viabilidade de negócio e cancelamento cabe ao PO."
+        },
+        {
+          "text": "O CEO da empresa ou Stakeholder principal",
+          "isCorrect": false,
+          "rationale": "Pessoas externas não possuem autoridade direta no cancelamento de eventos internos do time Scrum."
+        }
+      ],
+      "hint": "Quem é o responsável por decidir se o investimento contínuo naquela Sprint ainda faz sentido econômico?"
+    },
+    {
+      "questionNumber": 6,
+      "question": "Como os Developers e o Product Owner colaboram em relação ao 'como' o trabalho será feito?",
+      "answerOptions": [
+        {
+          "text": "Os Developers decidem de forma autônoma como transformar itens do Backlog em Incrementos, pois são autogerenciáveis.",
+          "isCorrect": true,
+          "rationale": "Ninguém diz aos Developers como fazer o seu trabalho técnico; eles são autogerenciáveis para esse fim."
+        },
+        {
+          "text": "O Product Owner define a arquitetura técnica e o design que os Developers devem seguir estritamente.",
+          "isCorrect": false,
+          "rationale": "O PO foca na especificação de valor e prioridades, não no desenho técnico da solução."
+        },
+        {
+          "text": "O Scrum Master define a alocação de tarefas para cada programador baseando-se em sua especialidade.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não gerencia pessoas nem distribui tarefas técnicas."
+        },
+        {
+          "text": "O Product Owner e os Developers dividem a atribuição das tarefas técnicas de forma igualitária.",
+          "isCorrect": false,
+          "rationale": "Os Developers gerenciam sozinhos o seu plano de trabalho no Sprint Backlog."
+        }
+      ],
+      "hint": "Pense na separação clássica entre 'O que fazer' (Negócio) e 'Como fazer' (Técnico)."
+    },
+    {
+      "questionNumber": 7,
+      "question": "A Sprint Review é uma reunião em que o Product Owner avalia se aceita ou rejeita o trabalho dos Developers. Essa afirmação é:",
+      "answerOptions": [
+        {
+          "text": "Falsa. A Sprint Review é um evento colaborativo de inspeção e adaptação onde o time e stakeholders avaliam o incremento e adaptam o backlog.",
+          "isCorrect": true,
+          "rationale": "A Review é uma sessão de trabalho para inspecionar o incremento e obter feedback, não uma reunião de aprovação unilateral de fase (gate)."
+        },
+        {
+          "text": "Verdadeira. O Product Owner atua como um inspetor de qualidade que assina os termos de aceite durante o evento.",
+          "isCorrect": false,
+          "rationale": "A validação da qualidade deve ocorrer continuamente com base na Definição de Pronto, não apenas na Review."
+        }
+      ],
+      "hint": "Qual é a essência do empirismo e colaboração no evento final da Sprint?"
+    },
+    {
+      "questionNumber": 8,
+      "question": "O refinamento do Product Backlog é uma atividade contínua. Quem participa ativamente dessa atividade?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner e os Developers.",
+          "isCorrect": true,
+          "rationale": "O refinamento é o ato de quebrar e detalhar itens do Backlog, um esforço conjunto entre o PO e os Developers."
+        },
+        {
+          "text": "Exclusivamente os Stakeholders externos.",
+          "isCorrect": false,
+          "rationale": "Stakeholders fornecem inputs, mas não refinam o backlog operacionalmente."
+        },
+        {
+          "text": "Apenas o Scrum Master e o Product Owner.",
+          "isCorrect": false,
+          "rationale": "Os Developers precisam participar para estimar e compreender os requisitos técnicos e de design."
+        },
+        {
+          "text": "Os Developers de forma isolada, gerando estimativas puras.",
+          "isCorrect": false,
+          "rationale": "Sem a presença do PO, as dúvidas de negócio não seriam sanadas durante o refinamento."
+        }
+      ],
+      "hint": "Quem precisa detalhar o conteúdo comercial e quem precisa estimar o esforço técnico?"
+    },
+    {
+      "questionNumber": 9,
+      "question": "Julgue a afirmação: O Product Owner deve garantir que os itens do Product Backlog sejam compreendidos por todos de forma transparente.",
+      "answerOptions": [
+        {
+          "text": "Verdadeiro",
+          "isCorrect": true,
+          "rationale": "O PO lidera o Product Backlog e deve torná-lo visível, transparente e compreendido pelos membros do time e interessados."
+        },
+        {
+          "text": "Falso",
+          "isCorrect": false,
+          "rationale": "A clareza do backlog é fundamental para o sucesso e um dos focos centrais do papel de Product Owner."
+        }
+      ],
+      "hint": "Lembre-se do papel do PO como catalisador da transparência sobre os requisitos do produto."
+    },
+    {
+      "questionNumber": 10,
+      "question": "De que maneira o Scrum Master serve ao Product Owner?",
+      "answerOptions": [
+        {
+          "text": "Ajudando a encontrar técnicas para a definição eficaz de metas e gestão do Product Backlog de forma empírica.",
+          "isCorrect": true,
+          "rationale": "O SM serve ao PO ensinando práticas ágeis e de planejamento de produtos que maximizam o valor empírico."
+        },
+        {
+          "text": "Gerenciando o cronograma do projeto e cobrando os Developers em nome do Product Owner.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não é um gerente de projetos tradicional nem cobra entregas."
+        },
+        {
+          "text": "Tomando as decisões de negócio difíceis quando o Product Owner estiver ausente.",
+          "isCorrect": false,
+          "rationale": "O PO é a única pessoa com accountability por decisões de negócio; o SM não o substitui nisso."
+        },
+        {
+          "text": "Escrevendo as histórias de usuário e especificações funcionais para poupar tempo do Product Owner.",
+          "isCorrect": false,
+          "rationale": "O SM facilita processos, mas não escreve requisitos ou tarefas do produto em substituição ao PO."
+        }
+      ],
+      "hint": "Como o Scrum Master atua como coach de agilidade para o Product Owner?"
+    },
+    {
+      "questionNumber": 11,
+      "question": "Quais membros do Scrum Team são estritamente obrigados a participar e conduzir a Daily Scrum?",
+      "answerOptions": [
+        {
+          "text": "Os Developers.",
+          "isCorrect": true,
+          "rationale": "A Daily Scrum é um evento de 15 minutos projetado para os Developers inspecionarem o progresso rumo à Sprint Goal."
+        },
+        {
+          "text": "O Product Owner e o Scrum Master.",
+          "isCorrect": false,
+          "rationale": "Eles não são obrigados a participar a menos que também atuem ativamente como Developers na Sprint."
+        },
+        {
+          "text": "Todo o Scrum Team de maneira idêntica.",
+          "isCorrect": false,
+          "rationale": "O evento é focado e desenhado especificamente para a auto-organização dos Developers."
+        },
+        {
+          "text": "O Scrum Master e o Gerente de Projeto.",
+          "isCorrect": false,
+          "rationale": "O papel de Gerente de Projeto não existe no Scrum e o SM não precisa estar presente para o evento ocorrer."
+        }
+      ],
+      "hint": "Quem é o dono das tarefas diárias e do plano de execução da Sprint."
+    },
+    {
+      "questionNumber": 12,
+      "question": "Quantas Metas do Produto (Product Goals) o Scrum Team pode focar de maneira ativa e simultânea?",
+      "answerOptions": [
+        {
+          "text": "Apenas uma meta por vez; o time deve atingir ou abandonar uma Meta do Produto antes de assumir a próxima.",
+          "isCorrect": true,
+          "rationale": "O Scrum Guide especifica que o Product Goal é um alvo de longo prazo para o time, exigindo foco sequencial (um de cada vez)."
+        },
+        {
+          "text": "Tantas quantas forem necessárias para atender aos diferentes departamentos da empresa.",
+          "isCorrect": false,
+          "rationale": "Ter múltiplas metas ativas destrói o foco e a transparência do progresso do produto."
+        },
+        {
+          "text": "No máximo duas: uma meta de inovação e outra de manutenção técnica.",
+          "isCorrect": false,
+          "rationale": "O foco é uma única meta abrangente de produto de cada vez."
+        },
+        {
+          "text": "Uma meta por desenvolvedor presente na equipe.",
+          "isCorrect": false,
+          "rationale": "A equipe atua de maneira integrada e unificada em um único Product Goal."
+        }
+      ],
+      "hint": "Lembre-se do valor do 'Foco' no Scrum para reduzir desperdício e complexidade."
+    },
+    {
+      "questionNumber": 13,
+      "question": "A liberação (release) de um Incremento para o ambiente de produção só pode acontecer imediatamente após a realização da Sprint Review?",
+      "answerOptions": [
+        {
+          "text": "Falso. Um incremento pode ser entregue aos usuários a qualquer momento, inclusive várias vezes durante a Sprint.",
+          "isCorrect": true,
+          "rationale": "A entrega de valor não é restrita aos limites de eventos. O feedback pode ser acelerado liberando o incremento quando estiver Pronto."
+        },
+        {
+          "text": "Verdadeiro. A Review serve como um comitê formal que autoriza as releases para produção.",
+          "isCorrect": false,
+          "rationale": "Vincular releases à Review retarda o feedback de mercado e limita a agilidade."
+        }
+      ],
+      "hint": "Pense se a entrega de valor deve esperar reuniões formais."
+    },
+    {
+      "questionNumber": 14,
+      "question": "Se três equipes Scrum distintas trabalham no desenvolvimento de um mesmo produto integrado, qual estrutura de backlogs e Product Owners é necessária?",
+      "answerOptions": [
+        {
+          "text": "Um único Product Backlog unificado e apenas um Product Owner.",
+          "isCorrect": true,
+          "rationale": "Para evitar silos de informação, inconsistência e problemas de valor, um produto sempre possui apenas um PO e um Backlog."
+        },
+        {
+          "text": "Três Product Backlogs separados coordenados por três Product Owners independentes.",
+          "isCorrect": false,
+          "rationale": "Essa estrutura causaria desintegração de valor e desalinhamento grave da visão geral."
+        },
+        {
+          "text": "Um único Product Backlog dividido em três, com um PO chefe e dois POs assistentes executivos.",
+          "isCorrect": false,
+          "rationale": "O Scrum não prevê sub-papéis ou hierarquias para o papel de Product Owner."
+        },
+        {
+          "text": "Três backlogs de sprint sob a liderança de um único Scrum Master unificado.",
+          "isCorrect": false,
+          "rationale": "A questão aborda a propriedade do produto (backlog global) e não o planejamento diário de cada equipe."
+        }
+      ],
+      "hint": "Como manter o alinhamento centralizado do produto em cenários de escala?"
+    },
+    {
+      "questionNumber": 15,
+      "question": "O Product Owner é dispensável e não deve comparecer ao evento de Sprint Retrospective.",
+      "answerOptions": [
+        {
+          "text": "Falso. O PO é um membro integral do Scrum Team e participa ativamente da Retrospectiva como tal.",
+          "isCorrect": true,
+          "rationale": "Como parte do Scrum Team, o PO ajuda a inspecionar processos, relacionamentos e ferramentas na busca de melhoria contínua."
+        },
+        {
+          "text": "Verdadeiro. O PO só trata de negócios e não tem relação com melhoria de processos do time.",
+          "isCorrect": false,
+          "rationale": "As decisões de negócio do PO também dependem de processos eficazes e relacionamentos saudáveis com o time."
+        }
+      ],
+      "hint": "Quem compõe o 'Scrum Team' segundo a definição oficial do framework?"
+    },
+    {
+      "questionNumber": 16,
+      "question": "Como a Definition of Done (Definição de Pronto) apoia o planejamento estratégico e a transparência do Product Owner?",
+      "answerOptions": [
+        {
+          "text": "Ela garante que todos saibam exatamente o nível de qualidade técnica atingido pelo incremento, permitindo previsões de entrega realistas.",
+          "isCorrect": true,
+          "rationale": "A DoD traz visibilidade sobre a completitude do trabalho, evitando que o PO divulgue ou planeje em cima de funcionalidades instáveis ou incompletas."
+        },
+        {
+          "text": "Ela dita as fórmulas matemáticas que o PO deve usar para estimar o retorno financeiro do projeto.",
+          "isCorrect": false,
+          "rationale": "A DoD trata de padrões de qualidade do desenvolvimento, não de retorno financeiro direto."
+        },
+        {
+          "text": "Ela permite que o PO mude as exigências de testes de última hora sem consultar os desenvolvedores.",
+          "isCorrect": false,
+          "rationale": "Mudanças arbitrárias na DoD violam a transparência e o acordo mútuo de qualidade de engenharia."
+        },
+        {
+          "text": "Ela isenta o Product Owner de testar o produto pessoalmente antes de cada liberação de versão.",
+          "isCorrect": false,
+          "rationale": "O PO não tem papel formal de testador de qualidade exclusivo definido pelo Scrum."
+        }
+      ],
+      "hint": "Busque a relação entre qualidade transparente e previsibilidade do produto."
+    },
+    {
+      "questionNumber": 17,
+      "question": "O Product Owner pode ser representado por um comitê de stakeholders para fins de tomadas de decisão rápidas na Sprint.",
+      "answerOptions": [
+        {
+          "text": "Falso. O Product Owner é uma única pessoa, embora possa representar os desejos de um comitê em suas decisões.",
+          "isCorrect": true,
+          "rationale": "Para garantir agilidade de tomada de decisão, o papel de PO deve residir em um indivíduo único, não em um comitê descentralizado."
+        },
+        {
+          "text": "Verdadeiro. Um grupo diversificado de decisões garante menos erros de negócio durante o desenvolvimento.",
+          "isCorrect": false,
+          "rationale": "Comitês de decisão costumam gerar lentidão e falta de clareza de accountability no desenvolvimento ágil."
+        }
+      ],
+      "hint": "Como o Scrum lida com gargalos de decisão e centralização de responsabilidade?"
+    },
+    {
+      "questionNumber": 18,
+      "question": "Quais elementos constituem a composição oficial do Sprint Backlog?",
+      "answerOptions": [
+        {
+          "text": "A Sprint Goal (Meta), os itens selecionados do Product Backlog e um plano de ação para entregar o Incremento.",
+          "isCorrect": true,
+          "rationale": "Esta tríade compõe o Sprint Backlog: Por que (Meta), O que (itens selecionados) e Como (plano de ação)."
+        },
+        {
+          "text": "Apenas as tarefas de desenvolvimento técnico estimadas em horas.",
+          "isCorrect": false,
+          "rationale": "Faltaria a meta orientadora e a conexão com o valor de negócio dos itens selecionados."
+        },
+        {
+          "text": "As histórias de usuário, os critérios de aceite e os casos de testes de regressão.",
+          "isCorrect": false,
+          "rationale": "Esses termos são práticas complementares, não a definição oficial descrita no Scrum Guide."
+        },
+        {
+          "text": "A lista de defeitos, o plano de arquitetura e o Product Goal associado.",
+          "isCorrect": false,
+          "rationale": "O Product Goal é compromisso do Product Backlog, não do Sprint Backlog."
+        }
+      ],
+      "hint": "O Sprint Backlog deve cobrir o Porquê, o Quê e o Como do trabalho da Sprint."
+    },
+    {
+      "questionNumber": 19,
+      "question": "Qual é a duração máxima regulamentar de uma Sprint segundo o Scrum Guide?",
+      "answerOptions": [
+        {
+          "text": "Um mês calendário ou menos.",
+          "isCorrect": true,
+          "rationale": "A Sprint deve ter duração fixa de um mês ou menos para manter o foco e reduzir o risco de desvio de direção."
+        },
+        {
+          "text": "Duas semanas consecutivas.",
+          "isCorrect": false,
+          "rationale": "Embora 2 semanas seja um padrão comum de mercado, o limite teórico regulamentar do guia é de um mês."
+        },
+        {
+          "text": "Seis semanas corridas.",
+          "isCorrect": false,
+          "rationale": "Seis semanas excede o limite estabelecido pelo Scrum Guide para controle de riscos complexos."
+        },
+        {
+          "text": "Variável, dependendo do tamanho das tarefas selecionadas pelo Product Owner.",
+          "isCorrect": false,
+          "rationale": "As Sprints têm duração fixa (timebox); não mudam conforme o escopo."
+        }
+      ],
+      "hint": "Busque o limite máximo de tempo aceito para manter o empirismo ágil."
+    },
+    {
+      "questionNumber": 20,
+      "question": "O Scrum Master deve atuar como intermediário obrigatório de comunicação entre o Product Owner e os Developers?",
+      "answerOptions": [
+        {
+          "text": "Falso. A comunicação direta e constante é fortemente incentivada, sem intermediários ou silos.",
+          "isCorrect": true,
+          "rationale": "O Scrum Master treina o time a colaborar diretamente. Barreiras de comunicação reduzem a eficácia e geram desperdício."
+        },
+        {
+          "text": "Verdadeiro. O Scrum Master filtra os requisitos para garantir que os programadores não sofram estresse.",
+          "isCorrect": false,
+          "rationale": "Isolar os programadores do PO prejudica o entendimento profundo dos problemas do cliente."
+        }
+      ],
+      "hint": "Pense no valor da colaboração e da auto-organização direta entre as partes."
+    },
+    {
+      "questionNumber": 21,
+      "question": "Quais são os pilares do controle empírico de processos nos quais o Scrum se baseia?",
+      "answerOptions": [
+        {
+          "text": "Transparência, Inspeção e Adaptação.",
+          "isCorrect": true,
+          "rationale": "O Scrum se baseia no empirismo, cujas bases de sustentação são estes três pilares fundamentais."
+        },
+        {
+          "text": "Visão, Valor e Verificação técnica.",
+          "isCorrect": false,
+          "rationale": "Estes são conceitos importantes, mas não constituem a base oficial do empirismo do guia."
+        },
+        {
+          "text": "Compromisso, Foco e Abertura profissional.",
+          "isCorrect": false,
+          "rationale": "Estes são valores comportamentais do Scrum, não pilares do empirismo."
+        },
+        {
+          "text": "Feedback de Clientes, ROI e Velocidade de Entrega.",
+          "isCorrect": false,
+          "rationale": "Estes correspondem a métricas e táticas de negócios, e não às bases da teoria do Scrum."
+        }
+      ],
+      "hint": "Pense no processo de enxergar o que está acontecendo, avaliar e ajustar o rumo."
+    },
+    {
+      "questionNumber": 22,
+      "question": "Se um Diretor Executivo da organização exige que o time desenvolva uma funcionalidade imediata, como os Developers devem agir?",
+      "answerOptions": [
+        {
+          "text": "Devem direcioná-lo ao Product Owner, pois ele é a única pessoa que gerencia a ordenação e conteúdo do Backlog.",
+          "isCorrect": true,
+          "rationale": "Para que o Scrum funcione, as decisões do PO sobre o backlog devem ser respeitadas por toda a organização."
+        },
+        {
+          "text": "Devem incluir a funcionalidade imediatamente na Sprint atual para evitar conflitos políticos.",
+          "isCorrect": false,
+          "rationale": "Alterar a Sprint sem alinhamento destrói a Sprint Goal e desrespeita o papel do Product Owner."
+        },
+        {
+          "text": "Devem agendar uma reunião técnica para iniciar o desenvolvimento sem avisar o Product Owner.",
+          "isCorrect": false,
+          "rationale": "A falta de transparência com o PO sabota a gestão de valor do produto."
+        },
+        {
+          "text": "Devem pedir autorização ao Scrum Master para que este decão o que deve ser feito.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não possui autoridade para decidir sobre o escopo ou valor do produto."
+        }
+      ],
+      "hint": "Quem é a única pessoa com autoridade final sobre o Product Backlog?"
+    },
+    {
+      "questionNumber": 23,
+      "question": "Qual é o limite de tempo (timebox) para o evento de Sprint Planning em uma Sprint padrão de 4 semanas?",
+      "answerOptions": [
+        {
+          "text": "No máximo 8 horas.",
+          "isCorrect": true,
+          "rationale": "A Sprint Planning tem limite máximo de 8 horas para uma Sprint de um mês, sendo proporcionalmente menor para Sprints mais curtas."
+        },
+        {
+          "text": "No máximo 4 horas.",
+          "isCorrect": false,
+          "rationale": "Quatro horas é o limite típico recomendado para Sprints de duas semanas."
+        },
+        {
+          "text": "Não há limite estrito, o planejamento termina quando todo o escopo da Sprint for detalhado em tarefas.",
+          "isCorrect": false,
+          "rationale": "Todos os eventos Scrum têm limites máximos de tempo obrigatórios para evitar desperdício de tempo."
+        },
+        {
+          "text": "Exatamente 2 horas por semana de duração de Sprint.",
+          "isCorrect": false,
+          "rationale": "O Scrum Guide define 8 horas como limite para um mês; a proporcionalidade não é uma regra aritmética rígida de mercado."
+        }
+      ],
+      "hint": "Pense em um dia de trabalho completo de planejamento para a maior duração de Sprint aceitável."
+    },
+    {
+      "questionNumber": 24,
+      "question": "Julgue a afirmação: O Product Owner atua como gerente direto de recursos humanos (RH) dos Developers no Scrum Team.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Não há sub-times ou gerentes de linha no Scrum Team. Todos colaboram horizontalmente e de forma autogerenciável."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Introduzir gerência direta de pessoas por parte do PO destrói a segurança psicológica e o autogerenciamento do time."
+        }
+      ],
+      "hint": "O Scrum prega equipes autogerenciáveis e horizontais em termos de estrutura organizacional interna."
+    },
+    {
+      "questionNumber": 25,
+      "question": "A próxima Sprint começa apenas após a conclusão e aceite formal de todos os itens planejados na Sprint anterior.",
+      "answerOptions": [
+        {
+          "text": "Falso. Uma nova Sprint começa imediatamente após a conclusão da Sprint anterior, mantendo um ritmo contínuo.",
+          "isCorrect": true,
+          "rationale": "O ritmo das Sprints é fixo e contínuo. Não há pausas ou atrasos para 'fechar' pendências."
+        },
+        {
+          "text": "Verdadeiro. O time entra em um período de espera (buffer) caso haja atrasos de validação de funcionalidades.",
+          "isCorrect": false,
+          "rationale": "Esperas violam o fluxo de entrega de valor e mascaram gargalos de qualidade."
+        }
+      ],
+      "hint": "O fluxo de Sprints no Scrum é ininterrupto."
+    },
+    {
+      "questionNumber": 26,
+      "question": "Como a Meta da Sprint (Sprint Goal) é criada durante a Sprint Planning?",
+      "answerOptions": [
+        {
+          "text": "O Scrum Team inteiro colabora para formular uma Meta da Sprint realista baseada na proposta de valor do Product Owner.",
+          "isCorrect": true,
+          "rationale": "O PO propõe o objetivo de negócio e o time inteiro debate e cria a Meta da Sprint de forma colaborativa durante o planejamento."
+        },
+        {
+          "text": "O Product Owner a redige unilateralmente antes do início do evento e a impõe ao time.",
+          "isCorrect": false,
+          "rationale": "A imposição de metas desconsidera a capacidade técnica e limita o engajamento dos Developers."
+        },
+        {
+          "text": "Os Developers a criam sozinhos com base em sua capacidade de velocidade técnica.",
+          "isCorrect": false,
+          "rationale": "Os Developers precisam do alinhamento estratégico de valor do PO para que a meta faça sentido de negócio."
+        },
+        {
+          "text": "O Scrum Master a define usando métricas de produtividade das Sprints anteriores.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master facilita a reunião, mas não determina objetivos de produto."
+        }
+      ],
+      "hint": "Pense em uma ação conjunta de cocriação de objetivos de curto prazo."
+    },
+    {
+      "questionNumber": 27,
+      "question": "Um item do Product Backlog é considerado apto para ser demonstrado como parte útil do incremento se:",
+      "answerOptions": [
+        {
+          "text": "Atender integralmente à Definition of Done (Definição de Pronto).",
+          "isCorrect": true,
+          "rationale": "Se um item não atende à DoD, ele não pode ser considerado pronto nem incluído no incremento utilizável para a Review."
+        },
+        {
+          "text": "O desenvolvedor responsável assinar que o código está finalizado em sua máquina.",
+          "isCorrect": false,
+          "rationale": "Garantias individuais e parciais geram falta de transparência e riscos técnicos graves."
+        },
+        {
+          "text": "Passar por uma aprovação prévia do Scrum Master em ambiente de testes.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não é responsável por controle de qualidade técnica das entregas de software."
+        },
+        {
+          "text": "For documentado extensamente em manuais de operação.",
+          "isCorrect": false,
+          "rationale": "Manuais podem ser necessários, mas a conformidade geral com a DoD é que dita se um item está pronto."
+        }
+      ],
+      "hint": "Qual compromisso protege a qualidade global do Incremento?"
+    },
+    {
+      "questionNumber": 28,
+      "question": "Julgue a afirmação: Apenas o Product Owner pode decidir e registrar o tamanho de esforço (estimativa) de um item do Product Backlog.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Quem realiza o trabalho técnico (Developers) é responsável por dimensionar e estimar o tamanho de esforço dos itens do backlog."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "O PO pode influenciar ajudando a entender as nuances do item, mas a estimativa final cabe a quem vai desenvolver."
+        }
+      ],
+      "hint": "Quem de fato coloca a mão na massa técnica possui o conhecimento para estimar o trabalho."
+    },
+    {
+      "questionNumber": 29,
+      "question": "De acordo com as boas práticas de gestão de produto no Scrum, qual é o principal indicador de que o produto está gerando valor real?",
+      "answerOptions": [
+        {
+          "text": "O feedback, uso real e os resultados de negócio obtidos através do uso do incremento pelos usuários e mercado.",
+          "isCorrect": true,
+          "rationale": "O valor real só é comprovado quando o Incremento chega às mãos do usuário final de forma utilizável."
+        },
+        {
+          "text": "A velocidade do time medida pelo número de Story Points entregues por Sprint.",
+          "isCorrect": false,
+          "rationale": "Velocidade mede vazão de entregas, não a relevância ou impacto comercial das funcionalidades criadas."
+        },
+        {
+          "text": "A precisão matemática das estimativas feitas durante as reuniões de planejamento.",
+          "isCorrect": false,
+          "rationale": "Estimativas perfeitas não garantem que a solução desenvolvida resolverá os problemas dos clientes."
+        },
+        {
+          "text": "A quantidade de linhas de código e horas de trabalho registradas pelo time de engenharia.",
+          "isCorrect": false,
+          "rationale": "Esforço investido (output) é diferente do valor colhido de fato (outcome)."
+        }
+      ],
+      "hint": "Diferencie 'Output' (volume produzido) de 'Outcome' (resultado e valor gerado)."
+    },
+    {
+      "questionNumber": 30,
+      "question": "O Scrum Master e o Product Owner podem acumular suas funções em um mesmo indivíduo de forma simultânea?",
+      "answerOptions": [
+        {
+          "text": "Sim, pois o Scrum Guide não proíbe o acúmulo, embora isso crie um conflito de interesses na prática.",
+          "isCorrect": true,
+          "rationale": "Não há veto explícito no guia. No entanto, o papel de foco em processos (SM) e o foco em escopo/valor (PO) geram conflitos no dia a dia."
+        },
+        {
+          "text": "Não, o Scrum Guide impede explicitamente que qualquer membro assuma mais de um papel no Scrum Team.",
+          "isCorrect": false,
+          "rationale": "O guia permite que uma pessoa assuma múltiplos papéis se necessário, recomendando cautela devido à sobrecarga de responsabilidades."
+        },
+        {
+          "text": "Sim, e essa é considerada a prática ideal de agilidade para otimizar custos organizacionais.",
+          "isCorrect": false,
+          "rationale": "Misturar esses papéis reduz a eficácia do framework por fundir autoridade de processo com foco em escopo."
+        },
+        {
+          "text": "Não, o Scrum Master deve ser sempre um elemento externo ao time de desenvolvimento e de produto.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master faz parte ativa e integral do Scrum Team."
+        }
+      ],
+      "hint": "Considere as regras estritas descritas no Scrum Guide versus as recomendações de mercado."
+    },
+    {
+      "questionNumber": 31,
+      "question": "Julgue a afirmação: Os itens do Product Backlog localizados no topo devem ser maiores e menos detalhados do que aqueles situados no final do backlog.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Os itens no topo devem ser mais claros, menores e refinados para que possam estar 'prontos' para seleção imediata em uma Sprint."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Os itens no fundo do backlog são mais genéricos (épicos), enquanto o topo exige maior nível de detalhamento."
+        }
+      ],
+      "hint": "Como o nível de detalhamento varia conforme a proximidade de desenvolvimento dos itens no tempo?"
+    },
+    {
+      "questionNumber": 32,
+      "question": "Se durante a execução da Sprint os Developers constatarem que não conseguirão completar todo o escopo de itens planejados, o que eles devem fazer?",
+      "answerOptions": [
+        {
+          "text": "Negociar com o Product Owner o ajuste do escopo da Sprint de forma a focar na entrega da Sprint Goal de forma íntegra.",
+          "isCorrect": true,
+          "rationale": "O escopo da Sprint pode ser refinado e renegociado, contanto que a Meta da Sprint (Sprint Goal) seja mantida e protegida."
+        },
+        {
+          "text": "Cancelar imediatamente a Sprint atual e recomeçar um novo planejamento de metas.",
+          "isCorrect": false,
+          "rationale": "Apenas o PO cancela uma Sprint e isso só se aplica se a Meta perder todo o sentido econômico."
+        },
+        {
+          "text": "Estender a duração da Sprint por mais alguns dias de forma a garantir todas as entregas planejadas.",
+          "isCorrect": false,
+          "rationale": "O timebox da Sprint é rígido e fixo; estendê-lo quebra a regularidade e os ciclos empíricos."
+        },
+        {
+          "text": "Trabalhar em horas extras consecutivas ocultando o problema de capacidade técnica do Product Owner.",
+          "isCorrect": false,
+          "rationale": "Ocultar problemas destrói a transparência e impede a inspeção e adaptação honestas do processo."
+        }
+      ],
+      "hint": "Como o Scrum promove a transparência e a flexibilidade de escopo sem sacrificar o objetivo principal?"
+    },
+    {
+      "questionNumber": 33,
+      "question": "A Sprint Goal é opcional em Sprints de curta duração (como uma semana de duração)?",
+      "answerOptions": [
+        {
+          "text": "Falso. A Meta da Sprint é um compromisso obrigatório do Sprint Backlog e deve ser definida em absolutamente toda Sprint.",
+          "isCorrect": true,
+          "rationale": "Não existem Sprints sem metas. A Sprint Goal fornece foco, propósito e guia as decisões de trabalho diário dos Developers."
+        },
+        {
+          "text": "Verdadeiro. Em Sprints muito curtas o foco já é autoevidente, dispensando a necessidade de formular uma meta.",
+          "isCorrect": false,
+          "rationale": "Mesmo em períodos de 1 semana, a meta ajuda a dar clareza do valor e direcionamento do esforço coletivo."
+        }
+      ],
+      "hint": "O Scrum Guide trata os compromissos dos artefatos de maneira incondicional."
+    },
+    {
+      "questionNumber": 34,
+      "question": "O que ocorre com os itens de backlog incompletos quando uma Sprint é cancelada?",
+      "answerOptions": [
+        {
+          "text": "Eles retornam ao Product Backlog para serem reavaliados, reestimados e reordenados pelo Product Owner.",
+          "isCorrect": true,
+          "rationale": "Qualquer trabalho incompleto no momento de cancelamento não deve ser considerado pronto; ele volta ao backlog global para nova priorização."
+        },
+        {
+          "text": "São descartados e excluídos permanentemente do histórico do projeto por terem falhado.",
+          "isCorrect": false,
+          "rationale": "Muitas vezes esses itens ainda possuem valor de mercado e podem ser priorizados em Sprints futuras."
+        },
+        {
+          "text": "Devem ser incluídos obrigatoriamente na Sprint subsequente sem reavaliação de prioridades.",
+          "isCorrect": false,
+          "rationale": "A inclusão automática ignora a adaptação contínua e as necessidades dinâmicas do mercado."
+        },
+        {
+          "text": "São agrupados em uma Sprint técnica separada dedicada apenas ao encerramento de tarefas incompletas.",
+          "isCorrect": false,
+          "rationale": "O Scrum não apoia Sprints especiais como Sprints de estabilização ou encerramento de débitos."
+        }
+      ],
+      "hint": "Como gerenciar itens de trabalho inacabados de forma transparente no repositório do produto?"
+    },
+    {
+      "questionNumber": 35,
+      "question": "Quais são os 5 valores que guiam o comportamento dos membros do Scrum Team?",
+      "answerOptions": [
+        {
+          "text": "Compromisso, Foco, Abertura, Respeito e Coragem.",
+          "isCorrect": true,
+          "rationale": "Estes cinco valores são as diretrizes comportamentais necessárias para que o empirismo floresça no time Scrum."
+        },
+        {
+          "text": "Qualidade, Produtividade, Rapidez, Adaptação e Empatia.",
+          "isCorrect": false,
+          "rationale": "Embora úteis, estas palavras não representam o conjunto oficial de valores comportamentais descritos no Scrum Guide."
+        },
+        {
+          "text": "Previsibilidade, Escopo, Custo, Tempo e Retorno Financeiro.",
+          "isCorrect": false,
+          "rationale": "Estes são parâmetros tradicionais de gestão de projetos (ferro de restrições), não valores éticos."
+        },
+        {
+          "text": "Liderança, Centralização, Disciplina, Ordem e Hierarquia.",
+          "isCorrect": false,
+          "rationale": "Esses termos remetem a modelos de comando e controle ultrapassados, contrários à cultura Scrum."
+        }
+      ],
+      "hint": "Pense no acrônimo comportamental do Scrum (CFARC)."
+    },
+    {
+      "questionNumber": 36,
+      "question": "Julgue a afirmação: O Scrum Master possui autoridade para demitir Developers que não atendam às metas de desempenho estabelecidas.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "O Scrum Master atua como facilitador e coach, não possuindo autoridade gerencial de contratação/demissão definida pelo framework."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "A estrutura de RH e governança de pessoal cabe à organização de suporte, não aos papéis metodológicos de facilitação do Scrum."
+        }
+      ],
+      "hint": "Diferencie liderança servidora de liderança de comando direto de recursos humanos."
+    },
+    {
+      "questionNumber": 37,
+      "question": "Qual é o principal foco da Sprint Retrospective?",
+      "answerOptions": [
+        {
+          "text": "Inspecionar como a última Sprint transcorreu em relação a pessoas, relacionamentos, processos e ferramentas, definindo planos de melhoria.",
+          "isCorrect": true,
+          "rationale": "O objetivo é o aprimoramento interno do time Scrum e de seu fluxo de trabalho (como trabalharam juntos)."
+        },
+        {
+          "text": "Inspecionar o produto final e coletar opiniões de clientes externos sobre o design da solução.",
+          "isCorrect": false,
+          "rationale": "Esta inspeção de mercado e de escopo do produto ocorre no evento de Sprint Review."
+        },
+        {
+          "text": "Estimar e planejar os tamanhos dos novos itens de backlog fornecidos pelo Product Owner.",
+          "isCorrect": false,
+          "rationale": "Isso é classificado como atividades de refinamento ou planejamento (Planning), não retrospectiva."
+        },
+        {
+          "text": "Apresentar um relatório financeiro de gastos operacionais para a gerência sênior.",
+          "isCorrect": false,
+          "rationale": "O Scrum não prevê reuniões formais para reportes financeiros de projetos como eventos integrados."
+        }
+      ],
+      "hint": "Qual evento tem como objetivo central a melhoria da eficácia e colaboração do próprio time?"
+    },
+    {
+      "questionNumber": 38,
+      "question": "Quem é a única pessoa autorizada a alterar a ordenação dos itens no Product Backlog?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner",
+          "isCorrect": true,
+          "rationale": "O PO detém a autoridade total e exclusiva sobre as decisões de valor e ordenação de itens no Backlog."
+        },
+        {
+          "text": "O Scrum Master",
+          "isCorrect": false,
+          "rationale": "O Scrum Master orienta o PO sobre técnicas de ordenação, mas não toma a decisão por ele."
+        },
+        {
+          "text": "Os Developers sêniores",
+          "isCorrect": false,
+          "rationale": "Os Developers podem opinar sobre dependências técnicas, mas a ordenação final cabe ao PO."
+        },
+        {
+          "text": "O Gerente Geral de TI",
+          "isCorrect": false,
+          "rationale": "Toda a organização deve respeitar as decisões de ordenação do Product Owner."
+        }
+      ],
+      "hint": "Quem é a voz de tomada de decisões de investimento de escopo no produto?"
+    },
+    {
+      "questionNumber": 39,
+      "question": "Um stakeholder pressiona os desenvolvedores por um ajuste em produção imediato. Qual a melhor atitude para manter o processo transparente e ágil?",
+      "answerOptions": [
+        {
+          "text": "O PO deve acolher o stakeholder, analisar o valor do pedido e inseri-lo de forma transparente e ordenadamente no Product Backlog.",
+          "isCorrect": true,
+          "rationale": "O PO deve ser o único canal de entrada de novos requisitos, mantendo a transparência e impedindo desvios não planejados de foco do time."
+        },
+        {
+          "text": "Os Developers devem implementar o ajuste imediatamente de forma oculta para agradar o cliente rápido.",
+          "isCorrect": false,
+          "rationale": "Desvios ocultos comprometem a qualidade, violam o acordo de Sprint Goal e reduzem a transparência."
+        },
+        {
+          "text": "O Scrum Master deve rejeitar a demanda sem deixar o stakeholder conversar com o Product Owner.",
+          "isCorrect": false,
+          "rationale": "O SM facilita a adoção do Scrum, mas as conversas de valor de produto devem ocorrer entre stakeholders e o PO."
+        },
+        {
+          "text": "Os Developers devem discutir o pedido na Daily Scrum e colocá-lo imediatamente em execução técnica.",
+          "isCorrect": false,
+          "rationale": "A Daily serve para planejar o progresso em relação à Sprint Goal atual, e não para injetar novos escopos externos aleatórios."
+        }
+      ],
+      "hint": "A gestão centralizada do backlog previne o caos e garante o foco em valor real de negócio."
+    },
+    {
+      "questionNumber": 40,
+      "question": "Julgue a afirmação: Um Incremento deve ser necessariamente útil e funcional, mesmo se o Product Owner decidir não liberá-lo imediatamente ao mercado.",
+      "answerOptions": [
+        {
+          "text": "Verdadeiro",
+          "isCorrect": true,
+          "rationale": "Todo incremento deve atender à Definição de Pronto para ser considerado utilizável (releasable), garantindo que o valor seja potencialmente entregue."
+        },
+        {
+          "text": "Falso",
+          "isCorrect": false,
+          "rationale": "Se o incremento contiver falhas cruciais que o impeçam de funcionar, ele não pode ser chamado de incremento sob a ótica do Scrum."
+        }
+      ],
+      "hint": "Como o Scrum protege a previsibilidade e a prontidão de valor técnico ao fim de toda Sprint?"
+    },
+    {
+      "questionNumber": 41,
+      "question": "Se a organização atual já possui uma Definição de Pronto (Definition of Done) institucional padrão, o Scrum Team é obrigado a adotá-la como base mínima?",
+      "answerOptions": [
+        {
+          "text": "Sim, o Scrum Team deve adotar a DoD corporativa como padrão de qualidade mínimo para seus incrementos de produto.",
+          "isCorrect": true,
+          "rationale": "Havendo um padrão organizacional, este deve ser adotado. O time pode expandi-lo e torná-lo mais exigente, mas nunca ignorá-lo."
+        },
+        {
+          "text": "Não, o Scrum Team possui autonomia total para descartar padrões de qualidade institucionais para aumentar sua velocidade.",
+          "isCorrect": false,
+          "rationale": "Descartar padrões corporativos gera sérios riscos de conformidade técnica e falhas de integração organizacional."
+        },
+        {
+          "text": "Sim, mas somente se o Product Owner a validar pessoalmente de maneira isolada.",
+          "isCorrect": false,
+          "rationale": "A conformidade com os padrões da organização é uma obrigação coletiva do time Scrum."
+        },
+        {
+          "text": "Não, pois o Scrum Master é quem dita as diretrizes de engenharia de software da empresa.",
+          "isCorrect": false,
+          "rationale": "O SM incentiva o processo, mas não define de forma soberana as práticas de engenharia."
+        }
+      ],
+      "hint": "Como o Scrum concilia a autonomia dos times com os padrões de qualidade já existentes na organização?"
+    },
+    {
+      "questionNumber": 42,
+      "question": "Se o time for composto por apenas 3 desenvolvedores, a duração da Daily Scrum pode ser reduzida para 5 minutos?",
+      "answerOptions": [
+        {
+          "text": "Não. O timebox do evento é de no máximo 15 minutos; ele pode terminar em menos tempo se os Developers concluírem o plano do dia, mas o limite oficial fixo é 15 minutos.",
+          "isCorrect": true,
+          "rationale": "O Scrum Guide define 15 minutos como limite máximo fixado (timebox) para a Daily, independentemente do tamanho da equipe."
+        },
+        {
+          "text": "Sim, o timebox é reduzido de forma aritmética e proporcional baseando-se no tamanho da equipe.",
+          "isCorrect": false,
+          "rationale": "Os limites de tempo são tetos fixados para garantir consistência e foco, não sofrendo alteração dinâmica calculada."
+        }
+      ],
+      "hint": "Diferencie o conceito de limite máximo de tempo (timebox) da duração real gasta no dia."
+    },
+    {
+      "questionNumber": 43,
+      "question": "Uma organização removeu o evento de Sprint Retrospective para economizar tempo dos desenvolvedores. Isso ainda é considerado Scrum?",
+      "answerOptions": [
+        {
+          "text": "Não. Embora partes do Scrum possam ser implementadas, o resultado não é Scrum, pois o framework é imutável e exige todos os seus elementos.",
+          "isCorrect": true,
+          "rationale": "Conforme a nota de encerramento do Scrum Guide, o Scrum só existe em sua totalidade. Suprimir partes impede a detecção e resolução de problemas."
+        },
+        {
+          "text": "Sim, pois o Scrum prega a flexibilidade e adaptação livre aos contextos organizacionais.",
+          "isCorrect": false,
+          "rationale": "A adaptação livre de regras fundamentais compromete a eficácia empírica do framework."
+        }
+      ],
+      "hint": "O que o Scrum Guide diz sobre a aplicação parcial ou modificação das regras do framework?"
+    },
+    {
+      "questionNumber": 44,
+      "question": "Sob a perspectiva de Evidence-Based Management (EBM) e do papel avançado do PO, qual métrica foca em avaliar o valor entregue que já é vivenciado pelos clientes hoje?",
+      "answerOptions": [
+        {
+          "text": "Valor Atual (Current Value - CV)",
+          "isCorrect": true,
+          "rationale": "O Current Value avalia o valor que o produto oferece no momento atual aos usuários e ao negócio."
+        },
+        {
+          "text": "Valor Não Realizado (Unrealized Value - UV)",
+          "isCorrect": false,
+          "rationale": "O Unrealized Value busca mapear oportunidades futuras e necessidades que ainda não foram atendidas pelo produto."
+        },
+        {
+          "text": "Tempo para Mercado (Time-to-Market - T2M)",
+          "isCorrect": false,
+          "rationale": "T2M avalia a capacidade da organização em entregar valor de forma rápida aos clientes."
+        },
+        {
+          "text": "Capacidade de Inovação (Ability to Innovate - A2I)",
+          "isCorrect": false,
+          "rationale": "A2I avalia a capacidade de focar em novos recursos em vez de desperdiçar energia em correções operacionais."
+        }
+      ],
+      "hint": "Qual dessas áreas de valor do EBM reflete a satisfação e o valor presente de mercado?"
+    },
+    {
+      "questionNumber": 45,
+      "question": "Julgue a afirmação: O Scrum Master apoia a organização externa ao Scrum Team a entender e interagir de maneira produtiva com o time Scrum.",
+      "answerOptions": [
+        {
+          "text": "Verdadeiro",
+          "isCorrect": true,
+          "rationale": "Uma das frentes de serviço do Scrum Master é ajudar a organização externa a adaptar suas práticas para maximizar a agilidade e o valor do time."
+        },
+        {
+          "text": "Falso",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não limita sua atuação ao time, sendo responsável pela disseminação da agilidade corporativa."
+        }
+      ],
+      "hint": "Qual é a atuação do Scrum Master no nível organizacional além das fronteiras do próprio time?"
+    },
+    {
+      "questionNumber": 46,
+      "question": "O Product Owner idealmente distribui seu tempo de trabalho focando:",
+      "answerOptions": [
+        {
+          "text": "No equilíbrio entre o alinhamento tático com o time de desenvolvimento e a descoberta de valor estratégica com os clientes e mercado.",
+          "isCorrect": true,
+          "rationale": "O PO de sucesso evita o isolamento tático (agir apenas como analista de negócios) e o isolamento estratégico (ficar distante dos desenvolvedores)."
+        },
+        {
+          "text": "Exclusivamente nas atividades técnicas internas, inspecionando o código fonte linha por linha.",
+          "isCorrect": false,
+          "rationale": "Inspeção técnica detalhada de engenharia não é função do Product Owner."
+        },
+        {
+          "text": "Apenas em reuniões com acionistas e diretoria, delegando 100% da interação técnica dos eventos Scrum ao Scrum Master.",
+          "isCorrect": false,
+          "rationale": "O PO deve estar acessível e presente para o time sanar dúvidas e alinhar prioridades táticas cotidianamente."
+        },
+        {
+          "text": "No desenho detalhado da jornada de telas (UX/UI) de todas as partes do produto sozinho.",
+          "isCorrect": false,
+          "rationale": "Embora apoie, o desenho detalhado de experiência de usuário deve envolver táticas colaborativas multifuncionais do time."
+        }
+      ],
+      "hint": "O PO é a ponte entre o negócio externo de mercado e a engenharia interna de desenvolvimento."
+    },
+    {
+      "questionNumber": 47,
+      "question": "A autoridade do Product Owner sobre as decisões do produto reside acima da autoridade do Scrum Master em assuntos metodológicos?",
+      "answerOptions": [
+        {
+          "text": "Falso. Não há sub-times ou hierarquia; são papéis distintos com focos diferentes (SM foca na eficácia, PO foca em valor).",
+          "isCorrect": true,
+          "rationale": "O Scrum Team é horizontal. O PO lidera o escopo/valor, enquanto o SM lidera a eficácia do processo e adoção de práticas ágeis."
+        },
+        {
+          "text": "Verdadeiro. O PO é o dono de todo o projeto e pode alterar as diretrizes metodológicas do Scrum Master se julgar necessário.",
+          "isCorrect": false,
+          "rationale": "O PO não possui governança sobre as regras do framework Scrum gerenciadas pelo SM."
+        }
+      ],
+      "hint": "Como o Scrum distribui os focos de liderança interna de forma balanceada e colaborativa?"
+    },
+    {
+      "questionNumber": 48,
+      "question": "Quem é o proprietário definitivo do Sprint Backlog e do plano diário detalhado da Sprint?",
+      "answerOptions": [
+        {
+          "text": "Os Developers.",
+          "isCorrect": true,
+          "rationale": "O Sprint Backlog é um plano altamente dinâmico criado para e pelos Developers. Eles o possuem e adaptam diariamente."
+        },
+        {
+          "text": "O Product Owner.",
+          "isCorrect": false,
+          "rationale": "O PO é dono do Product Backlog global, mas o plano tático da Sprint pertence aos Developers."
+        },
+        {
+          "text": "O Scrum Master.",
+          "isCorrect": false,
+          "rationale": "O SM garante que o evento de planejamento aconteça, mas não é dono do artefato Sprint Backlog."
+        },
+        {
+          "text": "A equipe de liderança técnica (CTO / Engenheiro de Software Chefe).",
+          "isCorrect": false,
+          "rationale": "A arquitetura e propriedade das tarefas residem nos Developers autogerenciáveis que executam a Sprint."
+        }
+      ],
+      "hint": "Quem possui a accountability (responsabilidade final) técnica de realizar as entregas acordadas na Sprint?"
+    },
+    {
+      "questionNumber": 49,
+      "question": "Os Developers alertam que acumular Débito Técnico (Technical Debt) tornará o produto insustentável no futuro. Como o Product Owner deve responder?",
+      "answerOptions": [
+        {
+          "text": "Deve colaborar com os Developers para incluir itens de resolução de débitos técnicos no Product Backlog de forma transparente.",
+          "isCorrect": true,
+          "rationale": "Pagar débitos técnicos garante a sustentabilidade e a velocidade de entrega futura de valor. O PO gerencia o TCO (Custo Total de Propriedade)."
+        },
+        {
+          "text": "Deve ignorar os alertas técnicos, visto que débitos internos não trazem valor direto visual para os clientes.",
+          "isCorrect": false,
+          "rationale": "Ignorar a saúde técnica do código compromete severamente a qualidade futura e inviabiliza mudanças ágeis rápidas."
+        },
+        {
+          "text": "Deve orientar os desenvolvedores a trabalhar aos finais de semana de forma voluntária para corrigir os problemas de infraestrutura.",
+          "isCorrect": false,
+          "rationale": "O Scrum prega ritmos de trabalho sustentáveis e respeito pelos profissionais envolvidos."
+        },
+        {
+          "text": "Deve transferir a responsabilidade de gerenciar o código ao Scrum Master de forma exclusiva.",
+          "isCorrect": false,
+          "rationale": "A manutenção do backlog global de prioridades (incluindo táticas de engenharia) é de accountability do PO."
+        }
+      ],
+      "hint": "Qualidade técnica preserva a flexibilidade de evolução do produto no longo prazo."
+    },
+    {
+      "questionNumber": 50,
+      "question": "O Scrum exige que todas as estimativas de esforço e tamanho do Product Backlog sejam expressas exclusivamente em unidades de 'Story Points'.",
+      "answerOptions": [
+        {
+          "text": "Falso. O Scrum Guide não prescreve nenhuma técnica específica de estimativa, deixando a critério do time decidir o formato.",
+          "isCorrect": true,
+          "rationale": "Técnicas como Story Points, T-shirt sizing ou horas são práticas complementares de mercado. O Scrum apenas exige que os itens sejam dimensionados."
+        },
+        {
+          "text": "Verdadeiro. O uso de Story Points é uma regra mandatória do Scrum para permitir o cálculo correto da velocidade do time.",
+          "isCorrect": false,
+          "rationale": "Nenhuma técnica acessória ou métrica como velocidade é obrigatória ou imposta pelas regras básicas do framework."
+        }
+      ],
+      "hint": "Scrum é um framework leve e não prescritivo; diferencie regras centrais de práticas complementares."
+    },
+    {
+      "questionNumber": 51,
+      "question": "Julgue a afirmação: Um item que não atenda integralmente à Definição de Pronto (Definition of Done) pode ser demonstrado na Sprint Review caso os desenvolvedores prometam finalizar na Sprint seguinte.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Para evitar a falsa impressão de progresso (falta de transparência), itens inacabados ('undone') nunca devem ser expostos na Review ou liberados."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Permitir a exibição de itens inacabados mascara problemas reais de processo e mina a confiança dos stakeholders."
+        }
+      ],
+      "hint": "O que garante a transparência da inspeção empírica durante o encerramento de um ciclo de trabalho?"
+    },
+    {
+      "questionNumber": 52,
+      "question": "Qual evento Scrum marca o início de uma nova Sprint de maneira formal?",
+      "answerOptions": [
+        {
+          "text": "O início do evento de Sprint Planning.",
+          "isCorrect": true,
+          "rationale": "A Sprint inicia imediatamente com seu primeiro evento obrigatório, que é a Sprint Planning."
+        },
+        {
+          "text": "A assinatura de aceite do cliente na Sprint Review anterior.",
+          "isCorrect": false,
+          "rationale": "Eventos de aceitação formal e fechamento administrativo não ditam os ciclos de Sprints no Scrum."
+        },
+        {
+          "text": "A reunião diária de planejamento técnico executivo dos desenvolvedores.",
+          "isCorrect": false,
+          "rationale": "A Daily Scrum ocorre todos os dias, mas não demarca o início físico de um novo ciclo de Sprint."
+        },
+        {
+          "text": "O encerramento do lançamento da versão em produção pela equipe de infraestrutura.",
+          "isCorrect": false,
+          "rationale": "Atividades de release podem ocorrer de forma assíncrona ao andamento das Sprints do time."
+        }
+      ],
+      "hint": "Qual é o primeiro evento na ordem cronológica de uma nova Sprint?"
+    },
+    {
+      "questionNumber": 53,
+      "question": "A principal métrica de progresso real em direção aos objetivos do produto no Scrum é:",
+      "answerOptions": [
+        {
+          "text": "A entrega contínua de Incrementos de produto utilizáveis e de valor.",
+          "isCorrect": true,
+          "rationale": "A melhor métrica de progresso é software/produto funcional e gerando valor real de negócio."
+        },
+        {
+          "text": "O número acumulado de tarefas que o time remove do painel de tarefas.",
+          "isCorrect": false,
+          "rationale": "Painéis de tarefas medem atividades internas de desenvolvimento, e não o impacto real da entrega."
+        },
+        {
+          "text": "A exatidão da documentação de arquitetura detalhada escrita na fase inicial do projeto.",
+          "isCorrect": false,
+          "rationale": "O foco ágil valoriza mais soluções funcionais do que documentações abrangentes prévias."
+        },
+        {
+          "text": "A redução do número de reuniões realizadas pelos desenvolvedores na Sprint.",
+          "isCorrect": false,
+          "rationale": "O número de reuniões não atesta qualidade, relevância ou valor gerado pelo software em desenvolvimento."
+        }
+      ],
+      "hint": "Como aferir valor e progresso sem se focar em táticas operacionais internas de microgerenciamento?"
+    },
+    {
+      "questionNumber": 54,
+      "question": "Julgue a afirmação: A Sprint Goal (Meta) pode ser livremente alterada na metade do ciclo da Sprint caso os desenvolvedores encontrem barreiras técnicas.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Nenhuma alteração que coloque em risco a Meta da Sprint é permitida durante o decorrer do seu timebox."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "A meta fornece estabilidade e foco ao time; mudar a meta no meio invalida o esforço e planejamento inicial."
+        }
+      ],
+      "hint": "Considere o compromisso de foco e estabilidade que a Meta da Sprint traz para os Developers."
+    },
+    {
+      "questionNumber": 55,
+      "question": "O Product Owner precisa detalhar exaustivamente e documentar todos os requisitos do produto em escopo fechado antes de iniciar a primeira Sprint?",
+      "answerOptions": [
+        {
+          "text": "Falso. O Scrum é empírico e abraça a incerteza; os detalhes surgem e evoluem de forma emergente ao longo do tempo.",
+          "isCorrect": true,
+          "rationale": "Tentar prever todos os requisitos de antemão gera desperdício em ambientes complexos. O Backlog é vivo e evolui conforme o feedback real."
+        },
+        {
+          "text": "Verdadeiro. Sem todos os requisitos definidos de forma imutável, os desenvolvedores correm riscos de cometer retrabalho técnico.",
+          "isCorrect": false,
+          "rationale": "Esse modelo preditivo corresponde à abordagem cascata (Waterfall), que falha em responder a mudanças de mercado."
+        }
+      ],
+      "hint": "Como o empirismo lida com incertezas de mercado e descoberta gradual de valor?"
+    },
+    {
+      "questionNumber": 56,
+      "question": "Qual papel no Scrum Team possui a palavra final sobre como o Product Backlog é estruturado e mantido em termos de ferramentas e processos operacionais do dia a dia?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner.",
+          "isCorrect": true,
+          "rationale": "Sendo o único responsável pela gestão eficaz do Product Backlog, o PO tem autonomia para organizar a estrutura que melhor atenda à transparência."
+        },
+        {
+          "text": "O Scrum Master.",
+          "isCorrect": false,
+          "rationale": "O SM atua apenas recomendando abordagens e facilitando conflitos, mas não impõe como o PO gerencia o artefato operacionalmente."
+        },
+        {
+          "text": "A gerência de engenharia externa ao time.",
+          "isCorrect": false,
+          "rationale": "O Scrum Team é autogerido e não deve sofrer intervenção microgerencial de ferramentas externas."
+        },
+        {
+          "text": "Os Developers.",
+          "isCorrect": false,
+          "rationale": "Os Developers participam opinando e auxiliando, mas a propriedade e gestão final são de accountability do PO."
+        }
+      ],
+      "hint": "Quem é o responsável direto pelo estado do artefato Product Backlog?"
+    },
+    {
+      "questionNumber": 57,
+      "question": "Uma empresa quer criar um 'Time de Testes' e outro 'Time de Desenvolvimento' trabalhando de forma isolada dentro do mesmo Scrum Team. Isso é recomendado?",
+      "answerOptions": [
+        {
+          "text": "Não, o Scrum preconiza que o time seja multifuncional (cross-functional), contendo todas as competências necessárias sem silos internos.",
+          "isCorrect": true,
+          "rationale": "Silos internos causam gargalos de comunicação, desperdício e atrasos de integração, contrariando o princípio de equipe coesa autogerenciada."
+        },
+        {
+          "text": "Sim, pois essa divisão facilita o controle de erros técnicos por gestores especializados de qualidade.",
+          "isCorrect": false,
+          "rationale": "Divisões internas impedem o senso de responsabilidade coletiva sobre o Incremento final."
+        }
+      ],
+      "hint": "Pense no conceito de multifuncionalidade e eliminação de silos operacionais no Scrum."
+    },
+    {
+      "questionNumber": 58,
+      "question": "Julgue a afirmação: O Scrum Guide reconhece papéis como 'Arquiteto de Software', 'Analista de Negócios' ou 'Tester' dentro da categoria de Developers do Scrum Team.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Não há sub-papéis ou títulos de especialização para os Developers no Scrum; todos são chamados apenas de Developers para promover a colaboração irrestrita."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Introduzir especializações oficiais cria barreiras de responsabilidade técnica dentro do próprio time de desenvolvimento."
+        }
+      ],
+      "hint": "De que forma o Scrum unifica os cargos técnicos em um único termo de responsabilidade de engenharia?"
+    },
+    {
+      "questionNumber": 59,
+      "question": "A Daily Scrum é um evento que serve como um relatório de status focado em prestar contas ao Scrum Master e ao Product Owner.",
+      "answerOptions": [
+        {
+          "text": "Falso. A Daily Scrum é uma oportunidade para os Developers inspecionarem o progresso e adaptarem seu plano diário tático.",
+          "isCorrect": true,
+          "rationale": "A Daily pertence exclusivamente aos Developers. Ela serve para o autogerenciamento diário do time de engenharia."
+        },
+        {
+          "text": "Verdadeiro. O SM e o PO avaliam individualmente o esforço de cada desenvolvedor para monitorar a produtividade diária.",
+          "isCorrect": false,
+          "rationale": "Usar a Daily como controle gerencial elimina a iniciativa de auto-organização e corrompe o propósito do evento."
+        }
+      ],
+      "hint": "Para quem e por quem a Daily Scrum foi concebida no framework?"
+    },
+    {
+      "questionNumber": 60,
+      "question": "Se o Product Owner identifica um requisito complexo e muito grande (conhecido no mercado como 'Epic'), o que ele deve fazer?",
+      "answerOptions": [
+        {
+          "text": "Trabalhar em colaboração com os Developers para fatiá-lo em partes menores (refinamento) que possam caber em uma única Sprint.",
+          "isCorrect": true,
+          "rationale": "Itens do backlog devem ser pequenos o suficiente para serem concluídos dentro de uma Sprint típica de desenvolvimento."
+        },
+        {
+          "text": "Inseri-lo imediatamente na Sprint atual e cobrar que os desenvolvedores façam o melhor que puderem.",
+          "isCorrect": false,
+          "rationale": "Itens gigantescos e não refinados geram incerteza técnica maciça e quebram a previsibilidade da Sprint."
+        },
+        {
+          "text": "Excluí-lo do Backlog, visto que o Scrum não apoia itens que requeiram mais de uma semana de desenvolvimento.",
+          "isCorrect": false,
+          "rationale": "O tamanho inicial não impede sua evolução posterior; o refinamento contínuo serve exatamente para adequar esses itens."
+        },
+        {
+          "text": "Delegar a quebra do requisito ao Scrum Master de forma exclusiva.",
+          "isCorrect": false,
+          "rationale": "O SM ajuda o PO a adoptar práticas de backlog, mas a liderança da gestão de itens e valor é do PO."
+        }
+      ],
+      "hint": "Qual prática do Scrum transforma itens vagos e complexos em incrementos pequenos e gerenciáveis?"
+    },
+    {
+      "questionNumber": 61,
+      "question": "Julgue a afirmação: Os stakeholders externos têm o direito de alterar as prioridades dos itens do Product Backlog a qualquer momento sem necessitar consultar o Product Owner.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Qualquer pessoa que queira mudar o rumo do produto deve convencer o Product Owner, mantendo a integridade estratégica do backlog."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Permitir alterações descentralizadas de escopo gera o caos operacional e destrói o papel de foco em valor do PO."
+        }
+      ],
+      "hint": "Como o Scrum protege o time de influências desordenadas e inconsistentes do ambiente externo?"
+    },
+    {
+      "questionNumber": 62,
+      "question": "De quem é a responsabilidade técnica final de estimar o esforço de desenvolvimento de um item do Product Backlog?",
+      "answerOptions": [
+        {
+          "text": "Os Developers.",
+          "isCorrect": true,
+          "rationale": "Os Developers, que executarão o trabalho, são os únicos responsáveis por determinar o tamanho e esforço estimado dos itens."
+        },
+        {
+          "text": "O Product Owner.",
+          "isCorrect": false,
+          "rationale": "O PO dita o valor de negócio, mas não tem competência direta regulamentar de estimar o esforço de engenharia."
+        },
+        {
+          "text": "O Scrum Master.",
+          "isCorrect": false,
+          "rationale": "O SM facilita dinâmicas de estimativas, mas não palpita ou interfere no tamanho final definido pelo time."
+        },
+        {
+          "text": "O Comitê de Clientes externos.",
+          "isCorrect": false,
+          "rationale": "Pessoas de fora do time não conhecem a fundo as complexidades técnicas internas da implementação técnica."
+        }
+      ],
+      "hint": "Lembre-se da regra: quem faz o trabalho possui a autoridade de estimar o esforço do trabalho."
+    },
+    {
+      "questionNumber": 63,
+      "question": "Julgue a afirmação: Adotar Scrum garante que a velocidade e produtividade do time aumentarão instantaneamente em 200% em qualquer ambiente corporativo.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "O Scrum é um framework que expõe gargalos e ineficiências. Os ganhos dependem da mudança cultural, maturidade técnica e capacidade de adaptação do time."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Promessas matemáticas infalíveis ignoram a natureza incerta e a complexidade inerente ao desenvolvimento de produtos."
+        }
+      ],
+      "hint": "Pense no Scrum como um espelho organizacional que revela disfunções, e não como uma cura milagrosa automática."
+    },
+    {
+      "questionNumber": 64,
+      "question": "Qual é a principal utilidade do Product Goal (Meta do Produto) conforme o Scrum Guide?",
+      "answerOptions": [
+        {
+          "text": "Oferecer uma visão de foco e direção de longo prazo para o Scrum Team planejar o desenvolvimento do produto.",
+          "isCorrect": true,
+          "rationale": "O Product Goal descreve um estado futuro do produto, servindo de alvo para o time e mantendo a coerência estratégica dos incrementos."
+        },
+        {
+          "text": "Fornecer uma justificativa para cobrar horas de trabalho mais longas dos desenvolvedores.",
+          "isCorrect": false,
+          "rationale": "Metas no Scrum servem para motivar e orientar decisões de valor, e não para exercer coerção gerencial ou estresse."
+        },
+        {
+          "text": "Substituir a necessidade de planejar as metas individuais de cada Sprint.",
+          "isCorrect": false,
+          "rationale": "O Product Goal é o alvo de longo prazo; a Sprint Goal orienta o ciclo de curto prazo atual da equipe."
+        },
+        {
+          "text": "Definir os limites de penalidades jurídicas caso a entrega ocorra com atrasos contratuais.",
+          "isCorrect": false,
+          "rationale": "Aspectos punitivos ou jurídicos não são frentes de atuação de metas no framework Scrum."
+        }
+      ],
+      "hint": "Busque o compromisso de longo prazo que unifica os esforços de todas as Sprints em uma jornada coesa."
+    },
+    {
+      "questionNumber": 65,
+      "question": "A decisão de lançar (release) um incremento ao mercado pertence exclusivamente a qual papel do Scrum Team?",
+      "answerOptions": [
+        {
+          "text": "O Product Owner.",
+          "isCorrect": true,
+          "rationale": "O PO decide se e quando liberar o incremento pronto ao mercado, ponderando os custos e os benefícios de negócio de fazê-lo."
+        },
+        {
+          "text": "Os Developers.",
+          "isCorrect": false,
+          "rationale": "Os Developers garantem que o incremento esteja utilizável e pronto, mas a viabilidade mercadológica é do PO."
+        },
+        {
+          "text": "O Scrum Master.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não possui autoridade de negócios ou de retorno de investimento do produto."
+        },
+        {
+          "text": "A Diretoria de Infraestrutura e Operações de TI.",
+          "isCorrect": false,
+          "rationale": "A organização apoia os meios técnicos, mas a tomada de decisão estratégica de liberação de valor é do PO."
+        }
+      ],
+      "hint": "Quem é a voz encarregada de otimizar o retorno sobre o investimento (ROI) de cada release do produto?"
+    },
+    {
+      "questionNumber": 66,
+      "question": "Julgue a afirmação: O Product Backlog é um documento estático que, uma vez aprovado no início do projeto, deve sofrer poucas ou nenhuma alteração.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "O Product Backlog é um artefato vivo que muda e evolui continuamente para refletir as necessidades do mercado e o feedback dos usuários."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Trabalhar de forma estática inviabiliza a adaptação e impossibilita o empirismo ágil diante de mercados dinâmicos."
+        }
+      ],
+      "hint": "Considere o princípio de que o backlog acompanha o ciclo de vida do próprio produto."
+    },
+    {
+      "questionNumber": 67,
+      "question": "Qual é a duração máxima regulamentar (timebox) para o evento de Sprint Retrospective em uma Sprint de um mês?",
+      "answerOptions": [
+        {
+          "text": "No máximo 3 horas.",
+          "isCorrect": true,
+          "rationale": "A Retrospectiva tem timebox limite de 3 horas para uma Sprint de 4 semanas, sendo geralmente mais curta para Sprints de menor duração."
+        },
+        {
+          "text": "No máximo 1 hora.",
+          "isCorrect": false,
+          "rationale": "Uma hora é comumente utilizada para Sprints de 1 semana, sendo um teto baixo para Sprints mensais completas."
+        },
+        {
+          "text": "No máximo 4 horas.",
+          "isCorrect": false,
+          "rationale": "Quatro horas é o limite regulamentar do evento de Sprint Review, e não da Retrospectiva."
+        },
+        {
+          "text": "Sempre idêntica à duração total da Daily Scrum multiplicada por cinco.",
+          "isCorrect": false,
+          "rationale": "Não existem correlações matemáticas estritas dessa natureza especificadas no guia."
+        }
+      ],
+      "hint": "Pense no penúltimo limite de tempo fixado dos eventos oficiais do guia (o mais longo de planejamento tem 8h, o de revisão tem 4h...)."
+    },
+    {
+      "questionNumber": 68,
+      "question": "Se durante a Daily Scrum os Developers identificarem que estão enfrentando um impedimento que bloqueia o seu progresso rumo à Sprint Goal, qual a atitude recomendada?",
+      "answerOptions": [
+        {
+          "text": "Devem levantar o problema imediatamente e contar com a ajuda e facilitação do Scrum Master para buscar a sua resolução.",
+          "isCorrect": true,
+          "rationale": "O Scrum Master atua removendo impedimentos ao progresso do time Scrum, mantendo a equipe produtiva e focada."
+        },
+        {
+          "text": "Devem ocultar o problema até a próxima Sprint Review para evitar frustrar o Product Owner antes da hora.",
+          "isCorrect": false,
+          "rationale": "Ocultar problemas sabota o empirismo, agrava o impacto técnico do bloqueio e elimina a transparência."
+        },
+        {
+          "text": "Devem pausar o desenvolvimento e aguardar passivamente que a organização identifique a falha e a corrija.",
+          "isCorrect": false,
+          "rationale": "A passividade contraria a auto-organização e a agilidade em lidar com desafios práticos de engenharia."
+        },
+        {
+          "text": "Devem exigir que o Product Owner resolva pessoalmente os problemas de programação técnica do servidor.",
+          "isCorrect": false,
+          "rationale": "O PO trata de prioridades de produto, e não de intervenções técnicas operacionais internas de infraestrutura diretamente."
+        }
+      ],
+      "hint": "Qual é o papel do Scrum Master frente aos impedimentos que frustram a produtividade e foco dos Developers?"
+    },
+    {
+      "questionNumber": 69,
+      "question": "Julgue a afirmação: Um Product Owner qualificado foca seu esforço primário em gerenciar a velocidade e o número de itens entregues por dia pelos desenvolvedores.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "O PO foca primariamente na entrega de Valor de negócio (Impacto) e no ROI, e não na gestão microscópica da velocidade operacional do time."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Gerenciar microatividades diárias é papel de gerentes tradicionais e viola a auto-organização técnica dos Developers."
+        }
+      ],
+      "hint": "Como o papel de PO difere essencialmente de um Gerente de Projetos tradicional e microgerenciador?"
+    },
+    {
+      "questionNumber": 70,
+      "question": "Os Developers se comprometem formalmente em entregar absolutamente todos os itens planejados na Sprint Planning de maneira inflexível, sem possibilidade de renegociação de escopo.",
+      "answerOptions": [
+        {
+          "text": "Falso. O compromisso dos Developers é com a Meta da Sprint (Sprint Goal). O escopo tático de itens pode ser adaptado durante a execução.",
+          "isCorrect": true,
+          "rationale": "O Scrum Guide 2020 substituiu 'compromisso de escopo' por 'compromisso com a Meta', trazendo flexibilidade sobre as tarefas de execução para atingir o objetivo."
+        },
+        {
+          "text": "Verdadeiro. Qualquer desvio no plano de tarefas acordado é considerado uma falha grave do time e deve ser reportado à gerência sênior.",
+          "isCorrect": false,
+          "rationale": "Trabalhar em escopo estático e punitivo desconsidera as incertezas de problemas de tecnologia e engenharia complexos."
+        }
+      ],
+      "hint": "Com qual elemento chave do Sprint Backlog os Developers firmam seu compromisso principal?"
+    },
+    {
+      "questionNumber": 71,
+      "question": "Se dez equipes Scrum estão construindo juntas um aplicativo integrado de finanças, quantos Product Owners e backlogs devem existir?",
+      "answerOptions": [
+        {
+          "text": "Apenas um Product Owner e apenas um Product Backlog global.",
+          "isCorrect": true,
+          "rationale": "Mesmo em larga escala, para garantir a consistência de visão de valor e decisões integradas de produto, mantém-se a unicidade do PO e de seu Backlog."
+        },
+        {
+          "text": "Dez Product Owners independentes coordenando dez backlogs locais diferentes.",
+          "isCorrect": false,
+          "rationale": "Essa estrutura descentralizada causaria grave fragmentação e inconsistências de mercado no produto final."
+        },
+        {
+          "text": "Um Product Owner chefe liderando dez POs juniores subordinados operando dez sub-backlogs.",
+          "isCorrect": false,
+          "rationale": "O Scrum não introduz hierarquias ou títulos auxiliares oficiais de gerenciamento de produto."
+        },
+        {
+          "text": "Dez backlogs de sprint sob o controle integrado de um único Scrum Master de TI.",
+          "isCorrect": false,
+          "rationale": "O Scrum Master não gerencia prioridades de produto nem unifica backlogs globais sob sua propriedade."
+        }
+      ],
+      "hint": "Para um produto integrado, deve haver uma única fonte coerente de tomada de decisões de valor e visão estratégica."
+    },
+    {
+      "questionNumber": 72,
+      "question": "Quando múltiplos times Scrum trabalham no mesmo produto integrado, como deve ser tratada a Definição de Pronto (Definition of Done)?",
+      "answerOptions": [
+        {
+          "text": "Os times devem estabelecer uma Definição de Pronto em comum aplicável ao produto integrado final de forma coerente.",
+          "isCorrect": true,
+          "rationale": "Para que os incrementos possam ser integrados com sucesso e sem falhas ao final de cada ciclo, a base de qualidade (DoD) deve ser compartilhada."
+        },
+        {
+          "text": "Cada time deve criar sua DoD de forma isolada sem dar satisfações ou manter alinhamento com as demais equipes.",
+          "isCorrect": false,
+          "rationale": "Definições de pronto isoladas criam riscos graves de incompatibilidade de qualidade técnica de engenharia no produto integrado final."
+        },
+        {
+          "text": "O Scrum Master de cada time define de forma soberana a qualidade sem conversar com as outras lideranças técnicas.",
+          "isCorrect": false,
+          "rationale": "O SM orienta processos, mas a qualidade e integração são acordos compartilhados do Scrum Team inteiro."
+        },
+        {
+          "text": "Apenas o PO sênior estabelece as regras técnicas do código de forma autocrática.",
+          "isCorrect": false,
+          "rationale": "O PO foca na especificação de valor de negócio, dependendo do time e organização para estabelecer os critérios mínimos de DoD."
+        }
+      ],
+      "hint": "A qualidade do produto integrado exige que todos sigam os mesmos padrões fundamentais de conformidade."
+    },
+    {
+      "questionNumber": 73,
+      "question": "Julgue a afirmação: O Product Owner avalia a produtividade individual de cada desenvolvedor nas reuniões de retrospectiva de fim de ano para fins de bônus financeiro.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "O PO foca nas melhorias do produto e no valor de negócio entregue de forma coletiva pelo Scrum Team, e não no controle gerencial de RH individual."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Introduzir dinâmicas individuais de premiação baseadas em opiniões de papéis metodológicos sabota a colaboração e a autogestão de time."
+        }
+      ],
+      "hint": "Como o Scrum enxerga a avaliação de desempenho de um time integrado frente a avaliações individuais?"
+    },
+    {
+      "questionNumber": 74,
+      "question": "Apenas um único Incremento de produto pode ser criado ao final de cada Sprint.",
+      "answerOptions": [
+        {
+          "text": "Falso. Múltiplos incrementos podem ser criados e validados em uma única Sprint, inclusive sendo entregues continuamente aos usuários.",
+          "isCorrect": true,
+          "rationale": "Não há limites para a criação de valor. Toda vez que um item atende à DoD, ele se soma ao Incremento atual e pode ser liberado de imediato."
+        },
+        {
+          "text": "Verdadeiro. O Scrum impede a criação de mais de um incremento por Sprint para manter o controle de revisões na Review.",
+          "isCorrect": false,
+          "rationale": "Prender a liberação de valor apenas a um pacote final limita o feedback rápido e retarda o retorno de investimento."
+        }
+      ],
+      "hint": "Valor de produto pode ser gerado e integrado de forma fluida e contínua dentro do limite da Sprint."
+    },
+    {
+      "questionNumber": 75,
+      "question": "O controle empírico de processos defende que em cenários de desenvolvimento complexos, o planejamento detalhado e de longo prazo substitui de forma segura o feedback contínuo de mercado.",
+      "answerOptions": [
+        {
+          "text": "Falso. No empirismo ágil, a previsão perfeita é impossível devido à alta volatilidade e complexidade; a experiência prática e o feedback constante dão as diretrizes.",
+          "isCorrect": true,
+          "rationale": "Planos iniciais detalhados falham frente a mudanças. Coletar dados práticos da realidade (inspeção e adaptação contínua) é o caminho de sucesso complexo."
+        },
+        {
+          "text": "Verdadeiro. Processos bem planejados no início impedem surpresas de escopo e reduzem o tempo de discussões técnicas na execução.",
+          "isCorrect": false,
+          "rationale": "Ignorar a adaptabilidade em prol de planos imutáveis inicializados corresponde a modelos tradicionais obsoletos de alto desperdício."
+        }
+      ],
+      "hint": "De onde provém o conhecimento real em ambientes imprevisíveis e complexos?"
+    },
+    {
+      "questionNumber": 76,
+      "question": "Qual é o tamanho ideal recomendado para o Scrum Team inteiro de forma a maximizar a agilidade e a facilidade de comunicação?",
+      "answerOptions": [
+        {
+          "text": "Tipicamente 10 pessoas ou menos.",
+          "isCorrect": true,
+          "rationale": "O Scrum Guide recomenda que a equipe seja pequena o suficiente para manter a eficácia de conversação, tipicamente limitando-se a 10 indivíduos ou menos."
+        },
+        {
+          "text": "Sempre de 15 a 20 membros ativos para maximizar a capacidade de vazão do time.",
+          "isCorrect": false,
+          "rationale": "Equipes muito grandes sofrem com fricção de comunicação severa e perdem a flexibilidade de autogestão rápida."
+        },
+        {
+          "text": "Mínimo de 12 desenvolvedores e 2 Scrum Masters sêniores acompanhados.",
+          "isCorrect": false,
+          "rationale": "Um time Scrum possui apenas um Scrum Master, e 12 desenvolvedores violam o teto ideal de comunicação coesa recomendado de 10 pessoas."
+        },
+        {
+          "text": "Variável de forma livre, sem diretriz ou limites recomendados pelo framework.",
+          "isCorrect": false,
+          "rationale": "Embora o limite não seja uma barreira intransponível, o guia traz orientações empíricas sobre tamanhos de equipes."
+        }
+      ],
+      "hint": "Como manter as linhas de comunicação simples e transparentes em equipes de alto desempenho?"
+    },
+    {
+      "questionNumber": 77,
+      "question": "Julgue a afirmação: Durante a atividade de refinamento, o Product Owner deve garantir que 100% de todo o Product Backlog seja detalhado minuciosamente em histórias de usuário menores para garantir transparência total do projeto para os próximos 3 anos.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Detalhar todo o backlog com anos de antecedência gera desperdício maciço de tempo e energia, visto que o mercado muda continuamente e prioridades serão revistas."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "No Scrum, aplica-se o conceito de planejamento em ondas sucessivas (just-in-time refinement), refinando apenas o que é relevante para o futuro imediato."
+        }
+      ],
+      "hint": "Qual tática impede que o Product Owner gaste energia detalhando itens que podem vir a ser descartados futuramente?"
+    },
+    {
+      "questionNumber": 78,
+      "question": "Como os Valores do Scrum (CFARC) suportam a integridade dos pilares do empirismo?",
+      "answerOptions": [
+        {
+          "text": "Eles moldam o clima ético e comportamental necessário para que haja confiança mútua, abertura para novos rumos e coragem para admitir erros.",
+          "isCorrect": true,
+          "rationale": "Sem respeito e abertura, as pessoas ocultam falhas técnicas, impossibilitando a transparência e impedindo qualquer inspeção honesta e adaptação de rumo."
+        },
+        {
+          "text": "Eles servem como diretrizes formais punitivas para demissões de desenvolvedores rebeldes.",
+          "isCorrect": false,
+          "rationale": "Valores no Scrum são virtudes para fomento de alto desempenho e segurança psicológica, e não instrumentos coercitivos ou punitivos corporativos."
+        },
+        {
+          "text": "Eles descrevem o formato que o Scrum Master deve usar para estimar métricas matemáticas de desempenho.",
+          "isCorrect": false,
+          "rationale": "Valores guiam condutas e relacionamentos, não se relacionando com métricas matemáticas de esforço ou produtividade técnica."
+        },
+        {
+          "text": "Eles substituem a necessidade de utilizar a Definição de Pronto em Sprints de Manutenção técnica rápida.",
+          "isCorrect": false,
+          "rationale": "A DoD continua obrigatória para todo incremento; valores comportamentais não anulam artefatos ou compromissos do framework."
+        }
+      ],
+      "hint": "Como a transparência honesta pode existir se as pessoas têm medo de revelar a verdade sobre falhas?"
+    },
+    {
+      "questionNumber": 79,
+      "question": "Julgue a afirmação: Maximizar o retorno sobre o investimento de um produto significa focar primordialmente na velocidade e no volume bruto de entregas e no corte drástico de custos da equipe.",
+      "answerOptions": [
+        {
+          "text": "Falso",
+          "isCorrect": true,
+          "rationale": "Maximizar ROI no Scrum foca em descobrir e priorizar os itens que trazem maior valor com o menor esforço e complexidade possível (resultado ao invés de atividade pura)."
+        },
+        {
+          "text": "Verdadeiro",
+          "isCorrect": false,
+          "rationale": "Focar apenas em cortar custos e acelerar entregas gera queda severa de qualidade técnica e produz desperdício de funcionalidades não utilizadas."
+        }
+      ],
+      "hint": "O foco em valor (Outcome) difere de se focar unicamente em velocidade industrial de entrega de código (Output)."
+    },
+    {
+      "questionNumber": 80,
+      "question": "Qual é a principal conquista esperada de um profissional que obtém sucesso na certificação PSPO I?",
+      "answerOptions": [
+        {
+          "text": "Comprovar o entendimento profundo das mecânicas do Scrum focado sob a perspectiva de maximizar o valor de entrega do produto de forma empírica.",
+          "isCorrect": true,
+          "rationale": "A certificação PSPO I atesta a maturidade do profissional em liderar a gestão de produto, otimizar ROI e priorizar o backlog focado em valor real no framework Scrum."
+        },
+        {
+          "text": "Garantir a fluência completa em design gráfico de interfaces e programação back-end de bancos de dados modernos.",
+          "isCorrect": false,
+          "rationale": "A certificação avalia a gestão estratégica de valor e agilidade do produto, e não competências técnicas operacionais isoladas de design ou desenvolvimento."
+        },
+        {
+          "text": "Tornar-se automaticamente o gerente de TI de mais alta hierarquia de sua empresa.",
+          "isCorrect": false,
+          "rationale": "A certificação atesta conhecimento metodológico e de valor, não alterando automaticamente hierarquias de governança corporativa de forma compulsória."
+        },
+        {
+          "text": "Substituir o uso das ferramentas de Jira ou quadros físicos por fórmulas matemáticas preditivas de sucesso de produtos.",
+          "isCorrect": false,
+          "rationale": "O Scrum foca no empírico e prático; nenhuma fórmula matemática preditiva substitui a inspeção e adaptação das interações do produto de mercado."
+        }
+      ],
+      "hint": "Qual é o principal valor de negócio que o papel de Product Owner busca extrair do Scrum?"
+    }
+  ]
+}
