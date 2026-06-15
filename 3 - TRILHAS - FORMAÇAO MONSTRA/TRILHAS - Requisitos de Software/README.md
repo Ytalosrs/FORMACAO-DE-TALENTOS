@@ -39,5 +39,10 @@ Para validar os conhecimentos desta trilha, os integrantes devem buscar uma dess
 2.  **PSPO I**: Foco em Gestão de Produto e Valor. (scrum.org)
 1.  **CPRE-FL**: Foco em Engenharia de Requisitos. (BSTQB)
 3.  **CTFL**: Se o foco for Qualidade e Teste. (ISTQB)
+---
 
+## 🔗 Recursos e Documentação
+* **Repositório de Arquivos (Google Drive)**: [Documentação do Projeto - Google Drive](https://drive.google.com/drive/folders/1IRdhtNT_wEHGunYR70tTJ_-YGEndtAm-)
+
+---
 > **Dica de Ouro**: A qualidade de uma documentação depende do conhecimento profundo do autor sobre o projeto documentado.
