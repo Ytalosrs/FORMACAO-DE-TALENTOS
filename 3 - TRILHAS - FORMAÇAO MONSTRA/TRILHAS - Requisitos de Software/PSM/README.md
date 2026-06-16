@@ -46,6 +46,14 @@ O exame da Scrum.org é estritamente baseado na versão mais recente do [**Scrum
 - **Multifuncionalidade (*Cross-functionality*):** O time tem todas as habilidades necessárias para criar valor a cada Sprint.
 - **Escalabilidade (Noções básicas):** Como o framework se mantém quando múltiplas equipes trabalham no mesmo produto (conceitos básicos de Nexus).
 
+## 📚 Como?
+
+- [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
+- [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
+- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
+- [ ] Fazer um Simulado por dia: scrum ou PO
+- [ ] Fazer CHECKUP na trilha oficial.
+
 ## Simulados
 
 1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open)
