@@ -47,8 +47,8 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 ## 📚 Como?
 
 - [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
-- [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
-- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
+- [ ] Terminar a [playlist PSM I](https://youtube.com/playlist?list=PL7NDvV6PnYOCueKbHtNOZ67GHHAb6dDMZ&si=OFi3HdqE8hXLHMnF) de 30 aulas e 20 questões comentadas.
+- [ ] Começa [playlist PSPO I](https://youtube.com/playlist?list=PL7NDvV6PnYODqcw9JMpxGN92KzLeLZkxK&si=yTJaEJAvM4TFKUKl): São 20 aulas e 17 questões comentadas.
 - [ ] Fazer um Simulado por dia: scrum ou PO
       
 ## Simulados
