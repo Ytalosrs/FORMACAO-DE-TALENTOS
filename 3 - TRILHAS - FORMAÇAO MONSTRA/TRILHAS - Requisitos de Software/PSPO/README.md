@@ -16,7 +16,8 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 
 </aside>
 
-### Áreas de Foco (Syllabus)
+
+## Áreas de Foco (Syllabus)
 
 **1. O Papel do Product Owner**
 
@@ -46,3 +47,11 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 
 - **Incremento:** Entender que o valor só é entregue quando um Incremento atinge a *Definition of Done* e é utilizável.
 - **Release Planning:** O PO decide *quando* liberar o Incremento para o mercado, baseado no valor acumulado.
+
+## Simulados
+
+1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open)
+2. [PRODUCT OPEN](https://www.scrum.org/open-assessments/product-owner-open_)
+3. [PO - Gemini](https://gemini.google.com/share/64e1be0aa00c)
+4. [PO - Gemini](https://gemini.google.com/share/d/1wyWBnTX9bGpvkYLasR_5jKZC9BXizouJ?usp=sharing)
+5. [EBM](https://gemini.google.com/share/d/1GUMkV_TAULi8c70hIeiuS1Y7eS-dBEpy?usp=sharing)
