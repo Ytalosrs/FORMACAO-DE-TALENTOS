@@ -9,10 +9,8 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 - **Pontuação para aprovação:** 85% (no mínimo 68 acertos).
 - **Idioma:** Inglês.
 
-<aside>
-🎯 **Objetivo do PSPO:** validar conhecimento sobre como maximizar valor do produto e aplicar o Scrum a partir da perspectiva de Product Owner.
 
-</aside>
+🎯 **Objetivo do PSPO**: validar conhecimento sobre como maximizar valor do produto e aplicar o Scrum a partir da perspectiva de Product Owner.
 
 
 ## Áreas de Foco (Syllabus)
