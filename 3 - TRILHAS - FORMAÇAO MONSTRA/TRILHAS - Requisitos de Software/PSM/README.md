@@ -45,3 +45,7 @@ O exame da Scrum.org é estritamente baseado na versão mais recente do [**Scrum
 - **Autogestão (*Self-management*):** O time decide quem faz o quê, quando e como.
 - **Multifuncionalidade (*Cross-functionality*):** O time tem todas as habilidades necessárias para criar valor a cada Sprint.
 - **Escalabilidade (Noções básicas):** Como o framework se mantém quando múltiplas equipes trabalham no mesmo produto (conceitos básicos de Nexus).
+
+## Simulados
+
+1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open)
