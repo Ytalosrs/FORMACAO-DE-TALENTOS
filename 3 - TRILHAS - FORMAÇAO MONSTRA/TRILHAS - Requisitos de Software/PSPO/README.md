@@ -43,7 +43,14 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 
 - **Incremento:** Entender que o valor só é entregue quando um Incremento atinge a *Definition of Done* e é utilizável.
 - **Release Planning:** O PO decide *quando* liberar o Incremento para o mercado, baseado no valor acumulado.
+  
+## 📚 Como?
 
+- [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
+- [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
+- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
+- [ ] Fazer um Simulado por dia: scrum ou PO
+      
 ## Simulados
 
 1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open)
