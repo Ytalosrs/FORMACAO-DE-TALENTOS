@@ -50,9 +50,7 @@ O exame da Scrum.org é estritamente baseado na versão mais recente do [**Scrum
 
 - [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
 - [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
-- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
 - [ ] Fazer um Simulado por dia: scrum ou PO
-- [ ] Fazer CHECKUP na trilha oficial.
 
 ## Simulados
 
