@@ -9,14 +9,6 @@ Esta trilha foi desenhada para ser o elo entre a concepção de negócio e a exe
 * **Desenvolvedor**: Foco em entender a arquitetura funcional, critérios de aceitação e regras de negócio antes de codar.
 * **Analista de Teste (QA)**: Foco na Definition of Done (DoD), requisitos não funcionais e validação de critérios de aceite.
 
-## 📚 Como?
-
-- [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
-- [ ] Terminar a playlist PSM I de 30 aulas e 20 questões comentadas.
-- [ ] Começa playlist PSPO I: São 20 aulas e 17 questões comentadas.
-- [ ] Fazer um Simulado por dia: scrum ou PO
-- [ ] Fazer CHECKUP na trilha oficial.
-
 ## 🫱🏼‍🫲🏾 Sentimento
 
 Os sentimentos podem se resumido em **Empatia**, **Clareza** e **Rastreabilidade**.
