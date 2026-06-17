@@ -30,7 +30,7 @@ Para validar os conhecimentos desta trilha, os integrantes devem buscar uma dess
 1.  **PSM I**: Foco em scrum. (scrum.org)
 2.  **PSPO I**: Foco em Gestão de Produto e Valor. (scrum.org)
 1.  **CPRE-FL**: Foco em Engenharia de Requisitos. (BSTQB)
-3.  **CTFL**: Se o foco for Qualidade e Teste. (ISTQB)
+3.  **CTFL**: Se o foco for Qualidade e Teste. (ISTQB) [OPCIONAL]
 ---
 
 ## 🔗 Recursos e Documentação
