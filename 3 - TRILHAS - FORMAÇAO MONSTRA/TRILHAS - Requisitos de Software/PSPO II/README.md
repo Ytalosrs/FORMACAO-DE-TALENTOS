@@ -66,3 +66,11 @@ O guia **EBM** é peça-chave para o PSPO II. Você deve dominar as 4 Áreas de 
 2. [PRODUCT OWNER OPEN](https://www.scrum.org/open-assessments/product-owner-open_) — Praticar até atingir 100% (valida a base de Product Ownership).
 3. [EBM OPEN](https://www.scrum.org/open-assessments/evidence-based-management-open) — **Obrigatório!** Praticar exaustivamente até dominar todas as métricas e KVAs.
 4. [EBM - Simulados Base](https://gemini.google.com/share/d/1GUMkV_TAULi8c70hIeiuS1Y7eS-dBEpy?usp=sharing) — Use para consolidar as questões de Evidence-Based Management essenciais para o nível II.
+
+### Em anexo.
+
+Conteúdos PSPO II - 
+- [ ] [Gerenciamento de Produtos com Agilidade](https://docs.google.com/document/d/1Aig2AJLvuCefGYh5wKleRwo5462goDLXQMcwpMTH5KY/edit?usp=sharing)
+- [ ] [Evoluindo a Organização Ágil](https://docs.google.com/document/d/1mf_8GcWXGfjYjtUkQSweqRVcZEL3QwoGfVS7h2H95Sc/edit?usp=sharing)
+- [ ] [Avaliação aberta do EBM - Questões simulado Scrum.org](https://docs.google.com/document/d/14pNGTYayz4aigxhlIv6VsVIbdRMhUTiTMgjQwUVrDgY/edit?usp=sharing)
+- [ ] [SIMULADOS UDEMY: 240 QUESTÕES](https://docs.google.com/document/d/1TdYed4M5DqqT4aeUCqbDYclz-sa4orBuBZQKNL9GJ7U/edit?tab=t.0#heading=h.9yibacw18x1c)
