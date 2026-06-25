@@ -58,8 +58,6 @@ O guia **EBM** é peça-chave para o PSPO II. Você deve dominar as 4 Áreas de 
 - [ ] Seguir a trilha de aprendizado avançada oficial: **[Product Owner Learning Path](https://www.scrum.org/pathway/product-owner-learning-path)** no site da Scrum.org.
 - [ ] Resolver questões focadas em cenários de negócio complexos e analisar os fundamentos das respostas.
 
-- [GOOGLE DRIVE DE ESTUDOS](https://drive.google.com/drive/folders/1g28KsnrKY5muyLASD6WsTFCdg_mXigPG?usp=drive_link) *(Utilizar a mesma base e incluir resumos e materiais sobre EBM e Product Stances)*
-
 ### Simulados e Recursos Recomendados
 
 1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open) — Praticar até atingir 100% de forma consistente (valida a base de Scrum).
@@ -68,9 +66,11 @@ O guia **EBM** é peça-chave para o PSPO II. Você deve dominar as 4 Áreas de 
 4. [EBM - Simulados Base](https://gemini.google.com/share/d/1GUMkV_TAULi8c70hIeiuS1Y7eS-dBEpy?usp=sharing) — Use para consolidar as questões de Evidence-Based Management essenciais para o nível II.
 
 ### Em anexo.
+Conteúdos PSPO II
 
-Conteúdos PSPO II - 
 - [ ] [Gerenciamento de Produtos com Agilidade](https://docs.google.com/document/d/1Aig2AJLvuCefGYh5wKleRwo5462goDLXQMcwpMTH5KY/edit?usp=sharing)
 - [ ] [Evoluindo a Organização Ágil](https://docs.google.com/document/d/1mf_8GcWXGfjYjtUkQSweqRVcZEL3QwoGfVS7h2H95Sc/edit?usp=sharing)
 - [ ] [Avaliação aberta do EBM - Questões simulado Scrum.org](https://docs.google.com/document/d/14pNGTYayz4aigxhlIv6VsVIbdRMhUTiTMgjQwUVrDgY/edit?usp=sharing)
 - [ ] [SIMULADOS UDEMY: 240 QUESTÕES](https://docs.google.com/document/d/1TdYed4M5DqqT4aeUCqbDYclz-sa4orBuBZQKNL9GJ7U/edit?tab=t.0#heading=h.9yibacw18x1c)
+
+- [GOOGLE DRIVE DE ESTUDOS](https://drive.google.com/drive/folders/1g28KsnrKY5muyLASD6WsTFCdg_mXigPG?usp=drive_link)
