@@ -1,4 +1,4 @@
-# **(Professional Scrum Product Owner I)**
+# **[Professional Scrum Product Owner I](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification)**
 
 Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **Scrum Guide (2020)**, mas foca pesadamente na maximização de valor e no gerenciamento estratégico do produto.
 
@@ -46,14 +46,14 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
   
 ## 📚 Como?
 
-- [ ] Ler e reler o **Scrum Guide** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
+- [ ] Ler e reler o **[Scrum Guide](https://www.scrum.org/resources/scrum-guide)** Oficial (recomenda-se ler em inglês e português para entender as traduções da prova).
 - [ ] Terminar a [playlist PSM I](https://youtube.com/playlist?list=PL7NDvV6PnYOCueKbHtNOZ67GHHAb6dDMZ&si=OFi3HdqE8hXLHMnF) de 30 aulas e 20 questões comentadas.
 - [ ] Começa [playlist PSPO I](https://youtube.com/playlist?list=PL7NDvV6PnYODqcw9JMpxGN92KzLeLZkxK&si=yTJaEJAvM4TFKUKl): São 20 aulas e 17 questões comentadas.
 - [ ] Fazer um Simulado por dia.
 
 - [GOOGLE DRIVE](https://drive.google.com/drive/folders/1g28KsnrKY5muyLASD6WsTFCdg_mXigPG?usp=drive_link)
       
-## Simulados
+### Simulados
 
 1. [SCRUM OPEN](https://www.scrum.org/open-assessments/scrum-open)
 2. [PRODUCT OPEN](https://www.scrum.org/open-assessments/product-owner-open_)
