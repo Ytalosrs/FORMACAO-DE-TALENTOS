@@ -7,7 +7,7 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 - **Formato:** 80 questões (Múltipla escolha, respostas múltiplas e Verdadeiro/Falso).
 - **Tempo:** 60 minutos.
 - **Pontuação para aprovação:** 85% (no mínimo 68 acertos).
-- **Idioma:** Inglês.
+- **Idioma:** Inglês. (Pode usar o plugin do Google Tradutor)
 
 
 🎯 **Objetivo do PSPO**: validar conhecimento sobre como maximizar valor do produto e aplicar o Scrum a partir da perspectiva de Product Owner.
@@ -59,4 +59,3 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 2. [PRODUCT OPEN](https://www.scrum.org/open-assessments/product-owner-open_)
 3. [PO - Gemini - by IARLA](https://gemini.google.com/share/64e1be0aa00c)
 4. [PO - Gemini - by EDUARDO](https://gemini.google.com/share/d/1wyWBnTX9bGpvkYLasR_5jKZC9BXizouJ?usp=sharing)
-5. [EBM](https://gemini.google.com/share/d/1GUMkV_TAULi8c70hIeiuS1Y7eS-dBEpy?usp=sharing)
