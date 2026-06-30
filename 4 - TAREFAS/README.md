@@ -1,7 +1,7 @@
 # 👥 Espaço Individual da Equipe
 
 **O que é esta pasta?**
-O espaço pessoal de cada colaborador da Fábrica de Monstros para organização individual e transparência de progresso.
+O espaço pessoal de cada colaborador da Formação de Talentos para organização individual e transparência de progresso.
 
 **Como funciona:**
 Cada membro tem sua própria subpasta (ex: `/DUDU`, `/VICTOR`, `/KAUA`) contendo:
@@ -71,4 +71,4 @@ SEU_NOME/
 
 ---
 
-**Lembre-se:** Sua organização individual contribui para a excelência coletiva da Fábrica de Monstros!
+**Lembre-se:** Sua organização individual contribui para a excelência coletiva da Formação de Talentos!
