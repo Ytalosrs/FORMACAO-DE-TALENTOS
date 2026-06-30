@@ -1,6 +1,6 @@
-# 👹 Fábrica de Monstros | Zello
+# 👹 Formação de Talentos | Zello
 
-Bem-vindo ao repositório oficial da **Fábrica de Monstros**, um time diferenciado da Zello focado em inovação, excelência e transformação de ideias em soluções de alto impacto.
+Bem-vindo ao repositório oficial da **Formação de Talentos**, um time diferenciado da Zello focado em inovação, excelência e transformação de ideias em soluções de alto impacto.
 
 ## 🚀 Quem Somos
 
