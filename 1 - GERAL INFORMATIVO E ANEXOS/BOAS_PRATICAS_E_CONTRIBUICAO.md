@@ -1,6 +1,6 @@
 # 📋 Boas Práticas e Guia de Contribuição
 
-**Fábrica de Monstros - Excelência em Cada Detalhe**
+**Formação de Talentos - Excelência em Cada Detalhe**
 
 Este documento estabelece as diretrizes, padrões e melhores práticas para garantir qualidade, consistência e colaboração efetiva em todos os nossos projetos e documentos.
 
