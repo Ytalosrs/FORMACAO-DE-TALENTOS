@@ -56,4 +56,4 @@ Para manter a excelência e a agilidade da Formação de Talentos, seguimos um p
 5. Padronize Documentos: Sempre que precisar criar um novo documento administrativo ou template, utilize as bases disponíveis em `1 - GERAL INFORMATIVO E ANEXOS`.
 6. Submissão de Código/Docs: Utilize o `pull_request_template.md` definido para garantir que a entrega está alinhada com os pilares de agilidade e qualidade.
 
-**Fábrica de Monstros - Desde 2025** 
+**Formação de Talentos - Desde 2025** 
