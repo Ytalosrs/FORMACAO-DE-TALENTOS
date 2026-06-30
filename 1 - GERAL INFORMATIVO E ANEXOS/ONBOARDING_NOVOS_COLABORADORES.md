@@ -1,6 +1,6 @@
-# 🚀 Onboarding - Equipe de TI Fábrica de Monstros
+# 🚀 Onboarding - Equipe de TI Formação de Talentos
 
-**Bem-vindo(a) à equipe de Tecnologia da Fábrica de Monstros!**
+**Bem-vindo(a) à equipe de Tecnologia da Formação de Talentos!**
 
 Este documento serve como guia inicial para novos integrantes, focado em nossa estrutura de trabalho colaborativa e centralizada. Para uma experiência completa, consulte também nossa [Trilha de Onboarding Completa](./TRILHA_ONBOARDING_COMPLETA.md).
 
@@ -220,11 +220,11 @@ Após completar este guia inicial:
 
 ## 🎉 Boas-vindas Oficiais!
 
-**Você agora faz parte da Fábrica de Monstros!** 
+**Você agora faz parte da Formação de Talentos!** 
 
 Sua jornada de transformação começa aqui. Lembre-se:
 
-> **"Monstros não nascem prontos, são forjados através do desafio, colaboração e excelência constante."**
+> **"talentos não nascem prontos, são forjados através do desafio, colaboração e excelência constante."**
 
 **Estamos ansiosos para ver o incrível "Monstro" que você se tornará!** 🚀
 
