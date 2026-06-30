@@ -47,7 +47,7 @@ O repositório está organizado para facilitar a navegação e a transparência:
 ---
 
 🤝 Como Contribuir
-Para manter a excelência e a agilidade da Fábrica de Monstros, seguimos um processo padronizado de colaboração:
+Para manter a excelência e a agilidade da Formação de Talentos, seguimos um processo padronizado de colaboração:
 
 1. Siga a Filosofia de Trabalho: Priorize a transparência (documente tudo), a organização (mantenha arquivos nas pastas corretas) e a colaboração ativa.
 2. Organize seu Espaço: Se for um novo integrante, crie sua pasta pessoal em `4 - TAREFAS` com as subpastas `DAILIES` e `ANOTACOES PESSOAIS`.
