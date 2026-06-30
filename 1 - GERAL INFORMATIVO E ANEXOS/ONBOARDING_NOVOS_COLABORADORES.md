@@ -8,7 +8,7 @@ Este documento serve como guia inicial para novos integrantes, focado em nossa e
 
 ## 🎯 Objetivos do Onboarding
 
-- **Integração Cultural:** Absorver valores e forma de trabalhar da Fábrica de Monstros
+- **Integração Cultural:** Absorver valores e forma de trabalhar da Formação de Talentos
 - **Domínio Estrutural:** Entender organização do repositório e fluxos de trabalho
 - **Autonomia Inicial:** Capacitar para contribuir efetivamente desde o primeiro dia
 - **Conexão Humana:** Estabelecer relacionamentos com a equipe
