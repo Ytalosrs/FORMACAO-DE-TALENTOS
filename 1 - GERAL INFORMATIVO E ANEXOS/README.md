@@ -1,7 +1,7 @@
 # 📚 Geral Informativo e Anexos
 
 **O que é esta pasta?**
-Esta é a biblioteca central de recursos administrativos, templates e guias da equipe Fábrica de Monstros.
+Esta é a biblioteca central de recursos administrativos, templates e guias da equipe Formação de Talentoss.
 
 **O que você encontra aqui:**
 - **📋 Modelos de Documentos:** Templates padronizados (como o `MODELO DE DAILY.md`, `pull_request_template.md`)
