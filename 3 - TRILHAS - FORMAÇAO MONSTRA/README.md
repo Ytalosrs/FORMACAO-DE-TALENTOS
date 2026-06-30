@@ -1,7 +1,7 @@
 # 🏗️ Projetos e Trilhas de Conhecimento
 
 **O que é esta pasta?**
-O coração da execução técnica da Fábrica de Monstros. Aqui centralizamos a documentação de arquitetura, o planejamento de tarefas e a base de aprendizado necessária para a nossa evolução técnica.
+O coração da execução técnica da Formação de Talentos. Aqui centralizamos a documentação de arquitetura, o planejamento de tarefas e a base de aprendizado necessária para a nossa evolução técnica.
 
 ## 📂 Estrutura por Projeto
 
