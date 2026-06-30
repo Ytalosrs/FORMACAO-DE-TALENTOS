@@ -1,6 +1,6 @@
-# 🎯 Trilha de Onboarding Completa - Fábrica de Monstros
+# 🎯 Trilha de Onboarding Completa - Formação de Talentos
 
-**Bem-vindo(a) à Fábrica de Monstros!**  
+**Bem-vindo(a) à Formação de Talentos!**  
 Este guia completo vai te acompanhar durante sua jornada de integração, garantindo que você se torne um "Monstro" preparado para transformar ideias em soluções de alto impacto.
 
 ---
@@ -28,7 +28,7 @@ Este guia completo vai te acompanhar durante sua jornada de integração, garant
   - [ ] Praticar comandos básicos de versionamento
 
 - [ ] **Cultura e Valores:**
-  - [ ] Revisar os 8 pilares da Fábrica de Monstros
+  - [ ] Revisar os 8 pilares da Formação de Talentos
   - [ ] Entender a filosofia de transparência e horizontalidade
   - [ ] Conversar com pelo menos 3 membros da equipe
 
@@ -197,7 +197,7 @@ Este guia completo vai te acompanhar durante sua jornada de integração, garant
 
 ## 🎉 Parabéns pela Iniciação!
 
-Você está começando uma jornada transformadora na Fábrica de Monstros. Lembre-se:
+Você está começando uma jornada transformadora na Formação de Talentos Lembre-se:
 
 > **"Monstros não nascem prontos, são forjados através do desafio, colaboração e excelência constante."**
 
