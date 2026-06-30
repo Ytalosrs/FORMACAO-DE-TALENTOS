@@ -1,7 +1,7 @@
-# 🚀 Projetos da Fábrica de Monstros
+# 🚀 Projetos da Formação de Talentos
 
 **O que é esta pasta?**
-O espaço central para desenvolvimento e documentação de projetos técnicos da Fábrica de Monstros, desde iniciativas internas até produtos para a comunidade.
+O espaço central para desenvolvimento e documentação de projetos técnicos da Formação de Talentos, desde iniciativas internas até produtos para a comunidade.
 
 ## 🎯 Tipos de Projetos
 
