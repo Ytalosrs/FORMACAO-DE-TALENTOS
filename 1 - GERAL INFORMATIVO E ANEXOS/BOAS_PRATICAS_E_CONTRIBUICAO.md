@@ -324,4 +324,4 @@ Na Formação de Talentos, cada contribuição é uma oportunidade de demonstrar
 
 **Última atualização: Março 2026**  
 **Versão: 1.0 - Padrões Estabelecidos**  
-**Revisão: Equipe Fábrica de Monstros**
+**Revisão: Equipe Formação de Talentos**
