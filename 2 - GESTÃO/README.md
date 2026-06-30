@@ -1,7 +1,7 @@
 # 📋 Gestão
 
 **O que é esta pasta?**
-O centro de comando da equipe Fábrica de Monstros. Aqui organizamos nossos processos, rituais e planos estratégicos.
+O centro de comando da equipe Formação de Talentos. Aqui organizamos nossos processos, rituais e planos estratégicos.
 
 **Estrutura:**
 - `ATAS E REUNIOES/` - Memória das decisões tomadas e alinhamentos
