@@ -314,7 +314,7 @@ PROJETO - NOME/
 
 ## 🎯 Compromisso com a Excelência
 
-Na Fábrica de Monstros, cada contribuição é uma oportunidade de demonstrar nossa excelência. Cada documento, cada linha de código, cada interação deve refletir nossos valores:
+Na Formação de Talentos, cada contribuição é uma oportunidade de demonstrar nossa excelência. Cada documento, cada linha de código, cada interação deve refletir nossos valores:
 
 > **"Não fazemos apenas para funcionar, fazemos para inspirar. Não entregamos apenas o solicitado, entregamos o extraordinário."**
 
