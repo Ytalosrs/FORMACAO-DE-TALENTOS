@@ -4,7 +4,7 @@
 - [ ] Impacto: O que muda no projeto atual?
 
 ## 🎯 Checklist de Qualidade
-*Baseado nos valores da Fábrica de Monstros:*
+*Baseado nos valores da Formação de Talentoss:*
 - [ ] **Documentação:** Atualizei o `MAPA_DE_CONHECIMENTO.md` ou docs técnicos se necessário?
 - [ ] **Daily:** Já registrei o progresso desta tarefa na minha Daily?
 - [ ] **Padrão:** Segui os templates da pasta `1 - GERAL INFORMATIVO`?
