@@ -1,4 +1,4 @@
-# Mapa de Conhecimento - TI Fábrica de Monstros
+# Mapa de Conhecimento - TI Formação de Talentos
 
 Este documento serve como índice central para navegar em nossa base de conhecimento atual.
 
