@@ -1,4 +1,4 @@
-# 🛠️ Guia de Comandos Git - Fábrica de Monstros
+# 🛠️ Guia de Comandos Git - Formação de Talentos
 
 Criar uma **branch** (ramo) é como criar uma linha do tempo alternativa para o seu projeto: você pode testar coisas novas sem estragar o que já está funcionando na linha principal.
 
