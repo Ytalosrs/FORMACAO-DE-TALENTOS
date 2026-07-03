@@ -59,3 +59,7 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 2. [PRODUCT OPEN](https://www.scrum.org/open-assessments/product-owner-open_)
 3. [PO - Gemini - by IARLA](https://gemini.google.com/share/64e1be0aa00c)
 4. [PO - Gemini - by EDUARDO](https://gemini.google.com/share/d/1wyWBnTX9bGpvkYLasR_5jKZC9BXizouJ?usp=sharing)
+
+### Dica Final de revisão: O PALÁCIO DA MEMÓRIA
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/acda17ef-8504-43f6-af71-ac915812f5f9" />
+
