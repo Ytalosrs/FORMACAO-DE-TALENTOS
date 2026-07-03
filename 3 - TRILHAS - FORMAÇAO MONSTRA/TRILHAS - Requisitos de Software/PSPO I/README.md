@@ -62,4 +62,5 @@ Assim como a PSM I, o exame da Scrum.org para PSPO I exige total domínio do **S
 
 ### Dica Final de revisão: O PALÁCIO DA MEMÓRIA
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/acda17ef-8504-43f6-af71-ac915812f5f9" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a77b557-123d-4c60-8f20-0c763522df8d" />
 
