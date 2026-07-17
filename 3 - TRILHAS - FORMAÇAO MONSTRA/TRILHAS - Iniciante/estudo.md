@@ -46,6 +46,4 @@
 
 
 
-## SUMÁRIO DE PDF
 
-- [HISTORIA DA TI](https://github.com/Ytalosrs/FABRICA-DE-MONSTROS/blob/main/3%20-%20TRILHAS%20-%20FORMA%C3%87AO%20MONSTRA/TRILHAS%20-%20Iniciante/Trilha%20para%20estudos%20iniciantes.pdf)
