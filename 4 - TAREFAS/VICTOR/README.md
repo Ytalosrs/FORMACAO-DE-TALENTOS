@@ -1,4 +1,4 @@
-# Espaço Pessoal: Victor
+# Espaço Pessoal: 
 
 Este diretório é de uso exclusivo e responsabilidade de **Victor**.
 
