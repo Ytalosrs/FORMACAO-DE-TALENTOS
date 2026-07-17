@@ -1,4 +1,4 @@
-# Espaço Pessoal: Khauan
+# Espaço Pessoal: 
 
 Este diretório é de uso exclusivo e responsabilidade de **Khauan**.
 
