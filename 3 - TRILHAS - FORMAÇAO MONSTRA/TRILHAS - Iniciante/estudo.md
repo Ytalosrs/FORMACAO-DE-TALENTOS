@@ -3,7 +3,7 @@
 ## Cursos e conhecimentos passados para mim
 
 ## Curso de Lógica de Programação
-- [Link](https://www.youtube.com/watch?v=epf-WQdVis0&list=PLnNURxKyyLIJrq6zK00uI3ePWe6GyEW9V)
+- Link: https://www.youtube.com/watch?v=epf-WQdVis0&list=PLnNURxKyyLIJrq6zK00uI3ePWe6GyEW9V
 - Objetivo: Ensinar os fundamentos da lógica de programação, desenvolvendo o raciocínio lógico para a criação de algoritmos.
 - Conteúdo abordado: Algoritmos; Variáveis e operadores; Estruturas de decisão; Estruturas de repetição Vetores e matrizes; Funções e procedimentos.
 
