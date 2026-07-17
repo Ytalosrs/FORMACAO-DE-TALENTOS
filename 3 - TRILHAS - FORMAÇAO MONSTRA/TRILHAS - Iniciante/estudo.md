@@ -1,11 +1,14 @@
-  DOCUMENTAÇAO DE MATERIAL E ESTUDOS 
-Curso de Lógica de Programação
-Link: https://www.youtube.com/watch?v=epf-WQdVis0&list=PLnNURxKyyLIJrq6zK00uI3ePWe6GyEW9V
+# DOCUMENTAÇAO DE MATERIAL E ESTUDOS 
+
+## Cursos e Conhementos passados para mim
+
+### Curso de Lógica de Programação
+- [Link](https://www.youtube.com/watch?v=epf-WQdVis0&list=PLnNURxKyyLIJrq6zK00uI3ePWe6GyEW9V)
 Objetivo: Ensinar os fundamentos da lógica de programação, desenvolvendo o raciocínio lógico para a criação de algoritmos.
 Conteúdo abordado: Algoritmos; Variáveis e operadores; Estruturas de decisão; Estruturas de repetição Vetores e matrizes; Funções e procedimentos.
 
-Curso de Git e GitHub
-Link: https://youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&si=IXmCObK-KzAx8YL
+## Curso de Git e GitHub
+1. Link: https://youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&si=IXmCObK-KzAx8YL
 Objetivo: Ensinar os conceitos de Git e GitHub, desde o básico até o uso das principais ferramentas de versionamento e colaboração em projetos
 Conteúdo abordado: Conceitos de Git e GitHub; Controle de versão; Repositórios locais e remotos; Principais comandos do Git; Branches, commits e merge; Publicação de projetos no GitHub
 Aplicação: Material utilizado para aprender versionamento de código, gerenciamento de repositórios e publicação de projetos no GitHub, apoiando o desenvolvimento de projetos de programação
@@ -34,6 +37,13 @@ Aplicação: Material utilizado como apoio para realizar a instalação do MySQL
 
 
 
-
+## Desafio
 
  https://www.cursoemvideo.com/curso/python-3-mundo-1/
+
+
+## Minhas dúvidas / difosidade / intereiculdade / curisses
+
+1. word:
+siste
+you
