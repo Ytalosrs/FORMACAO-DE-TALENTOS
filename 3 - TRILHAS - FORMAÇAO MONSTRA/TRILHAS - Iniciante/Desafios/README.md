@@ -13,7 +13,7 @@ Desenvolver um sistema para gerenciar o empréstimo de itens, como livros, jogos
 
 O desafio consistiu em criar uma aplicação em Python capaz de controlar o ciclo completo de empréstimos. Durante o desenvolvimento foram implementadas validações para garantir a integridade dos dados e o correto funcionamento das operações.
 
- ### Funcionalidades desenvolvidas
+ ### Funcionalidades 
 - Cadastro de itens
 - Cadastro de usuários
 - Registro de empréstimos
@@ -57,7 +57,7 @@ Foram criadas funções específicas para cada operação do sistema, separando 
 
 Ao final do desafio foi possível desenvolver um sistema funcional de controle de empréstimos, consolidando conhecimentos em Python, lógica de programação, estruturas de dados e boas práticas de desenvolvimento.
 
-### competencias desenvolvidas
+### competencias
 
 - Desenvolvimento em Python
 - Resolução de problemas
