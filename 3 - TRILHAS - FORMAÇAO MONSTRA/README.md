@@ -26,7 +26,7 @@ Domínio obrigatório para garantir a transparência e colaboração:
 
 ### 🧠 Cultura de TI (Soft Skills)
 
-Alinhamento com os pilares da Fábrica de Monstros:
+Alinhamento com os pilares da formaçao de talentos:
 
 * **Agilidade**: Resolução rápida de desafios.
 * **Transparência**: Fluxo aberto de feedbacks e documentação.
