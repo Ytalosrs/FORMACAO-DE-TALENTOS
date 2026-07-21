@@ -32,7 +32,7 @@ Nossa trilha de evolução para novos integrantes é dividida em três níveis:
 
 1. Nível **Estudo e Cultura:** Imersão intensa em tecnologias e na cultura do time durante o primeiro mês, com foco em certificações.
 2. Nível **Comprometimento e Entregas:** Aplicação prática com foco em realizar pelo menos 10 entregas relevantes.
-3. Nível **Formação do "Monstro":** O integrante torna-se um "Embaixador" em um nicho específico, assumindo um papel estratégico e disseminando conhecimento.
+3. Nível **Formação de "talento":** O integrante torna-se um "Embaixador" em um nicho específico, assumindo um papel estratégico e disseminando conhecimento.
 
 ## 📂 Estrutura do Repositório
 
