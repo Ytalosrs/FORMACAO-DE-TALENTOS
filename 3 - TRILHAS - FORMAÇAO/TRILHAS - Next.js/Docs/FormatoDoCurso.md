@@ -17,7 +17,7 @@ Razões para está trilha.
 
 ## Nível 1 — Fundamentos
 
-Apresentar o Next.js, seus benefícios, pré-requisitos e configuração do ambiente para o Next.js padrão e para o da Vercel Academy.
+Apresentar o Next.js, seus benefícios, pré-requisitos e configurações do ambiente para o Next.js padrão e para o da Vercel Academy.
 
 ## Nível 2 — Conceitos e recursos técnicos
 
