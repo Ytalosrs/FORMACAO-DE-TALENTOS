@@ -55,7 +55,7 @@ O Next.js não exige que o ``loading.tsx`` esteja na mesma pasta do page.tsx par
 ```text
     app/
     ├── about/
-    │   ├── page.tsx      
+    │   ├── page.tsx      → Coberto
     │   └── loading.tsx   → Arquivo loading.tsx da rota /about
 ```
 Nesse cenário, o loading.tsx será utilizado como interface de carregamento da rota /bout.
@@ -63,10 +63,10 @@ Nesse cenário, o loading.tsx será utilizado como interface de carregamento da 
 2. ``loading.tsx`` em uma pasta superior
 ```text
     app/
-    ├── loading.tsx
-    ├── page.tsx.tsx
+    ├── loading.tsx      → Arquivo loading.tsx da rota
+    ├── page.tsx.tsx     → Coberto
     ├── about/
-    │   └── page.tsx
+    │   └── page.tsx     → Coberto
 ```
 Nesse cenário, o ``app/loading.tsx`` poderá ser utilizado tanto para a página inicial, quanto para a página about. Isso acontece porque o Next.js aplica automaticamente o loading.tsx ao conteúdo da página e aos segmentos filhos da pasta em que ele está definido.
 
