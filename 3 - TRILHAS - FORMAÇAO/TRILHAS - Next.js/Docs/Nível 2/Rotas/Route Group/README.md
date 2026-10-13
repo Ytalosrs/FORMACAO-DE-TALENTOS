@@ -1,4 +1,4 @@
-# Route Groupe
+# Route Group
 
 É uma pasta que serve para **abrigar e organizar** um conjunto de rotas no App Router sem mudar a URL. Uma route group é criada quando, a partir de uma pasta, cujo nome está entre parênteses `(marketing)`, o Next.js ignora nomes entre parênteses na hora de montar o caminho.
 
