@@ -1,6 +1,6 @@
 # Not Found customizada
 
-O arquivo ``not-found.tsx``  é um arquivo especial do App Router. O framework renderiza esse arquivo sozinho quando a rota não existe ou quando o código chama notFound(), ao qual pode ser customizado.
+O arquivo ``not-found.tsx`` é um arquivo especial do App Router. O framework renderiza esse arquivo sozinho quando a rota não existe ou quando o código chama ``notFound()``, e pode ser customizado.
 
 **Exemplo prático**
 
@@ -32,9 +32,7 @@ O arquivo ``not-found.tsx``  é um arquivo especial do App Router. O framework r
 
 Quando o usuário tentar acessar qualquer rota que não exista, o Next.js poderá apresentar automaticamente o conteúdo da nossa not-found.tsx.
 
-Não é necessário importar not-found.tsx dentro de page.tsx.
-
-## Modo de reidenização do not-found.tsx
+## Modo de renderização do not-found.tsx
 
 O Next.js não exige que o ``not-found.tsx`` esteja na mesma pasta do page.tsx para funcionar. O comportamento depende da hierarquia de pastas (segmentos de rota) no App Router.
 
@@ -45,13 +43,13 @@ O Next.js não exige que o ``not-found.tsx`` esteja na mesma pasta do page.tsx p
     │   ├── page.tsx      → Coberto
     │   └── not-found.tsx   → Arquivo not-found.tsx da rota /about
 ```
-Nesse cenário, o not-found.tsx será utilizado como interface de carregamento da rota /bout.
+Nesse cenário, o not-found.tsx será utilizado como página de "não encontrado" da rota ``/about``.
 
 2. ``not-found.tsx`` em uma pasta superior
 ```text
     app/
     ├── not-found.tsx      → Arquivo not-found.tsx da rota
-    ├── page.tsx.tsx     → Coberto
+    ├── page.tsx     → Coberto
     ├── about/
     │   └── page.tsx     → Coberto
 ```
@@ -61,14 +59,14 @@ Nesse cenário, o ``app/not-found.tsx`` poderá ser utilizado tanto para a pági
 ```text
     app/
     ├── not-found.tsx      → Arquivo not-found.tsx da rota raiz
-    ├── page.tsx.tsx     → Coberto pela raiz
+    ├── page.tsx     → Coberto pela raiz
     ├── about/
     │   └── page.tsx    → Coberto pela raiz
     ├── list/
-    │   └── page.tsx  coberto pela da list
-    │   └── not-found.tsx Arquivo not-found exclusivo da list
+    │   ├── page.tsx       → Coberto pela da list
+    │   └── not-found.tsx  → Arquivo not-found.tsx exclusivo da list
 ```
-Nesse cenário, o ``app/not-found.tsx`` presente na raiz do projeto cobre somente seu próprio page.tsx e todas as rotas que não possuírem um ``not-found.tsx`` próprio, como por exemplo, na rota``/list``, que utilizará a sua própria.
+Nesse cenário, o ``app/not-found.tsx`` presente na raiz do projeto cobre somente seu próprio page.tsx e todas as rotas que não possuírem um ``not-found.tsx`` próprio, como por exemplo, na rota ``/list``, que utilizará a sua própria.
 
 ## Pontos importantes
 
@@ -78,4 +76,4 @@ Nesse cenário, o ``app/not-found.tsx`` presente na raiz do projeto cobre soment
 
 - **Melhora a experiência do usuário:** fornece feedback visual para quando uma rota que não existe for acessada.
 
-[Documentação oficial: Next.js — not-found.js] (https://nextjs.org/docs/app/api-reference/file-conventions/not-found#not-foundjs)
+[Documentação oficial: Next.js — not-found.js](https://nextjs.org/docs/app/api-reference/file-conventions/not-found#not-foundjs)
