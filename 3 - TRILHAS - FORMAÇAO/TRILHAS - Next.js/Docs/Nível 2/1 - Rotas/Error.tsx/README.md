@@ -58,6 +58,14 @@ O usuário vê o layout normal e, no lugar da lista, essa mensagem com o botão.
 
 O arquivo precisa ser Client Component ('use client'), porque o boundary roda no cliente e o botão de tentar de novo precisa de interação.
 
+- ``use client`` é **necessário** porque limites de erro usam o estado e os efeitos do React.
+
+- ``error.digest`` é um hash gerado automaticamente para corresponder erros do cliente aos logs do servidor.
+
+- A ação de Retry chama para renderizar novamente o segmento de rota, o que é útil para erros transitórios ``reset()``.
+
+- Executa quando um erro é detectado, ideal para logar em serviços como o Sentry ``useEffect``.
+
 ## Modo de reidenização do error.tsx
 
 O Next.js não exige que o ``error.tsx`` esteja na mesma pasta do page.tsx para funcionar. O comportamento depende da hierarquia de pastas (segmentos de rota) no App Router.
